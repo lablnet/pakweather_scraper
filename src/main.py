@@ -102,5 +102,4 @@ def pak_weather():
     crawl()
 
 
-if __name__ == "__name__":
-    pak_weather()
+pak_weather()
