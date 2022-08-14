@@ -160,4 +160,6 @@ cython_debug/
 #.idea/
 
 *.txt
+!/requirements.txt
+
 /src/scrap.py
