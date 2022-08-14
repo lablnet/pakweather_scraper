@@ -83,7 +83,8 @@ class Spider:
                 currentCondition = _nullsfae(
                     page.find("div", {"class": "CurrentConditions--phraseValue--2Z18W"}))
                 if city is None:
-                    city = _nullsfae(page.find('h1', {'class': 'CurrentConditions--location--kyTeL'}))
+                    city = _nullsfae(
+                        page.find('h1', {'class': 'CurrentConditions--location--kyTeL'}))
                 temp = _nullsfae(
                     page.find('span', {'class': 'CurrentConditions--tempValue--3a50n'}))
                 feelLikeTemp = _nullsfae(
