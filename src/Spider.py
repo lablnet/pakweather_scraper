@@ -138,7 +138,7 @@ class Spider:
                     low = low.replace("°", " c")
                     high = high.replace("°", " c")
                     pressure = pressure.replace("Arrow Down", "Down ")
-                    wind = wind.replace(" Wind Direction", " ")
+                    wind = wind.replace("Wind Direction", " ")
                 except:
                     pass
 
