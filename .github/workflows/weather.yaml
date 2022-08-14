@@ -1,0 +1,31 @@
+name: Pakistan Weather
+
+on:
+  schedule:
+    - cron:  '0 * * * *' # Run every hour.
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get working copy
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1                                                                 
+      - name: Set up Python 3.8                               
+        uses: actions/setup-python@v2                               
+        with:                                 
+          python-version: '3.8'                                                   
+      - name: Install Requirements                             
+        run: pip install -r requirements.txt
+      - name: Update dataset
+        run: python src/main.py
+      - name: Commit and push if it changed
+        run: |
+          git config user.name "alphasofthub-bot"
+          git config user.email "alphasofthub-bot@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Last Commit: ${timestamp}" || exit 0
+          git push origin main
