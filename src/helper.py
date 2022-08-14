@@ -7,6 +7,19 @@ __email__ = "umer@lablnet.com"
 __status__ = "Production"
 
 
+import datetime
+
+
+def get_datetime() -> datetime:
+    """
+    Get the datetime of GMT+5.
+    :return: datetime
+    :author Muhammad Umer Farooq
+    :since v1.0.1
+    """
+    return datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=5)))
+
+
 def get_lat_long(url: str) -> tuple:
     """
     Get Latitude and Longitude from given URL.

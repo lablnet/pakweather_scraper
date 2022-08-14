@@ -7,7 +7,5 @@ __email__ = "umer@lablnet.com"
 __status__ = "Production"
 
 
-import datetime
-print(datetime.datetime.now(
-    tz=datetime.timezone(datetime.timedelta(hours=5)))
-)
+from helper import get_datetime
+print(get_datetime())

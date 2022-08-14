@@ -9,7 +9,6 @@ __status__ = "Production"
 
 import requests
 import os
-import datetime
 from requests import HTTPError, Timeout
 from bs4 import BeautifulSoup
 from nullsafe import _nullsfae
@@ -143,8 +142,7 @@ class Spider:
                     pass
 
                 # Get current datetime of GMT+05:00
-                date = datetime.datetime.now(
-                    tz=datetime.timezone(datetime.timedelta(hours=5)))
+                date = get_datetime()
 
                 # Check If file is not exists.
                 if not os.path.exists("data/weather.csv"):
