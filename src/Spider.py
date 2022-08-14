@@ -76,12 +76,14 @@ class Spider:
                 # Get latitude from URL.
                 latitude, longitude = get_lat_long(
                     page_url)[0], get_lat_long(page_url)[1]
-                city = get_by_lat_long(latitude, longitude)[0]['name']
+                city = get_by_lat_long(latitude, longitude)
+                city = city[0]['name'] if city != [] else None
 
                 # Get required data.
                 currentCondition = _nullsfae(
                     page.find("div", {"class": "CurrentConditions--phraseValue--2Z18W"}))
-                # city = _nullsfae(page.find('h1', {'class': 'CurrentConditions--location--kyTeL'}))
+                if city is None:
+                    city = _nullsfae(page.find('h1', {'class': 'CurrentConditions--location--kyTeL'}))
                 temp = _nullsfae(
                     page.find('span', {'class': 'CurrentConditions--tempValue--3a50n'}))
                 feelLikeTemp = _nullsfae(
