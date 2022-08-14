@@ -91,11 +91,11 @@ def crawl():
         # remove queue.txt and crawled.txt
         os.remove("queue.txt")
         os.remove("crawled.txt")
-        Notification.email(
-            os.environ['EMAIL'],
-            "Pak Weather Notification" + " " + str(datetime.now()),
-            "Weather data has been crawled successfully."
-        )
+        # Notification.email(
+        #     os.environ['EMAIL'],
+        #     "Pak Weather Notification" + " " + str(datetime.now()),
+        #     "Weather data has been crawled successfully."
+        # )
 
 
 def pak_weather():
