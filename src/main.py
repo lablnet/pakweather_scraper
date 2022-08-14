@@ -12,6 +12,8 @@ import threading
 from queue import Queue
 from Spider import Spider
 from helper import *
+from Notification import Notification
+import datetime
 
 # Number of threads.
 NO_OF_THREADS = 4
@@ -89,6 +91,11 @@ def crawl():
         # remove queue.txt and crawled.txt
         os.remove("queue.txt")
         os.remove("crawled.txt")
+        Notification.email(
+            os.environ['EMAIL'],
+            "Pak Weather Notification" + " " + str(datetime.now()),
+            "Weather data has been crawled successfully."
+        )
 
 
 def pak_weather():
