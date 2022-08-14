@@ -142,8 +142,9 @@ class Spider:
                 except:
                     pass
 
-                # Get current datetime.
-                date = datetime.datetime.now()
+                # Get current datetime of GMT+05:00
+                date = datetime.datetime.now(
+                    tz=datetime.timezone(datetime.timedelta(hours=5)))
 
                 # Check If file is not exists.
                 if not os.path.exists("data/weather.csv"):
