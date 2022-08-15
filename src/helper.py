@@ -40,18 +40,14 @@ def make_json(csvFilePath: str, jsonFilePath: str, varname: bool = False) -> Non
     :author Muhammad Umer Farooq
     :since v1.0.1
     """
-    data = {}
+    data = []
     with open(csvFilePath, encoding='utf-8') as csvf:
         csvReader = csv.DictReader(csvf)
-        iterator = 0
         for rows in csvReader:
-            data[iterator] = rows
-            iterator += 1
+            data.append(rows)
 
     if varname is False:
-        # get last item from the dictionary
-        last_item = data[list(data.keys())[-1]]
-        write_json(jsonFilePath, last_item, False)
+        write_json(jsonFilePath, data, False)
     else:
         write_json(jsonFilePath, data, varname)
 
