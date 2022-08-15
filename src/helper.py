@@ -43,10 +43,10 @@ def make_json(csvFilePath: str, jsonFilePath: str, varname: bool = False) -> Non
     data = {}
     with open(csvFilePath, encoding='utf-8') as csvf:
         csvReader = csv.DictReader(csvf)
-
+        iterator = 0
         for rows in csvReader:
-            key = rows['id']
-            data[key] = rows
+            data[iterator] = rows
+            iterator += 1
 
     if varname is False:
         # get last item from the dictionary
