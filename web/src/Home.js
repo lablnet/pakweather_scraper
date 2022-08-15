@@ -1,6 +1,6 @@
 import React from 'react';
 import data from './weather.json';
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 class Home extends React.Component {
     constructor(props) {
@@ -19,6 +19,7 @@ class Home extends React.Component {
         this.setState({
             cities: cities,
         })
+        document.title = "Pakistan Weather"
     }
     _onChange = (e) => {
         if (e.key === 'Enter') {
