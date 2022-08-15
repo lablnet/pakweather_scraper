@@ -25,7 +25,6 @@ base_url = "https://weather.com/weather/today/l/"
 with open("crawled.txt", "w") as f:
     pass
 
-os.remove("data/latest.csv")
 with open("data/latest.csv", "w") as fh:
     fh.write("date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n")
 
