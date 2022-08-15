@@ -10,7 +10,7 @@ __status__ = "Production"
 import datetime
 import csv
 import json
-from types import Any
+from _types import Any
 
 
 def write_json(jsonFilePath: str, data: Any, varname: bool = False) -> None:
