@@ -183,8 +183,7 @@ class Spider:
                 print("Data saved successfully.")
 
                 # Latest Data.
-                with open("data/latest.csv", "w") as fh:
-                    fh.write("date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n")
+                with open("data/latest.csv", "a") as fh:
                     fh.write(f"{date},{latestData['country']},{latestData['latitude']},{latestData['longitude']},{latestData['city']},{latestData['currentCondition']},{latestData['temp']},{latestData['feelLikeTemp']},{latestData['wind']},{latestData['Wind Directin']},{latestData['uv_index']},{latestData['VisibilityValue']},{latestData['pressure']},{latestData['humidity']},{latestData['dewPoint']},{latestData['moonPhase']},{latestData['high']},{latestData['low']},{latestData['sunset']},{latestData['sunrise']},{latestData['airQualityNumber']},{latestData['airQualityText']},{latestData['airQualityDescription']}\n")
 
                 Spider.queue.remove(page_url)
