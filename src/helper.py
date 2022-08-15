@@ -8,6 +8,52 @@ __status__ = "Production"
 
 
 import datetime
+import csv
+import json
+from types import Any
+
+
+def write_json(jsonFilePath: str, data: Any, varname: bool = False) -> None:
+    """
+    Write data to JSON file.
+    :param jsonFilePath: JSON file path
+    :param data: data to write
+    :param varname: variable name
+    :return: None
+    :author Muhammad Umer Farooq
+    :since v1.0.1
+    """
+    with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
+        if varname is False:
+            jsonf.write(json.dumps(data, indent=4))
+        else:
+            jsonf.write("var " + varname + " = "+json.dumps(data, indent=4))
+
+
+def make_json(csvFilePath: str, jsonFilePath: str, varname: bool = False) -> None:
+    """
+    Make JSON file from CSV file.
+    :param csvFilePath: CSV file path
+    :param jsonFilePath: JSON file path
+    :param varname: variable name
+    :return: None
+    :author Muhammad Umer Farooq
+    :since v1.0.1
+    """
+    data = {}
+    with open(csvFilePath, encoding='utf-8') as csvf:
+        csvReader = csv.DictReader(csvf)
+
+        for rows in csvReader:
+            key = rows['id']
+            data[key] = rows
+
+    if varname is False:
+        # get last item from the dictionary
+        last_item = data[list(data.keys())[-1]]
+        write_json(jsonFilePath, last_item, False)
+    else:
+        write_json(jsonFilePath, data, varname)
 
 
 def get_datetime() -> datetime:

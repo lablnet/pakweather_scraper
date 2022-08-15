@@ -144,6 +144,33 @@ class Spider:
                 # Get current datetime of GMT+05:00
                 date = get_datetime()
 
+                # Latest Data dict.
+                latestData = {
+                    "date": date,
+                    "country": "pakistan",
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "city": city,
+                    "currentCondition": currentCondition,
+                    "temp": temp,
+                    "feelLikeTemp": feelLikeTemp,
+                    "wind": wind,
+                    "Wind Directin": str(windDirection),
+                    "uv_index": uv_index,
+                    "VisibilityValue": VisibilityValue,
+                    "pressure": pressure,
+                    "humidity": humidity,
+                    "dewPoint": dewPoint,
+                    "moonPhase": moonPhase,
+                    "high": high,
+                    "low": low,
+                    "sunset": sunset,
+                    "sunrise": sunrise,
+                    "airQualityNumber": airQualityNumber,
+                    "airQualityText": airQualityText,
+                    "airQualityDescription": airQualityDescription
+                }
+
                 # Check If file is not exists.
                 if not os.path.exists("data/weather.csv"):
                     # Create the file.
@@ -152,10 +179,13 @@ class Spider:
 
                 # append data to file.p
                 with open("data/weather.csv", 'a') as f:
-                    f.write(str(date)+","+"pakistan,"+latitude+","+longitude+","+city+","+currentCondition+","+temp+","+feelLikeTemp+","+wind+","+str(windDirection)+","+uv_index+","+VisibilityValue+"," +
-                            pressure+","+humidity+","+dewPoint+","+moonPhase+","+high+","+low+","+sunset+","+sunrise+","+airQualityNumber+","+airQualityText+","+airQualityDescription+"\n")
-
+                    f.write(f"{date},{latestData['country']},{latestData['latitude']},{latestData['longitude']},{latestData['city']},{latestData['currentCondition']},{latestData['temp']},{latestData['feelLikeTemp']},{latestData['wind']},{latestData['Wind Directin']},{latestData['uv_index']},{latestData['VisibilityValue']},{latestData['pressure']},{latestData['humidity']},{latestData['dewPoint']},{latestData['moonPhase']},{latestData['high']},{latestData['low']},{latestData['sunset']},{latestData['sunrise']},{latestData['airQualityNumber']},{latestData['airQualityText']},{latestData['airQualityDescription']}\n")
                 print("Data saved successfully.")
+
+                # Latest Data.
+                with open("data/latest.csv", "w") as fh:
+                    fh.write("date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n")
+                    fh.write(f"{date},{latestData['country']},{latestData['latitude']},{latestData['longitude']},{latestData['city']},{latestData['currentCondition']},{latestData['temp']},{latestData['feelLikeTemp']},{latestData['wind']},{latestData['Wind Directin']},{latestData['uv_index']},{latestData['VisibilityValue']},{latestData['pressure']},{latestData['humidity']},{latestData['dewPoint']},{latestData['moonPhase']},{latestData['high']},{latestData['low']},{latestData['sunset']},{latestData['sunrise']},{latestData['airQualityNumber']},{latestData['airQualityText']},{latestData['airQualityDescription']}\n")
 
                 Spider.queue.remove(page_url)
                 Spider.crawled.add(page_url)
