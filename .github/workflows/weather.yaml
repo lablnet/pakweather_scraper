@@ -28,6 +28,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Update dataset
         run: python src/main.py
+      - name: Export latest data to JavaScript
+        run: python src/export.py js
       - name: Commit and push if it changed
         run: |
           git config user.name "alphasofthub-bot"
