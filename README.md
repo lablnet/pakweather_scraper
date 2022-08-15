@@ -1,5 +1,7 @@
 [![Pakistan Weather](https://github.com/lablnet/pakweather_scrapper/actions/workflows/weather.yaml/badge.svg)](https://github.com/lablnet/pakweather_scrapper/actions/workflows/weather.yaml)
 
+[![Web Build and Deploy](https://github.com/lablnet/pakweather_scrapper/actions/workflows/deploy.yml/badge.svg)](https://github.com/lablnet/pakweather_scrapper/actions/workflows/deploy.yml)
+
 # Overview  
 A multi-threaded **Pakistan** Weather crawler  written in Python    
 
