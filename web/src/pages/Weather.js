@@ -53,7 +53,7 @@ class Weather extends React.Component {
         pressure = pressure?.replace(arrowPressure, '')
         let arrow = '&uarr;'
         let arrowClass = 'text-green-500'
-        if (arrowPressure == 'Down ') {
+        if (arrowPressure === 'Down ') {
             arrow = '&darr;'
             arrowClass = 'text-red-500'
         }
@@ -76,7 +76,7 @@ class Weather extends React.Component {
                                         </div>
                                         <div className="text-right">
                                             <h3 className="font-bold text-4xl mb-0"><span>{weather?.temp}&deg;</span></h3>
-                                            <img src={icon} />
+                                            <img src={icon} alt={currentCondition} />
                                         </div>
                                     </div>
                                     <hr className="text-white border-1 mt-2 mb-3" />
