@@ -35,5 +35,6 @@ jobs:
           GIT_CONFIG_NAME: "alphasofthub-bot"
           GIT_CONFIG_EMAIL: "alphasofthub-bot@users.noreply.github.com"
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          SINGLE_COMMIT: true
           FOLDER: web//build
           BRANCH: gh-pages
