@@ -17,11 +17,16 @@ The sole purpose of this project is to get the weather data of Pakistan from Wea
 - Run the crawler using `python3 src/main.py`
 
 ## Contributions
-There is still a lot of work to do, so feel free to contribute to open `PR`    
- ## License MIT    
-    
+There is still a lot of work to do, so feel free to contribute to open `PR`
+
+###  Contrubuting guide
+[Contribution Guidelines](https://github.com/lablnet/pakweather_scrapper/blob/main/CONTRIBUTING.md)
+
 ## LICENSE
 - GPLv3
-  
+
+## Readme of Web
+- [Web](./web/README.md)
+
 ## Disclaimer  
 **I do not accept responsibility for any illegal usage**
