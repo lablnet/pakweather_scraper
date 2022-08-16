@@ -1,53 +1,44 @@
 import React from 'react';
 import data from './weather.json';
 import { Navigate } from "react-router-dom";
+import Select from './Select';
+
+var  cities = []
+for (let item in data) {
+    cities.push(data[item].city)
+}
 
 class Home extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            cities: [],
             shouldRedirect: false,
             city: null,
         }
     }
     componentDidMount() {
-        let cities = []
-        for (let item in data) {
-            cities.push(data[item].city)
-        }
-        this.setState({
-            cities: cities,
-        })
         document.title = "Pakistan Weather"
     }
     _onChange = (e) => {
-        if (e.key === 'Enter') {
-            let city = e.target.value;
-            // check if the city is in the data list.
-            if (this.state.cities.includes(city)) {
-                city = city.replace(/\s/g, '-');
-                this.setState({
-                    city: city,
-                    shouldRedirect: true,
-                })
-            } else {
-                alert("Please enter a valid city name");
-            }
+        let city = e.target.value;
+        if (cities.includes(city)) {
+            city = city.replace(/\s/g, '-');
+            this.setState({
+                city: city,
+                shouldRedirect: true,
+            })
         }
     }
     render() {
-        let c = this.state.city
+        let c = this.state.city;
         const { shouldRedirect } = this.state
         if (shouldRedirect)
             return <Navigate replace to={`/weather/${c}`} />
 
-        const ciites = this.state.cities
-        // make data list select.
-
-        let dataList = ciites.map((item, index) => (
+        let optionValues = cities.map((item, index) => (
             <option key={index} value={item}>{item}</option>
         ));
+
         return (
             <div class="mb-8">
                 <section class="">
@@ -59,13 +50,13 @@ class Home extends React.Component {
                                 Type your city name below.
                             </h1>
                             <div className='col-span-1'>
-                                <input list='search' className='w-full p-2 border border-gray-400' placeholder='Search City' onKeyDown={this._onChange} />
-                                <datalist id="search">
-                                    {dataList}
-                                </datalist>
+                                <Select onChange={this._onChange} className="w-full p-2 border border-gray-400">
+                                    {optionValues}
+                                </Select>
+
                             </div>
                             <p class="lg:w-2/3 mx-auto leading-relaxed text-base mb-6">
-                                Choose from list and then hit enter.
+                                Choose from list.
                             </p>
                         </div>
                     </div>

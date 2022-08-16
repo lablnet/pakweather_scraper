@@ -1,5 +1,4 @@
 import React from 'react';
-// impoty jd file from public folder
 import data from './weather.json';
 
 class Weather extends React.Component {
@@ -21,17 +20,13 @@ class Weather extends React.Component {
             search: city,
         });
         this.search(city);
-        console.log(this.state.weather, this.state.search);
         document.title = `${city} - Weather`;
-        //console.log("data", data)
     }
     search(city) {
         // find city name in data arrays object and return that object.
         let weather = data.find((item) => {
-            // console.log(item, item.city, city);
             return item.city === city
         });
-        //console.log("weather", weather)
         this.setState({
             weather: weather
         }, () => { });
@@ -42,7 +37,7 @@ class Weather extends React.Component {
         // get city name from weather.
         let country = weather && weather.country
         const city = weather && weather.city + " " + country;
-        console.log("Weather", weather && weather.city)
+
         return (
             <div>
                 <div class="">
