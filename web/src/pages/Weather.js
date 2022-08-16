@@ -11,11 +11,13 @@ class Weather extends React.Component {
     }
     componentDidMount() {
         let city = window.location.pathname.split('/').pop();
-        // remove - with spaces.
+        // Remove - with spaces.
         city = city.replace(/-/g, ' ');
-        // make all latter caps after space.
+
+        // Tranform all latter capital after space including first one.
         city = city.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
         city = city.charAt(0).toUpperCase() + city.slice(1);
+
         this.setState({
             search: city,
         });
@@ -34,6 +36,8 @@ class Weather extends React.Component {
     }
     render() {
         const weather = this.state.weather
+
+        // Air quality and color.
         let airQualityNumber = weather?.airQualityNumber
         let airQualityColor = 'bg-red-500'
         if (airQualityNumber <= 50)
@@ -43,7 +47,17 @@ class Weather extends React.Component {
         else if (airQualityNumber >= 101 && airQualityNumber <= 150)
             airQualityColor = 'bg-orange-500'
 
-
+        // Pressure and color.
+        let pressure = weather?.pressure
+        let arrowPressure = pressure?.substring(0, pressure?.search(/\d/))
+        pressure = pressure?.replace(arrowPressure, '')
+        let arrow = '&uarr;'
+        let arrowClass = 'text-green-500'
+        if (arrowPressure == 'Down ') {
+            arrow = '&darr;'
+            arrowClass = 'text-red-500'
+        }
+        
         return (
             <div>
                 <div className="">
@@ -91,7 +105,12 @@ class Weather extends React.Component {
                                             <div className="flex mx-5 mb-2 justify-between items-center"><span>Visibility</span><small className="px-2 inline-block">{weather?.VisibilityValue}&nbsp;&deg;</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Pressure</span><small className="px-2 inline-block">{weather?.pressure}</small></div>
+                                            <div className="flex mb-2 justify-between items-center"><span>Pressure</span>
+                                            
+                                            <small className="px-2 inline-block">
+                                            <span className={arrowClass + ' font-bold'} dangerouslySetInnerHTML={ { __html: arrow } }></span> &nbsp;&nbsp;
+                                                { pressure } 
+                                            </small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
                                             <div className="flex mx-5 mb-2 justify-between items-center"><span>Dew Point</span><small className="px-2 inline-block">{weather?.dewPoint}&nbsp;&deg;</small></div>
