@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from "react-router-dom";
+// import CitySelector from './components/CitySelector';
 import Home from './Home';
 import Weather from './Weather';
 
@@ -15,6 +16,9 @@ class App extends React.Component {
               <Link to='/'>Pakistan Weather</Link>
             </h1>
           </div>
+          {/* <div className='col-span-1'>
+            <CitySelector />
+          </div> */}
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
