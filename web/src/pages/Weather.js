@@ -37,6 +37,15 @@ class Weather extends React.Component {
         // get city name from weather.
         let country = weather && weather.country
         const city = weather && weather.city + " " + country;
+        let airQualityNumber = weather && weather.airQualityNumber
+        let airQualityColor = 'bg-red-500'
+        if (airQualityNumber <= 50)
+            airQualityColor = 'bg-green-500'
+        else if (airQualityNumber >= 51 && airQualityNumber <= 100)
+            airQualityColor = 'bg-yellow-600'
+        else if (airQualityNumber >= 101 && airQualityNumber <= 150)
+            airQualityColor = 'bg-orange-500'
+
 
         return (
             <div>
@@ -99,27 +108,21 @@ class Weather extends React.Component {
                                         </div>
                                     </div>
                                     <hr className="text-white border-1 mt-2 mb-3" />
-                                    {/* center  */}
-                                    <div class="block sm:flex justify-between items-center flex-wrap">
-                                        <div class="w-full sm:w-1/2">
-                                            <div className='w-[70px] h-[70px] bg-red rounded-full flex justify-center items-center bg-red-400'>
-                                                <p>{weather && weather.airQualityNumber}</p>
-                                            </div>                                        </div>
-                                        <div class="w-full sm:w-1/2">
-                                            <div class="flex mx-5 mb-2 justify-between items-center">
-                                                Air Quality <strong>{weather && weather.airQualityText}</strong>
+                                    <div class="container px-5 py-5 mx-auto">
+                                        <h2 className='font-bold text-2xl mb-3'>Air Quality Index</h2>
+                                        <div class="text-center">
+                                            <div className={'w-[70px] h-[70px] bg-red rounded-full flex justify-center items-center  mx-auto mb-2 ' + airQualityColor}>
+                                                <p>{airQualityNumber}</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className='md:grid md:grid-cols-1 md:justify-center md:items-center'>
-                                        <div>
-                                            <p className='text-center'>
+                                            <p class="text-center mx-auto mt-2 mb-2">
+                                                <strong>{weather && weather.airQualityText}</strong>
+                                            </p>
+                                            <p className='text-center mb-3'>
                                                 {weather && weather.airQualityDescription}
                                                 {weather && weather.null[0]}
                                             </p>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
