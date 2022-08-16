@@ -57,7 +57,11 @@ class Weather extends React.Component {
             arrow = '&darr;'
             arrowClass = 'text-red-500'
         }
-        
+
+        // Current condition and icons.
+        let currentCondition = weather?.currentCondition
+        let icon = require('../icons/'+currentCondition+'.png')
+
         return (
             <div>
                 <div className="">
@@ -68,10 +72,11 @@ class Weather extends React.Component {
                                     <div className="flex mb-4 justify-between items-center">
                                         <div>
                                             <h5 className="mb-0 font-medium text-xl">{weather?.city + " Pakistan"}</h5>
-                                            <h6 className="mb-0">{weather?.date}</h6><small>{weather?.currentCondition}</small>
+                                            <h6 className="mb-0">{weather?.date}</h6><small>{currentCondition}</small>
                                         </div>
                                         <div className="text-right">
                                             <h3 className="font-bold text-4xl mb-0"><span>{weather?.temp}&deg;</span></h3>
+                                            <img src={icon} />
                                         </div>
                                     </div>
                                     <hr className="text-white border-1 mt-2 mb-3" />
