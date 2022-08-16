@@ -60,7 +60,7 @@ class Weather extends React.Component {
 
         // Current condition and icons.
         let currentCondition = weather?.currentCondition
-        let icon = require('../icons/'+currentCondition+'.png')
+        let icon = require('../icons/' + currentCondition + '.png')
 
         return (
             <div>
@@ -80,52 +80,116 @@ class Weather extends React.Component {
                                         </div>
                                     </div>
                                     <hr className="text-white border-1 mt-2 mb-3" />
-                                    <div className="block sm:flex justify-between items-center flex-wrap">
-                                        <div className="w-full sm:w-1/2">
-                                        </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Surise/Sunset</span><small className="px-2 inline-block">{weather?.sunrise}&nbsp; {weather?.sunset}</small></div>
-                                        </div>
-                                    </div>
-                                    <div className="block sm:flex justify-between items-center flex-wrap">
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Temp</span><small className="px-2 inline-block">{weather?.high}&nbsp;&deg; - {weather?.low}&nbsp;&deg;</small></div>
-                                        </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Feels like</span><small className="px-2 inline-block">{weather?.feelLikeTemp}&nbsp;&deg;</small></div>
-                                        </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Humidity</span><small className="px-2 inline-block">{weather?.humidity}</small></div>
-                                        </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Wind</span><small className="px-2 inline-block">{weather?.wind}&nbsp;
 
-                                                {/* <span className='w-20 h-20' dangerouslySetInnerHTML={{ __html: weather && weather['Wind Directin'] }}> </span> */}
-                                            </small></div>
+                                    <div className="grid sm:grid-cols-2">
+                                        <div className='col-span-1'></div>
+                                        <div className="col-span-1 mb-4">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Surise/Sunset</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.sunrise}&nbsp; {weather?.sunset}</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>UV Index</span><small className="px-2 inline-block">{weather?.uv_index}</small></div>
+                                        <div className="col-span-1 mb-2">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Temp</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.high}&nbsp;&deg; - {weather?.low}&nbsp;&deg;</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Visibility</span><small className="px-2 inline-block">{weather?.VisibilityValue}&nbsp;&deg;</small></div>
+                                        <div className="col-span-1">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Feels like</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.feelLikeTemp}&nbsp;&deg;</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Pressure</span>
-                                            
-                                            <small className="px-2 inline-block">
-                                            <span className={arrowClass + ' font-bold'} dangerouslySetInnerHTML={ { __html: arrow } }></span> &nbsp;&nbsp;
-                                                { pressure } 
-                                            </small></div>
+                                        <div className="col-span-1 mb-2">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Humidity</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.humidity}</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Dew Point</span><small className="px-2 inline-block">{weather?.dewPoint}&nbsp;&deg;</small></div>
+                                        <div className="col-span-1">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Wind</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.wind}&nbsp;
+                                                        {/* <span className='w-20 h-20' dangerouslySetInnerHTML={{ __html: weather && weather['Wind Directin'] }}> </span> */}
+
+                                                    </small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
+                                        <div className="col-span-1 mb-2">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>UV Index</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.uv_index}</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Moon Phase</span><small className="px-2 inline-block">{weather?.moonPhase}&nbsp;</small></div>
+                                        <div className="col-span-1">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Visibility</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.VisibilityValue}&nbsp;&deg;</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="w-full sm:w-1/2">
+                                        <div className="col-span-1 mb-2">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Pressure</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">
+                                                        <span className={arrowClass + ' font-bold'} dangerouslySetInnerHTML={{ __html: arrow }}></span> &nbsp;&nbsp;
+                                                        {pressure}
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-span-1">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Dew Point</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.dewPoint}</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-span-1"></div>
+                                        <div className="col-span-1 mb-2">
+                                            <div className='grid grid-cols-2'>
+                                                <div className='col-span-1'>
+                                                    <span>Moon Phase</span>
+                                                </div>
+                                                <div className='col-span-1 text-end mx-5'>
+                                                    <small className="px-2 inline-block">{weather?.moonPhase}</small>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <hr className="text-white border-1 mt-2 mb-3" />
