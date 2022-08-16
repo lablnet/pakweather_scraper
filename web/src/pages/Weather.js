@@ -34,10 +34,7 @@ class Weather extends React.Component {
     }
     render() {
         const weather = this.state.weather
-        // get city name from weather.
-        let country = weather && weather.country
-        const city = weather && weather.city + " " + country;
-        let airQualityNumber = weather && weather.airQualityNumber
+        let airQualityNumber = weather?.airQualityNumber
         let airQualityColor = 'bg-red-500'
         if (airQualityNumber <= 50)
             airQualityColor = 'bg-green-500'
@@ -56,11 +53,11 @@ class Weather extends React.Component {
                                 <div className="px-8 py-8 relative">
                                     <div className="flex mb-4 justify-between items-center">
                                         <div>
-                                            <h5 className="mb-0 font-medium text-xl">{city + " "}</h5>
-                                            <h6 className="mb-0">{weather && weather.date}</h6><small>{weather && weather.currentCondition}</small>
+                                            <h5 className="mb-0 font-medium text-xl">{weather?.city + " Pakistan"}</h5>
+                                            <h6 className="mb-0">{weather?.date}</h6><small>{weather?.currentCondition}</small>
                                         </div>
                                         <div className="text-right">
-                                            <h3 className="font-bold text-4xl mb-0"><span>{weather && weather.temp}&deg;</span></h3>
+                                            <h3 className="font-bold text-4xl mb-0"><span>{weather?.temp}&deg;</span></h3>
                                         </div>
                                     </div>
                                     <hr className="text-white border-1 mt-2 mb-3" />
@@ -68,41 +65,41 @@ class Weather extends React.Component {
                                         <div className="w-full sm:w-1/2">
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Surise/Sunset</span><small className="px-2 inline-block">{weather && weather.sunrise}&nbsp; {weather && weather.sunset}</small></div>
+                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Surise/Sunset</span><small className="px-2 inline-block">{weather?.sunrise}&nbsp; {weather?.sunset}</small></div>
                                         </div>
                                     </div>
                                     <div className="block sm:flex justify-between items-center flex-wrap">
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Temp</span><small className="px-2 inline-block">{weather && weather.high}&nbsp;&deg; - {weather && weather.low}&nbsp;&deg;</small></div>
+                                            <div className="flex mb-2 justify-between items-center"><span>Temp</span><small className="px-2 inline-block">{weather?.high}&nbsp;&deg; - {weather?.low}&nbsp;&deg;</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Feels like</span><small className="px-2 inline-block">{weather && weather.feelLikeTemp}&nbsp;&deg;</small></div>
+                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Feels like</span><small className="px-2 inline-block">{weather?.feelLikeTemp}&nbsp;&deg;</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Humidity</span><small className="px-2 inline-block">{weather && weather.humidity}</small></div>
+                                            <div className="flex mb-2 justify-between items-center"><span>Humidity</span><small className="px-2 inline-block">{weather?.humidity}</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Wind</span><small className="px-2 inline-block">{weather && weather.wind}&nbsp;
+                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Wind</span><small className="px-2 inline-block">{weather?.wind}&nbsp;
 
                                                 {/* <span className='w-20 h-20' dangerouslySetInnerHTML={{ __html: weather && weather['Wind Directin'] }}> </span> */}
                                             </small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>UV Index</span><small className="px-2 inline-block">{weather && weather.uv_index}</small></div>
+                                            <div className="flex mb-2 justify-between items-center"><span>UV Index</span><small className="px-2 inline-block">{weather?.uv_index}</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Visibility</span><small className="px-2 inline-block">{weather && weather.VisibilityValue}&nbsp;&deg;</small></div>
+                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Visibility</span><small className="px-2 inline-block">{weather?.VisibilityValue}&nbsp;&deg;</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mb-2 justify-between items-center"><span>Pressure</span><small className="px-2 inline-block">{weather && weather.pressure}</small></div>
+                                            <div className="flex mb-2 justify-between items-center"><span>Pressure</span><small className="px-2 inline-block">{weather?.pressure}</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Dew Point</span><small className="px-2 inline-block">{weather && weather.dewPoint}&nbsp;&deg;</small></div>
+                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Dew Point</span><small className="px-2 inline-block">{weather?.dewPoint}&nbsp;&deg;</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
                                         </div>
                                         <div className="w-full sm:w-1/2">
-                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Moon Phase</span><small className="px-2 inline-block">{weather && weather.moonPhase}&nbsp;</small></div>
+                                            <div className="flex mx-5 mb-2 justify-between items-center"><span>Moon Phase</span><small className="px-2 inline-block">{weather?.moonPhase}&nbsp;</small></div>
                                         </div>
                                         <div className="w-full sm:w-1/2">
                                         </div>
@@ -115,11 +112,11 @@ class Weather extends React.Component {
                                                 <p>{airQualityNumber}</p>
                                             </div>
                                             <p className="text-center mx-auto mt-2 mb-2">
-                                                <strong>{weather && weather.airQualityText}</strong>
+                                                <strong>{weather?.airQualityText}</strong>
                                             </p>
                                             <p className='text-center mb-3'>
-                                                {weather && weather.airQualityDescription}
-                                                {weather && weather.null[0]}
+                                                {weather?.airQualityDescription}
+                                                {weather?.null[0]}
                                             </p>
                                         </div>
                                     </div>
