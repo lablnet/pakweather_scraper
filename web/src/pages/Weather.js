@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../weather.json';
+import data from '../data/weather.json';
 
 class Weather extends React.Component {
     constructor(props) {

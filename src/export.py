@@ -25,7 +25,7 @@ t = parser.parse_args().type
 if t in VALID_TYPES:
     print("Exporting to " + t)
     # Export to JavaScript.
-    make_json("data/latest.csv", "web/src/weather.json")
+    make_json("data/latest.csv", "web/src/data/weather.json")
     print("Done")
 else:
     print("Invalid export type")

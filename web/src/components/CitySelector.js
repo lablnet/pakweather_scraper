@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../weather.json';
+import data from '../data/weather.json';
 import { Navigate } from "react-router-dom";
 import Select from './Select';
 
