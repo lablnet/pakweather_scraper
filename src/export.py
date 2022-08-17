@@ -10,7 +10,7 @@ __status__ = "Production"
 import argparse
 from helper import make_json
 
-VALID_TYPES = ['js']
+VALID_TYPES = ['json']
 
 parser = argparse.ArgumentParser(
     prog="export.py", description='Export a file to a different format.')

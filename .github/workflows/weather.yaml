@@ -29,7 +29,7 @@ jobs:
       - name: Update dataset
         run: python src/main.py
       - name: Export latest data to JavaScript
-        run: python src/export.py js
+        run: python src/export.py json
       - name: Commit and push if it changed
         run: |
           git config user.name "alphasofthub-bot"
