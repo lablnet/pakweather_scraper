@@ -204,7 +204,7 @@ class Weather extends React.Component {
                                             </p>
                                             <p className='text-center mb-3'>
                                                 {weather?.airQualityDescription}
-                                                {weather?.null[0]}
+                                                { (weather?.null && weather?.null[0])  || ''}
                                             </p>
                                         </div>
                                     </div>
