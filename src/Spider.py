@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from nullsafe import _nullsfae
 from helper import *
 from data.data import get_by_lat_long
-import datetime
+
 
 class Spider:
 
@@ -175,13 +175,12 @@ class Spider:
                 year = int(str(date).split("-")[0])
                 # Get current month name.
                 month = date.strftime("%b")
-                
+
                 # Check if the year directory exists inside data directory.
                 if not os.path.exists(f"data/{year}"):
                     # Create it.
                     os.mkdir(f"data/{year}")
-                
-                
+
                 # Check If file is not exists.
                 if not os.path.exists(f"data/{year}/{month}.json"):
                     # Create the file.
