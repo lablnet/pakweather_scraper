@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from nullsafe import _nullsfae
 from helper import *
 from data.data import get_by_lat_long
-
+import datetime
 
 class Spider:
 
@@ -171,14 +171,25 @@ class Spider:
                     "airQualityDescription": airQualityDescription
                 }
 
+                # Get current year.
+                year = int(str(date).split("-")[0])
+                # Get current month name.
+                month = date.strftime("%b")
+                
+                # Check if the year directory exists inside data directory.
+                if not os.path.exists(f"data/{year}"):
+                    # Create it.
+                    os.mkdir(f"data/{year}")
+                
+                
                 # Check If file is not exists.
-                if not os.path.exists("data/weather.csv"):
+                if not os.path.exists(f"data/{year}/{month}.json"):
                     # Create the file.
-                    with open("data/weather.csv", "w") as fh:
+                    with open(f"data/{year}/{month}.csv", "w") as fh:
                         fh.write("date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n")
 
                 # append data to file.p
-                with open("data/weather.csv", 'a') as f:
+                with open(f"data/{year}/{month}.csv", 'a') as f:
                     f.write(f"{date},{latestData['country']},{latestData['latitude']},{latestData['longitude']},{latestData['city']},{latestData['currentCondition']},{latestData['temp']},{latestData['feelLikeTemp']},{latestData['wind']},{latestData['Wind Directin']},{latestData['uv_index']},{latestData['VisibilityValue']},{latestData['pressure']},{latestData['humidity']},{latestData['dewPoint']},{latestData['moonPhase']},{latestData['high']},{latestData['low']},{latestData['sunset']},{latestData['sunrise']},{latestData['airQualityNumber']},{latestData['airQualityText']},{latestData['airQualityDescription']}\n")
                 print("Data saved successfully.")
 
