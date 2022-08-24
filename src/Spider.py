@@ -182,7 +182,7 @@ class Spider:
                     os.mkdir(f"data/{year}")
 
                 # Check If file is not exists.
-                if not os.path.exists(f"data/{year}/{month}.json"):
+                if not os.path.exists(f"data/{year}/{month}.csv"):
                     # Create the file.
                     with open(f"data/{year}/{month}.csv", "w") as fh:
                         fh.write("date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n")
