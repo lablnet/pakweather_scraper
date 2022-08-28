@@ -33,5 +33,3 @@ There is still a lot of work to do, so feel free to contribute to open `PR`
 ## LICENSE
 - GPLv3
   
-## Disclaimer  
-**I do not accept responsibility for any illegal usage**
