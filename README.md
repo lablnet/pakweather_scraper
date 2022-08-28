@@ -7,7 +7,6 @@ A multi-threaded **Pakistan** Weather crawler  written in Python
 
 | ⚠️ Note                                                                    |
 |:-----------------------------------------------------------------------------|
-| 
 - Multithreading does not affect the network throughput, it only splits the urls into multiple threads which wait in the network queue. But the data updating in the file is concurrent. <br>
     - For example, if the 1st thread is updating data in the file at the same time the 2nd thread is fetching data from the network, the 2nd thread does not have to wait for the 1st thread to finish.
 
