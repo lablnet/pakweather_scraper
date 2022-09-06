@@ -1,34 +1,36 @@
 import "selectize";
 import $ from 'jquery';
 import 'selectize/dist/css/selectize.css';
-import React, {useEffect, useRef} from 'react';
+import React, { useEffect, useRef } from 'react';
 
 
 function Select(props) {
-    const selectInput = useRef(null);
-  
-    useEffect(() => {
-      const {current: selectInputRef} = selectInput;
-      const $select = $(selectInputRef);
-  
-      $select.selectize({
-        create: false,
-  sortField: "text",
-  highlight: true,
-  hideSelected: true,
-  closeAfterSelect: true,
-  placeholder: 'Select City',
+  const selectInput = useRef(null);
 
-      });
-      $select.on('change', props.onChange);
-    }, [selectInput, props.onChange]);
-  
-    return (
-      <select ref={selectInput} value={props.value} className={props.className} placeholder='Search City'>
-        {props.children}
-      </select>
-    );
-  }
-  
-  export default Select;
-  
+  useEffect(() => {
+    const { current: selectInputRef } = selectInput;
+    const $select = $(selectInputRef);
+
+    $select.selectize({
+      create: false,
+      sortField: "text",
+      highlight: true,
+      hideSelected: true,
+      closeAfterSelect: true,
+      placeholder: 'Select City',
+    });
+
+    // disable default selected option.
+    $select[0].selectize.setValue(null);
+
+    $select.on('change', props.onChange);
+  }, [selectInput, props.onChange]);
+
+  return (
+    <select ref={selectInput} value={props.value} className={props.className} placeholder='Search City'>
+      {props.children}
+    </select>
+  );
+}
+
+export default Select;
