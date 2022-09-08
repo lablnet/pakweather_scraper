@@ -58,9 +58,30 @@ class Weather extends React.Component {
             arrowClass = 'text-red-500'
         }
 
+        // Icon map.
+        let iconMap = {
+            'fog' : require('../icons/fog.png'),
+            'haze' : require('../icons/fog.png'),
+            'sunny': require('../icons/sunny.png'),
+            'clear': require('../icons/sunny.png'),
+            'partly cloudy': require('../icons/partly-cloudy.png'),
+            'fair': require('../icons/partly-cloudy.png'),
+            'cloudy': require('../icons/cloudy.png'),
+            'mostly cloudy': require('../icons/cloudy.png'),
+            'rain': require('../icons/rain.png'),
+            'light rain': require('../icons/light-rain.png'),
+            'light rain with thunder': require('../icons/light-rain.png'),
+            'thunderstorm': require('../icons/thunderstorm.png'),
+            'thunder': require('../icons/thunder.png'),
+            'mist': require('../icons/mist.png'),
+        };
         // Current condition and icons.
         let currentCondition = weather?.currentCondition
-        let icon = require('../icons/' + currentCondition + '.png')
+        currentCondition = currentCondition?.toLowerCase()
+        // find in iconmap.
+        let icon = iconMap[currentCondition]
+        if (icon === undefined)
+            icon = require('../icons/undefined.png');
 
         return (
             <div>
