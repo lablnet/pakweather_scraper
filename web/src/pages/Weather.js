@@ -93,7 +93,7 @@ class Weather extends React.Component {
                                     <div className="flex mb-4 justify-between items-center">
                                         <div>
                                             <h5 className="mb-0 font-medium text-xl">{weather?.city + " Pakistan"}</h5>
-                                            <h6 className="mb-0">{weather?.date}</h6><small>{currentCondition}</small>
+                                            <h6 className="mb-0">{weather?.date?.split(' ')[0] + ' ' + weather?.date?.split(' ')[1].split('.')[0]}</h6><small>{currentCondition}</small>
                                         </div>
                                         <div className="text-right">
                                             <h3 className="font-bold text-4xl mb-0"><span>{weather?.temp}&deg;</span></h3>
