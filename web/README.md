@@ -4,8 +4,8 @@ The weather App.
 
 ## Techonology Stack
 1. [React](https://reactjs.org/) with [React-Router](https://reactrouter.com/)
-2. [TailwindCSS] (https://tailwindcss.com/)
-3. [Selectize.js] (https://selectize.dev/)
+2. [TailwindCSS](https://tailwindcss.com/)
+3. [Selectize.js](https://selectize.dev/)
 
 ## Icon Attribution
 - All the icon images are from [Google](https://www.google.com)
