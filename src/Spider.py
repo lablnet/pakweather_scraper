@@ -90,8 +90,13 @@ class Spider:
                     page.find("span", {"class": "TodayDetailsCard--feelsLikeTempValue--Cf9Sl"}))
                 details = page.find(
                     "div", {'class': 'TodayDetailsCard--detailsContainer--16Hg0'})
-                wind = _nullsfae(details.find(
+                wind = ""
+                try: 
+                    wind = _nullsfae(details.find(
                     'span', {'class': 'Wind--windWrapper--3aqXJ'}))
+                except:
+                    pass
+
                 windDirection = ""
                 try:
                     windDirection = page.find(
