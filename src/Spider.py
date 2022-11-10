@@ -80,29 +80,20 @@ class Spider:
 
                 # Get required data.
                 currentCondition = _nullsfae(
-                    page.find("div", {"class": "CurrentConditions--phraseValue--2Z18W"}))
+                    page.find("div", {"class": "CurrentConditions--phraseValue--mZC_p"}))
                 if city is None:
                     city = _nullsfae(
-                        page.find('h1', {'class': 'CurrentConditions--location--kyTeL'}))
+                        page.find('h1', {'class': 'CurrentConditions--location--1YWj_'}))
                 temp = _nullsfae(
-                    page.find('span', {'class': 'CurrentConditions--tempValue--3a50n'}))
+                    page.find('span', {'class': 'CurrentConditions--tempValue--MHmYY'}))
                 feelLikeTemp = _nullsfae(
-                    page.find("span", {"class": "TodayDetailsCard--feelsLikeTempValue--Cf9Sl"}))
+                    page.find("span", {"class": "TodayDetailsCard--feelsLikeTempValue--2icPt"}))
                 details = page.find(
-                    "div", {'class': 'TodayDetailsCard--detailsContainer--16Hg0'})
-                wind = ""
-                try: 
-                    wind = _nullsfae(details.find(
-                    'span', {'class': 'Wind--windWrapper--3aqXJ'}))
-                except:
-                    pass
-
-                windDirection = ""
-                try:
-                    windDirection = page.find(
-                        "span", {"class": "Wind--windWrapper--3aqXJ"}).find("svg")
-                except:
-                    pass
+                    "div", {'class': 'TodayDetailsCard--detailsContainer--2yLtL'})
+                wind = _nullsfae(page.find(
+                    'span', {'class': 'Wind--windWrapper--3Ly7c'}))
+                windDirection = page.find(
+                    "span", {"class": "Wind--windWrapper--3Ly7c"}).find("svg")
                 uv_index = _nullsfae(details.find(
                     'span', {'data-testid': 'UVIndexValue'}))
                 VisibilityValue = _nullsfae(details.find(
@@ -112,7 +103,7 @@ class Spider:
                 humidity = _nullsfae(details.find(
                     'span', {'data-testid': 'PercentageValue'}))
                 _data = details.find_all(
-                    "div", {"class": "WeatherDetailsListItem--wxData--2s6HT"})
+                    "div", {"class": "WeatherDetailsListItem--WeatherDetailsListItem--1CnRC"})
                 dewPoint = _nullsfae(_data[3].find(
                     'span', {'data-testid': 'TemperatureValue'}))
                 moonPhase = _nullsfae(_data[-1])
@@ -121,19 +112,19 @@ class Spider:
                 high = _nullsfae(temps[0])
                 low = _nullsfae(temps[1])
                 sunset = page.find(
-                    'div', {'class': 'SunriseSunset--sunsetDateItem--34dPe'})
+                    'div', {'class': 'SunriseSunset--datesContainer--2cHyj'})
                 sunset = _nullsfae(sunset.find('p')) if sunset else None
                 sunrise = page.find(
-                    'div', {'class': 'SunriseSunset--sunriseDateItem--3qqf7'})
+                    'div', {'class': 'SunriseSunset--sunsetDateItem--1nyxW'})
                 sunrise = _nullsfae(sunrise.find('p')) if sunrise else None
                 airQuality = page.find(
-                    'div', {'class': 'AirQuality--col--1TYtR'})
+                    'div', {'class': 'AirQuality--col--3I-4C'})
                 airQualityNumber = _nullsfae(
                     airQuality.find("text")) if airQuality else None
                 airQualityText = _nullsfae(
-                    page.find("span", {"class": "AirQualityText--severity--1fu5k"}))
+                    page.find("span", {"class": "AirQualityText--severity--1smy9"}))
                 airQualityDescription = _nullsfae(
-                    page.find("p", {"class": "AirQualityText--severityText--1wT_O"}))
+                    page.find("p", {"class": "AirQualityText--severityText--1wSKp"}))
 
                 # Refactor data.
                 try:
@@ -143,6 +134,7 @@ class Spider:
                     high = high.replace("°", " c")
                     pressure = pressure.replace("Arrow Down", "Down ")
                     wind = wind.replace("Wind Direction", " ")
+                    moonPhase = moonPhase.replace("Moon Phase", "")
                 except:
                     pass
 
