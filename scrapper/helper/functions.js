@@ -38,8 +38,8 @@ const getDatetime = () => {
  * @since v1.0.0
  */
 const fileToSet = (data, fileName) => {
-    const data = fs.readFileSync(file, 'utf-8');
-    const lines = data.split('\n');
+    const fileData = fs.readFileSync(file, 'utf-8');
+    const lines = fileData.split('\n');
     return new Set(lines);
 }
 
