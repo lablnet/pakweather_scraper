@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { get_by_lat_long } = require('./data/data');
-const { file_to_set, set_to_file, get_datetime } = require('./helper');
-const { getBrowser, navigate, elem, getData, _wait } = require('./your_helper_file'); // replace 'your_helper_file' with the actual path to your helper file
+const { get_by_lat_long } = require('./data');
+const { file_to_set, set_to_file, get_datetime } = require('./functions');
+const { getBrowser, navigate, elem, getData, _wait } = require('./scrapper');
 
 const Spider = {
     urls: [],
