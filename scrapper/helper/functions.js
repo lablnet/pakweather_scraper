@@ -30,15 +30,15 @@ const getDatetime = () => {
 /**
  * File to set.
  * 
- * @param {string} file - The file name.
+ * @param {string} fileName - The file name.
  * 
  * @returns {Set} - The set.
  * 
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * @since v1.0.0
  */
-const fileToSet = (data, fileName) => {
-    const fileData = fs.readFileSync(file, 'utf-8');
+const fileToSet = (fileName) => {
+    const fileData = fs.readFileSync(fileName, 'utf-8');
     const lines = fileData.split('\n');
     return new Set(lines);
 }
@@ -47,16 +47,16 @@ const fileToSet = (data, fileName) => {
  * Set to file.
  * 
  * @param {Set} set - The set.
- * @param {string} file - The file name.
+ * @param {string} fileName - The file name.
  * 
  * @returns {void}
  * 
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * @since v1.0.0
  */
-const setToFile = (set, file) => {
+const setToFile = (set, fileName) => {
     const data = [...set].join('\n');
-    fs.writeFileSync(file, data);
+    fs.writeFileSync(fileName, data);
 }
 
 

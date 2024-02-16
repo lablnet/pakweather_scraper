@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const { cities } = require('./helper/data');
-const { file_to_set, set_to_file, get_datetime } = require('./helper/functions');
 const Spider = require('./helper/Spider'); // replace './Spider' with the actual path to your Spider file
 // const Notification = require('./Notification'); // replace './Notification' with the actual path to your Notification file
 
