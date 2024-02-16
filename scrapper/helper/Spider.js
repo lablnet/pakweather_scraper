@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { get_by_lat_long } = require('./data');
-const { file_to_set, set_to_file, get_datetime } = require('./functions');
+const { fileToSet, setToFile, get_datetime } = require('./functions');
 const { getBrowser, navigate, elem, getData, _wait } = require('./scrapper');
 
 const Spider = {
@@ -17,8 +17,8 @@ const Spider = {
     },
 
     boot() {
-        this.queue = file_to_set(this.queue_file);
-        this.crawled = file_to_set(this.crawled_file);
+        this.queue = fileToSet(this.queue_file);
+        this.crawled = fileToSet(this.crawled_file);
     },
 
     async load_page(url) {
@@ -147,8 +147,8 @@ const Spider = {
     },
 
     updateFiles() {
-        set_to_file(this.queue, this.queue_file);
-        set_to_file(this.crawled, this.crawled_file);
+        setToFile(this.queue, this.queue_file);
+        setToFile(this.crawled, this.crawled_file);
     }
 };
 
