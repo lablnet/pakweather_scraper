@@ -3,6 +3,7 @@ const path = require('path');
 const { cities } = require('./helper/data');
 const Spider = require('./helper/Spider'); // replace './Spider' with the actual path to your Spider file
 // const Notification = require('./Notification'); // replace './Notification' with the actual path to your Notification file
+const { fileToSet } = require('./helper/functions');
 
 // Number of threads.
 const NO_OF_THREADS = 4;
@@ -18,8 +19,20 @@ fs.writeFileSync("crawled.txt", "");
 // urls to file.
 fs.writeFileSync('queue.txt', cities.map(city => `${base_url}${city['lat']},${city['lng']}?unit=c`).join("\n"));
 
-const queue = [];
+console.log('Queue file created successfully.');
+
 Spider.init("weather.com");
+
+// write cities into queue.
+cities.forEach(async (city) => {
+    // console.log(`${base_url}${city['lat']},${city['lng']}?unit=c`);
+    // base_url + city['lat'] + ',' + city['lng'] + "?unit=c" + "\n"
+    let link = `${base_url}${city['lat']},${city['lng']}?unit=c`;
+    // await Spider.crawl_page(`Thread ${1}`, link);
+    fs.appendFileSync('queue.txt', `${link}\n`);
+});
+
+let queue = new Set();
 
 function workers() {
     for (let i = 0; i < NO_OF_THREADS; i++) {
@@ -29,7 +42,8 @@ function workers() {
 
 async function work() {
     while (true) {
-        const url = queue.shift();
+        const url = Array.from(queue).shift();
+        console.log ("URL", queue)
         if (url) {
             await Spider.crawl_page(`Thread ${queue.length}`, url);
         } else {
@@ -39,14 +53,18 @@ async function work() {
 }
 
 function jobs() {
-    const queued_links = file_to_set("queue.txt");
-    queue.push(...queued_links);
+    const queued_links = fileToSet("queue.txt");
+    //queue.push(...queued_links);
+    // push element to set.
+    queued_links.forEach(link => queue.add(link));
+   // console.log("Queue", queue);
     crawl();
 }
 
 function crawl() {
-    if (queue.length > 0) {
-        console.log(`${queue.length} links in the queue`);
+    queued_links = fileToSet("queue.txt");
+    if (queued_links.size > 0) {
+        // console.log(`${queued_links.size} links in the queue`);
         jobs();
     } else {
         console.log("No more links in the queue");
@@ -66,4 +84,9 @@ function pak_weather() {
     crawl();
 }
 
-pak_weather();
+// pak_weather();
+
+(async () => {
+    let link = "https://weather.com/weather/today/l/25.8072,66.6219?unit=c"
+    await Spider.crawl_page(`Thread ${1}`, link);
+})();

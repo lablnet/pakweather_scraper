@@ -18,12 +18,14 @@ const Spider = {
 
     boot() {
         this.queue = fileToSet(this.queue_file);
+        //console.log (this.queue);
         this.crawled = fileToSet(this.crawled_file);
     },
 
     async load_page(url) {
-        const browser = await getBrowser();
+        const browser = await getBrowser({ headless: false });
         const page = await browser.newPage();
+        console.log ("URL", url);
         try {
             await navigate(page, url);
             return page;
@@ -34,15 +36,16 @@ const Spider = {
     },
 
     async crawl_page(thread_name, page_url) {
-        if (this.queue.has(page_url)) {
+        //if (this.queue.has(page_url)) {
             console.log(`${thread_name} now crawling ${page_url}`);
             const page = await this.load_page(page_url);
+            console.log ("Page", page);
             if (page) {
                 // Get latitude from URL.
-                const [latitude, longitude] = get_lat_long(page_url);
+                const [latitude, longitude] = get_by_lat_long(page_url);
                 let city = get_by_lat_long(latitude, longitude);
                 city = city.length ? city[0]['name'] : null;
-
+                console.log ("City", city);
                 // Get required data.
                 const currentCondition = await getData(page, 'class', 'CurrentConditions--phraseValue--mZC_p', 'text');
                 if (!city) {
@@ -139,11 +142,11 @@ const Spider = {
                 // // Latest Data.
                 // fs.appendFileSync("data/latest.csv", `${date},${latestData['country']},${latestData['latitude']},${latestData['longitude']},${latestData['city']},${latestData['currentCondition']},${latestData['temp']},${latestData['feelLikeTemp']},${latestData['wind']},${latestData['Wind Directin']},${latestData['uv_index']},${latestData['VisibilityValue']},${latestData['pressure']},${latestData['humidity']},${latestData['dewPoint']},${latestData['moonPhase']},${latestData['high']},${latestData['low']},${latestData['sunset']},${latestData['sunrise']},${latestData['airQualityNumber']},${latestData['airQualityText']},${latestData['airQualityDescription']}\n`);
 
-                this.queue.delete(page_url);
-                this.crawled.add(page_url);
-                this.updateFiles();
+                // this.queue.delete(page_url);
+                // this.crawled.add(page_url);
+                // this.updateFiles();
             }
-        }
+        //}
     },
 
     updateFiles() {
