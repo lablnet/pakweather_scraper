@@ -54,12 +54,12 @@ const _wait = async (wait) => {
  * 
  * @returns {object} - The page object.
  */
-const navigate = async (page, url, wait = 0, timeout = 60000) => {
+const navigate = async (page, url, wait = 0, timeout = 90000) => {
     // validate the url.
     if (!url)
         throw new Error('Url is required');
     // navigate to the url.
-    await page.goto(url, { waitUntil: 'networkidle', timeout: timeout});
+    await page.goto(url, { waitUntil: 'load', timeout: timeout});
 
     // wait for the given time.
     if (wait > 0) await _wait(wait);
@@ -80,23 +80,23 @@ const navigate = async (page, url, wait = 0, timeout = 60000) => {
  * 
  * @returns {object} - The element.
  */
-const elem = async (page, type, selector, wait = 0) => {
+const elem = async (page, type, selector, wait = 0, timeout = 60000) => {
     let element = page;
     if (!selector)
         throw new Error('Selector is required');
     // ID, CLASS, TAG, XPATH, and, Attribute.
     switch (type) {
         case 'id':
-            element = await page.locator(`[id=${selector}]`);
+            element = await page.locator(`[id=${selector}]`, { timeout: timeout });
             break;
         case 'class':
-            element = await page.locator(`[class=${selector}]`);
+            element = await page.locator(`[class=${selector}]`, { timeout: timeout });
             break;
         case 'tag':
-            element = await page.locator(selector);
+            element = await page.locator(selector), { timeout: timeout };
             break;
         case 'xpath':
-            element = await page.locator(`xpath=${selector}`);
+            element = await page.locator(`xpath=${selector}`, { timeout: timeouts });
             break;
         defaut:
             throw new Error('Invalid selector type');
