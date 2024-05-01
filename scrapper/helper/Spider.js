@@ -45,7 +45,9 @@ const Spider = {
                 const latitude = 1;
                 const longitude = 1;
                 // Get latitude from URL.
-                // const [latitude, longitude] = get_by_lat_long(page_url);
+                const [latitude, longitude] = get_by_lat_long(page_url);
+                console.log ("Latitude", latitude);
+                console.log ("Longitude", longitude);
                 // let city = get_by_lat_long(latitude, longitude);
                 // city = city.length ? city[0]['name'] : null;
                 // console.log ("City", city);
