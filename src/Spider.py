@@ -8,13 +8,15 @@ __status__ = "Production"
 
 
 import requests
-import os
 from requests import HTTPError, Timeout
 from bs4 import BeautifulSoup
 from nullsafe import _nullsfae
 from helper import *
 from data.data import get_by_lat_long
-
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from scripts.script import put_row_to_dynamodb
 
 class Spider:
 
@@ -168,31 +170,8 @@ class Spider:
                     "airQualityDescription": airQualityDescription
                 }
 
-                # Get current year.
-                year = int(str(date).split("-")[0])
-                # Get current month name.
-                month = date.strftime("%b")
-
-                # Check if the year directory exists inside data directory.
-                if not os.path.exists(f"data/{year}"):
-                    # Create it.
-                    os.mkdir(f"data/{year}")
-
-                # Check If file is not exists.
-                if not os.path.exists(f"data/{year}/{month}.csv"):
-                    # Create the file.
-                    with open(f"data/{year}/{month}.csv", "w") as fh:
-                        fh.write("date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n")
-
-                # append data to file.p
-                with open(f"data/{year}/{month}.csv", 'a') as f:
-                    f.write(f"{date},{latestData['country']},{latestData['latitude']},{latestData['longitude']},{latestData['city']},{latestData['currentCondition']},{latestData['temp']},{latestData['feelLikeTemp']},{latestData['wind']},{latestData['Wind Directin']},{latestData['uv_index']},{latestData['VisibilityValue']},{latestData['pressure']},{latestData['humidity']},{latestData['dewPoint']},{latestData['moonPhase']},{latestData['high']},{latestData['low']},{latestData['sunset']},{latestData['sunrise']},{latestData['airQualityNumber']},{latestData['airQualityText']},{latestData['airQualityDescription']}\n")
-                print("Data saved successfully.")
-
-                # Latest Data.
-                with open("data/latest.csv", "a") as fh:
-                    fh.write(f"{date},{latestData['country']},{latestData['latitude']},{latestData['longitude']},{latestData['city']},{latestData['currentCondition']},{latestData['temp']},{latestData['feelLikeTemp']},{latestData['wind']},{latestData['Wind Directin']},{latestData['uv_index']},{latestData['VisibilityValue']},{latestData['pressure']},{latestData['humidity']},{latestData['dewPoint']},{latestData['moonPhase']},{latestData['high']},{latestData['low']},{latestData['sunset']},{latestData['sunrise']},{latestData['airQualityNumber']},{latestData['airQualityText']},{latestData['airQualityDescription']}\n")
-
+                # Add data to dynamo db
+                put_row_to_dynamodb(latestData)
                 Spider.queue.remove(page_url)
                 Spider.crawled.add(page_url)
                 Spider.updateFiles()
