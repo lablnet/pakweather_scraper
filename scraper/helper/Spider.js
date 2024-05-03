@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { get_by_lat_long } = require('./data');
 const { fileToSet, setToFile, get_datetime } = require('./functions');
-const { getBrowser, navigate, elem, getData, _wait } = require('./scrapper');
+const { getBrowser, navigate, elem, getData, _wait } = require('./scraper');
 
 const Spider = {
     urls: [],

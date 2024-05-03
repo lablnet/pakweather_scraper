@@ -28,7 +28,7 @@ Compiles and minifies for production
 There is still a lot of work to do, so feel free to contribute to open `PR`
 
 ###  Contrubuting guide
-[Contribution Guidelines](https://github.com/lablnet/pakweather_scrapper/blob/main/CONTRIBUTING.md)
+[Contribution Guidelines](https://github.com/lablnet/pakweather_scraper/blob/main/CONTRIBUTING.md)
 
 ## LICENSE
 - GPLv3
