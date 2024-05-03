@@ -167,7 +167,8 @@ class Spider:
                     "sunrise": sunrise,
                     "airQualityNumber": airQualityNumber,
                     "airQualityText": airQualityText,
-                    "airQualityDescription": airQualityDescription
+                    "airQualityDescription": airQualityDescription,
+                    "site": "weather.com",
                 }
 
                 # Add data to dynamo db
