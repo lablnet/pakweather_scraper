@@ -1,8 +1,7 @@
 const { DynamoDBClient, ListTablesCommand, CreateTableCommand, ScanCommand } = require("@aws-sdk/client-dynamodb");
 const { DynamoDBDocumentClient, GetCommand, PutCommand } = require("@aws-sdk/lib-dynamodb");
 const fs = require('fs');
-const { v4: uuidv4 } = require('uuid');
-const { customLog } = require('./log');
+const { logger } = require('./log');
 require('dotenv').config();
 
 // Creating the DynamoDB client with AWS SDK v3
@@ -14,14 +13,13 @@ const dynamoDBClient = new DynamoDBClient({
   },
 });
 
-const table = process.env.TABLES.split(',')[0];
+const table = process.env.TABLE;
 
 const docClient = DynamoDBDocumentClient.from(dynamoDBClient);
 
 /**
  * Check if the record exists.
  * 
- * @param {string} tableName - The table name.
  * @param {object} key - The key.
  * 
  * @since v1.0.0
@@ -29,9 +27,9 @@ const docClient = DynamoDBDocumentClient.from(dynamoDBClient);
  * 
  * @returns {Boolean} - True if exists, false otherwise.
  */
-async function checkRecordExists(tableName, key) {
+async function checkRecordExists(key) {
   const params = {
-    TableName: tableName,
+    TableName: table,
     Key: key,
   };
 
@@ -39,7 +37,7 @@ async function checkRecordExists(tableName, key) {
     const { Item } = await docClient.send(new GetCommand(params));
     return Item !== undefined;
   } catch (error) {
-    customLog ('Error checking record exists:', error);
+    logger.log ('Error checking record exists:', error);
     throw error;
   }
 }
@@ -47,23 +45,21 @@ async function checkRecordExists(tableName, key) {
 /**
  * Read all records from the table.
  * 
- * @param {string} tableName - The table name.
- * 
  * @since v1.0.0
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - Records.
  */
-async function readAllRecords(tableName) {
+async function readAllRecords() {
   const params = {
-    TableName: tableName,
+    TableName: table,
   };
 
   try {
     const { Items } = await docClient.send(new ScanCommand(params));
     return Items;
   } catch (error) {
-    customLog ('Error reading all records:', error);
+    logger.log ('Error reading all records:', error);
     throw error;
   }
 }
@@ -71,29 +67,23 @@ async function readAllRecords(tableName) {
 /**
  * Add or update the record.
  * 
- * @param {string} tableName - The table name.
- * 
  * @since v1.0.0
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The record.
  */
-async function addOrUpdateRecord(tableName, item) {
-  if (!item.id) {
-    item.id = uuidv4();
-  }
-
+async function addOrUpdateRecord(item) {
   const params = {
-    TableName: tableName,
+    TableName: table,
     Item: item,
   };
 
   try {
     await docClient.send(new PutCommand(params));
-    customLog ('Add/Update successful', params);
+    logger.log ('Add/Update successful', params);
     return params.Item;
   } catch (error) {
-    customLog ('Error adding/updating record:', error);
+    logger.log ('Error adding/updating record:', error);
     throw error;
   }
 }
@@ -124,25 +114,15 @@ async function createTableIfNotExists(tableName) {
 
     try {
       await dynamoDBClient.send(new CreateTableCommand(params));
-      customLog (`Table "${tableName}" created successfully.`);
+      logger.log (`Table "${tableName}" created successfully.`);
     } catch (error) {
-      customLog ('Error creating table:', error);
+      logger.log ('Error creating table:', error);
       throw error;
     }
   } else {
-    customLog (`Table "${tableName}" already exists.`);
+    logger.log (`Table "${tableName}" already exists.`);
   }
 }
-
-(async function () {
-  if (!fs.existsSync('.installed')) {
-    let tables = process.env.TABLES.split(',');
-    for (let table of tables) {
-      await createTableIfNotExists(table);
-    }
-    fs.writeFileSync('.installed', '');
-  }
-})();
 
 module.exports = {
     checkRecordExists,
