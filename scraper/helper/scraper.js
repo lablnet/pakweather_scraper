@@ -50,7 +50,7 @@ const getBrowserAndPage = async ({
     blockScripts = true,
     blockCookies = true,
     blockMedia = true,
-}) => {
+} = {}) => {
     const browser = await getBrowser({
       headless: headless,
       waitUntil: waitUntil,
@@ -290,5 +290,6 @@ module.exports = {
     doubleClick,
     clickCheckBox,
     getData,
-    _wait
+    _wait,
+    getBrowserAndPage
 }
