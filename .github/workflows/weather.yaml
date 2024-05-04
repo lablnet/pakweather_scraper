@@ -36,6 +36,8 @@ jobs:
         run: npm install -g pnpm                            
       - name: Change directory                           
         run: cd scraper
+      - name: List files
+        run: ls -alh
       - name: Install Requirements                             
         run: pnpm install
       - name: Run the script
