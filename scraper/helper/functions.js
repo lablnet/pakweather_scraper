@@ -25,7 +25,7 @@ const getLatLong = (url) => {
  */
 const getDatetime = () => {
     return new Date().toLocaleString("en-US", {timeZone: "Asia/Karachi"});
-}
+}  
 
 /**
  * File to set.
@@ -63,5 +63,6 @@ const setToFile = (set, fileName) => {
 module.exports = {
     getDatetime,
     fileToSet,
-    setToFile
+    setToFile,
+    getLatLong,
 }
