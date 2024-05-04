@@ -1,7 +1,7 @@
 [![Pakistan Weather](https://github.com/lablnet/pakweather_scrapper/actions/workflows/weather.yaml/badge.svg)](https://github.com/lablnet/pakweather_scrapper/actions/workflows/weather.yaml)
 
 # Overview
-A multi-threaded **Pakistan** Weather crawler written in JavaScript
+A multi-threaded **Pakistan** Weather crawler written in JavaScript learn more at : [https://lablnet.com/project/weather](https://lablnet.com/project/weather)
 
 ## Purpose
 The sole purpose of this project is to extract weather data from the Weather Channel and store it in a database for further analysis.
