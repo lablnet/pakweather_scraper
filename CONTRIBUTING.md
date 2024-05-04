@@ -13,4 +13,4 @@ Please make sure open `issue` before creating `PR`
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under `GNU GPL-3` License.
+By contributing, you agree that your contributions will be licensed under `MIT` License.
