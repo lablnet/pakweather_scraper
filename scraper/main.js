@@ -1,7 +1,9 @@
 const { Worker, isMainThread, workerData, parentPort } = require('worker_threads');
 const fs = require('fs').promises;
 const { cities } = require('./helper/data');
-const Spider = require('./helper/Spider');
+const providers = require('../provider/providers');
+const { addOrUpdateRecord } = require('./helper/dynamo');
+
 
 const NO_OF_THREADS = 10
 const site = process.argv[2] || "weather.com";
@@ -44,7 +46,9 @@ if (isMainThread) {
     (async () => {
         const { urls, id } = workerData;
         for (const url of urls) {
-            await Spider.crawl_page(`Thread ${id}`, url);
+            console.log(`Thread ${id} now crawling ${url}`);
+            const data = await providers[site](url);
+            await addOrUpdateRecord(data);
             console.log(`Thread ${id} processed ${url}`);
         }
         parentPort.postMessage({ id: id, urls: urls });
