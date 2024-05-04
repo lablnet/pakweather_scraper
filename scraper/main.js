@@ -9,7 +9,6 @@ const NO_OF_THREADS = 10
 const site = process.argv[2] || "weather.com";
 const base_url = "https://weather.com/weather/today/l/";
 let urlSet = new Set();
-Spider.init(site );
 
 async function initializeQueue() {
      cities.map(city => {
