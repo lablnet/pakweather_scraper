@@ -176,3 +176,7 @@ async function weatherdotcom_crawler(url) {
     await browser.close();
     return weatherData;
 }
+
+module.exports = {
+    weatherdotcom_crawler
+};
