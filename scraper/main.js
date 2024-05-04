@@ -1,7 +1,7 @@
 const { Worker, isMainThread, workerData, parentPort } = require('worker_threads');
 const fs = require('fs').promises;
 const { cities } = require('./helper/data');
-const providers = require('../provider/providers');
+const providers = require('./helper/providers');
 const { addOrUpdateRecord } = require('./helper/dynamo');
 const { logger } = require('./helper/log'); 
 
