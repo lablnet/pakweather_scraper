@@ -34,9 +34,8 @@ jobs:
         run: npx playwright install --with-deps
       - name: Install pnpm
         run: npm install -g pnpm                            
-      - name: Change directory                           
-        run: cd scraper
-      - name: List files
+      - name: Change directory and list files
+        working-directory: scraper
         run: ls -alh
       - name: Install Requirements                             
         run: pnpm install
