@@ -1,92 +1,47 @@
-const fs = require('fs');
-const path = require('path');
+const { Worker, isMainThread, workerData, parentPort } = require('worker_threads');
+const fs = require('fs').promises;
 const { cities } = require('./helper/data');
-const Spider = require('./helper/Spider'); // replace './Spider' with the actual path to your Spider file
-// const Notification = require('./Notification'); // replace './Notification' with the actual path to your Notification file
-const { fileToSet } = require('./helper/functions');
+const Spider = require('./helper/Spider');
 
-// Number of threads.
 const NO_OF_THREADS = 4;
-
 const site = process.argv[2] || "weather.com";
-
-// Base URL
 const base_url = "https://weather.com/weather/today/l/";
+let urlSet = new Set();
+Spider.init(site );
 
-// Create file crawled.txt.
-fs.writeFileSync("crawled.txt", "");
-
-// fs.writeFileSync("data/latest.csv", "date,country,latitude,longitude,city,currentCondition,temp,feelLikeTemp,wind,Wind Directin,uv_index,VisibilityValue,pressure,humidity,dewPoint,moonPhase,high,low,sunset,sunrise,airQualityNumber,airQualityText,airQualityDescription\n");
-
-// urls to file.
-fs.writeFileSync('queue.txt', cities.map(city => `${base_url}${city['lat']},${city['lng']}?unit=c`).join("\n"));
-
-console.log('Queue file created successfully.');
-
-Spider.init(site);
-
-// write cities into queue.
-cities.forEach(async (city) => {
-    let link = `${base_url}${city['lat']},${city['lng']}?unit=c`;
-    // await Spider.crawl_page(`Thread ${1}`, link);
-    fs.appendFileSync('queue.txt', `${link}\n`);
-});
-
-let queue = new Set();
-
-function workers() {
-    for (let i = 0; i < NO_OF_THREADS; i++) {
-        work();
-    }
-}
-
-async function work() {
-    while (true) {
-        const url = Array.from(queue).shift();
-        console.log ("URL", queue)
-        if (url) {
-            await Spider.crawl_page(`Thread ${queue.length}`, url);
-        } else {
+async function initializeQueue() {
+    const urls = cities.map(city => `${base_url}${city.lat},${city.lng}?unit=c`);
+    let i = 1;
+    for (const url of urls) {
+        urlSet.add(url);
+        i++;
+        if (i > 10) {
             break;
         }
     }
+    console.log('Queue initialized successfully.');
+    return urls;
 }
 
-function jobs() {
-    const queued_links = fileToSet("queue.txt");
-    // queue.push(...queued_links);
-    // push element to set.
-    queued_links.forEach(link => queue.add(link));
-   // console.log("Queue", queue);
-    crawl();
+if (isMainThread) {
+    (async () => {
+        await initializeQueue();
+        const urlArray = Array.from(urlSet);
+        console.log (`Total urls: ${urlArray.length}`);
+
+        const segmentSize = Math.ceil(urlArray.length / NO_OF_THREADS);
+        for (let i = 0; i < NO_OF_THREADS; i++) {
+            const workerUrls = urlArray.slice(i * segmentSize, (i + 1) * segmentSize);
+            new Worker(__filename, { workerData: { urls: workerUrls, id: i + 1 } });
+        }
+    })();
+} else {
+    (async () => {
+        const { urls, id } = workerData;
+        for (const url of urls) {
+            await Spider.crawl_page(`Thread ${id}`, url);
+            console.log(`Thread ${id} processed ${url}`);
+        }
+        parentPort.postMessage(`Worker ${id} done`);
+    })();
 }
-
-function crawl() {
-    queued_links = fileToSet("queue.txt");
-    if (queued_links.size > 0) {
-        // console.log(`${queued_links.size} links in the queue`);
-        jobs();
-    } else {
-        console.log("No more links in the queue");
-        console.log("Done");
-        fs.unlinkSync("queue.txt");
-        fs.unlinkSync("crawled.txt");
-        // Notification.email(
-        //     process.env.EMAIL,
-        //     "Pak Weather Notification" + " " + new Date().toISOString(),
-        //     "Weather data has been crawled successfully."
-        // );
-    }
-}
-
-function pak_weather() {
-    workers();
-    crawl();
-}
-
-pak_weather();
-
-// (async () => {
-//     let link = "https://weather.com/weather/today/l/25.8072,66.6219?unit=c"
-//     await Spider.crawl_page(`Thread ${1}`, link);
-// })();

@@ -7,34 +7,15 @@ const providers = require('../provider/providers');
 
 const Spider = {
     site: '',
-    queue_file: 'queue.txt',
-    crawled_file: 'crawled.txt',
-    queue: new Set(),
-    crawled: new Set(),
-
     init(site) {
         this.site = site;
-        this.boot();
-    },
-
-    boot() {
-        this.queue = fileToSet(this.queue_file);
-        this.crawled = fileToSet(this.crawled_file);
     },
 
     async crawl_page(thread_name, page_url) {
         console.log(`${thread_name} now crawling ${page_url}`);
         const data = await providers[this.site](page_url);
         console.log(data);
-        this.queue.delete(page_url);
-        this.crawled.add(page_url);
-        this.updateFiles();
     },
-
-    updateFiles() {
-        setToFile(this.queue, this.queue_file);
-        setToFile(this.crawled, this.crawled_file);
-    }
 };
 
 module.exports = Spider;
