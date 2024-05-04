@@ -45,6 +45,7 @@ async function weatherdotcom_crawler(url) {
         "site": "weather.com",
     }
 
+    // Getting data from the page
     await Promise.all([
         getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--2icPt', 'feelLikeTemp', 'Error getting feel like temp'),
         getDataHandler(page, weatherData, 'tag', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
@@ -55,38 +56,19 @@ async function weatherdotcom_crawler(url) {
     ]);
 
     if (weatherData.day_night) {
-      const tempHiLoArr = weatherData.day_night.split("•");
-      weatherData.day = tempHiLoArr[0].trim();
-      weatherData.night = tempHiLoArr[1].trim();
+      [weatherData.day, weatherData.night] = weatherData.day_night.split("•").map(item => item.trim());
     }
 
-
-    // get elem by class AirQuality--AirQualityCard--EONAt
     try {
-      const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--EONAt');
-      try {
+        const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--EONAt');
         weatherData.airQualityNumber = await getData(airQualityWrapper, 'tag', 'text', 'text');
-      } catch (err) {
-        logger.error("Error getting air quality number");
-        logger.error(err.message);
-      }
-      try {
         weatherData.airQualityText = await getData(airQualityWrapper, 'tag', 'span');
-      } catch (err) {
-        logger.error("Error getting air quality text");
-        logger.error(err.message);
-      }
-      try {
         weatherData.airQualityDescription = await getData(airQualityWrapper, 'tag', 'p');
-      } catch (err) {
-        logger.error("Error getting air quality description");
-        logger.error(err.message);
-      }
     } catch (err) {
-      logger.error("Error getting air quality wrapper");
-      logger.error(err.message);
+        logger.error("Error getting air quality data:", err.message);
     }
 
+    // Getting weather details
     const weatherDetailWrapper = await page.$$('div.WeatherDetailsListItem--WeatherDetailsListItem--1CnRC');
     const countWeatherDetailWrapper = weatherDetailWrapper.length;
     let weatherDetailObj = {};
@@ -108,6 +90,8 @@ async function weatherdotcom_crawler(url) {
       }
       weatherDetailObj[weatherDetailKey] = weatherDetailValue;
     }
+
+    // Assigning weather detail values to weatherData object
     weatherData.wind = weatherDetailObj['Wind'];
     weatherData.humidity = weatherDetailObj['Humidity'];
     weatherData.dewPoint = weatherDetailObj['Dew Point'];
@@ -116,17 +100,15 @@ async function weatherdotcom_crawler(url) {
     weatherData.Visibility = weatherDetailObj['Visibility'];
     weatherData.moonPhase = weatherDetailObj['Moon Phase'];
 
+    // Getting high and low temperature
     try {
-      const highLow = await elem(page, 'xpath', '//*[@id="todayDetails"]/section/div/div[2]/div[1]/div[2]');
-      let highLowTemp = await highLow.innerText();
-      if (highLowTemp) {
-        highLowTemp = highLowTemp.split("/");
-        weatherData.high = highLowTemp[0];
-        weatherData.low = highLowTemp[1];
-      }
+        const highLow = await elem(page, 'xpath', '//*[@id="todayDetails"]/section/div/div[2]/div[1]/div[2]');
+        const highLowTemp = await highLow.innerText();
+        if (highLowTemp) {
+            [weatherData.high, weatherData.low] = highLowTemp.split("/");
+        }
     } catch (err) {
-      logger.error("Error getting high low temp");
-      logger.error(err.message);
+        logger.error("Error getting high/low temperature:", err.message);
     }
 
     try {
