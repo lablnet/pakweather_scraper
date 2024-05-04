@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 const { cities } = require('./helper/data');
 const providers = require('../provider/providers');
 const { addOrUpdateRecord } = require('./helper/dynamo');
-
+const { logger } = require('./helper/log'); 
 
 const NO_OF_THREADS = 10
 const site = process.argv[2] || "weather.com";
@@ -15,14 +15,14 @@ async function initializeQueue() {
      cities.map(city => {
         urlSet.add(`${base_url}${city.lat},${city.lng}?unit=c`);
      });
-    console.log('Queue initialized successfully.');
+     logger.log('Queue initialized successfully.');
 }
 
 if (isMainThread) {
     (async () => {
         await initializeQueue();
         const urlArray = Array.from(urlSet);
-        console.log(`Total URLs: ${urlArray.length}`);
+        logger.log(`Total URLs: ${urlArray.length}`);
 
         const workers = [];
         const segmentSize = Math.ceil(urlArray.length / NO_OF_THREADS);
@@ -32,9 +32,9 @@ if (isMainThread) {
             const worker = new Worker(__filename, { workerData: { urls: workerUrls, id: i + 1 } });
             worker.on('message', message => {
                 message.urls.forEach(url => urlSet.delete(url));
-                console.log(`Remaining URLs: ${Array.from(urlSet).length}`);
+                logger.log(`Remaining URLs: ${Array.from(urlSet).length}`);
                 if (Array.from(urlSet).length === 0) {
-                    console.log('All URLs processed.');
+                    logger.log('All URLs processed.');
                 }
             });
             workers.push(worker);
@@ -46,10 +46,10 @@ if (isMainThread) {
     (async () => {
         const { urls, id } = workerData;
         for (const url of urls) {
-            console.log(`Thread ${id} now crawling ${url}`);
+            logger.log(`Thread ${id} now crawling ${url}`);
             const data = await providers[site](url);
             await addOrUpdateRecord(data);
-            console.log(`Thread ${id} processed ${url}`);
+            logger.log(`Thread ${id} processed ${url}`);
         }
         parentPort.postMessage({ id: id, urls: urls });
     })();
