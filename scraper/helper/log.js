@@ -65,9 +65,21 @@ const logger = {
                 console.log(logMessage);
         }
 
-        fs.appendFileSync('app.log', logMessage);
+        // check in logs folder, if current year folder exists.
+        if (!fs.existsSync('../logs')) {
+            fs.mkdirSync('../logs');
+        }
+        const currentYear = new Date().getFullYear();
+        if (!fs.existsSync(`../logs/${currentYear}`)) {
+            fs.mkdirSync(`../logs/${currentYear}`);
+        }
+        // check in logs folder, if current month folder exists.
+        const currentMonth = new Date().toLocaleString('default', { month: 'long' });
+        const logFile = `../logs/${currentYear}/${currentMonth}.log`;
+        fs.appendFileSync(logFile, logMessage);
     }
 }
+
 module.exports = {
     logger
 }
