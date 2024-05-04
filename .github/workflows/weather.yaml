@@ -34,13 +34,12 @@ jobs:
         run: npx playwright install --with-deps
       - name: Install pnpm
         run: npm install -g pnpm                            
-      - name: Change directory and list files
+      - name: Change directory and perform subsequent steps
         working-directory: scraper
-        run: ls -alh
-      - name: Install Requirements                             
-        run: pnpm install
-      - name: Run the script
-        run: node main.js weather.com
+        run: |
+          ls -alh
+          pnpm install
+          node main.js weather.com
       - name: Commit and push if it changed	
         run: |
           git config user.name "alphasofthub-bot"
