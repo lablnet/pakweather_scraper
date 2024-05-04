@@ -150,7 +150,7 @@ const navigate = async (page, url, wait = 0, timeout = 90000) => {
  * 
  * @returns {object} - The element.
  */
-const elem = async (page, type, selector, wait = 0, timeout = 60000) => {
+const elem = async (page, type, selector, wait = 0, timeout = 60000, multiple = false) => {
     let element = page;
     if (!selector)
         throw new Error('Selector is required');
@@ -178,7 +178,7 @@ const elem = async (page, type, selector, wait = 0, timeout = 60000) => {
         throw new Error('Element not found');
     }
 
-    return element;
+    return multiple ? await element.all() : await element.first();
 }
 
 /**
