@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 /**
- * Get the browser and page.
+ * Get the browser.
  * 
  * @param {object} params - The browser params.
  * 
@@ -22,6 +22,76 @@ const getBrowser = async (params) => {
     const { chromium } = require('playwright');
     const browser = await chromium.launch(params);
     return browser
+}
+
+/**
+ * Get the browser and page with the given params.
+ * 
+ * @param {boolean} headless - The headless mode.
+ * @param {string} waitUntil - The wait until.
+ * @param {boolean} javaScriptEnabled - The java script enabled.
+ * @param {boolean} blockImages - The block images.
+ * @param {boolean} blockVideos - The block videos.
+ * @param {boolean} blockScripts - The block scripts.
+ * @param {boolean} blockCookies - The block cookies.
+ * @param {boolean} blockMedia - The block media.
+ * 
+ * @since v1.0.0
+ * @author Muhammad Umer Farooq <umer@lablnet.com>
+ * 
+ * @returns {browser, page} - The browser and page.
+ */
+const getBrowserAndPage = async ({
+    headless = false,
+    waitUntil = 'load',
+    javaScriptEnabled = true,
+    blockImages = true,
+    blockVideos = true,
+    blockScripts = true,
+    blockCookies = true,
+    blockMedia = true,
+}) => {
+    const browser = await getBrowser({
+      headless: headless,
+      waitUntil: waitUntil,
+      javaScriptEnabled: javaScriptEnabled
+    })
+    const context = await browser.newContext()
+    const page = await context.newPage({ target: 'tab' })
+  
+    // Interception for resource loading and cookie blocking
+    await page.route('**/*', async route => {
+      const request = route.request()
+  
+      // Block images, videos, scripts, and cookies to speed up the page load
+      if (
+        (blockVideos && request.resourceType() === 'video') ||
+        (blockMedia && request.resourceType() === 'media') ||
+        (blockImages && request.resourceType() === 'image') ||
+        (blockScripts && request.resourceType() === 'script') ||
+        (blockCookies && request.url().includes('Notice'))
+      ) {
+        route.abort()
+      } else {
+        // Remove 'Set-Cookie' headers from the response to block cookies
+        const response = await route.continue()
+        if (response && blockCookies) {
+          const headers = response.headers()
+           // Strip Set-Cookie headers from the response
+          delete headers['set-cookie']
+        }
+      }
+    })
+  
+    // Automatically reject or handle cookie consent dialogs
+    page.on('dialog', async dialog => {
+      if (dialog.message().includes('cookie')) {
+        await dialog.dismiss()
+      } else {
+        await dialog.accept()
+      }
+    })
+    return { browser, page }
 }
 
 /**
