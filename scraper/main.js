@@ -8,6 +8,8 @@ const { fileToSet } = require('./helper/functions');
 // Number of threads.
 const NO_OF_THREADS = 4;
 
+const site = process.argv[2] || "weather.com";
+
 // Base URL
 const base_url = "https://weather.com/weather/today/l/";
 
@@ -21,12 +23,10 @@ fs.writeFileSync('queue.txt', cities.map(city => `${base_url}${city['lat']},${ci
 
 console.log('Queue file created successfully.');
 
-Spider.init("weather.com");
+Spider.init(site);
 
 // write cities into queue.
 cities.forEach(async (city) => {
-    // console.log(`${base_url}${city['lat']},${city['lng']}?unit=c`);
-    // base_url + city['lat'] + ',' + city['lng'] + "?unit=c" + "\n"
     let link = `${base_url}${city['lat']},${city['lng']}?unit=c`;
     // await Spider.crawl_page(`Thread ${1}`, link);
     fs.appendFileSync('queue.txt', `${link}\n`);
@@ -54,7 +54,7 @@ async function work() {
 
 function jobs() {
     const queued_links = fileToSet("queue.txt");
-    //queue.push(...queued_links);
+    // queue.push(...queued_links);
     // push element to set.
     queued_links.forEach(link => queue.add(link));
    // console.log("Queue", queue);
@@ -84,9 +84,9 @@ function pak_weather() {
     crawl();
 }
 
-// pak_weather();
+pak_weather();
 
-(async () => {
-    let link = "https://weather.com/weather/today/l/25.8072,66.6219?unit=c"
-    await Spider.crawl_page(`Thread ${1}`, link);
-})();
+// (async () => {
+//     let link = "https://weather.com/weather/today/l/25.8072,66.6219?unit=c"
+//     await Spider.crawl_page(`Thread ${1}`, link);
+// })();
