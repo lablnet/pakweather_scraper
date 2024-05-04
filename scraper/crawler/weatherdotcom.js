@@ -3,6 +3,7 @@ const { getDatetime } = require('../helper/functions');
 const { get_by_lat_long } = require('../helper/data');
 const { getLatLong } = require('../helper/functions');
 const { logger } = require('../helper/log');
+const { getDataHandler } = require('../helper/handler');
 
 async function weatherdotcom_crawler(url) {
     let [latitude, longitude]  = getLatLong(url)
@@ -44,53 +45,19 @@ async function weatherdotcom_crawler(url) {
         "site": "weather.com",
     }
 
-    try {
-      weatherData.feelLikeTemp = await getData(page, 'class', 'TodayDetailsCard--feelsLikeTempValue--2icPt');
-    } catch (err) {
-      logger.error("Error getting feel like temp");
-      logger.error(err.message);
-    }
-    
+    await Promise.all([
+        getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--2icPt', 'feelLikeTemp', 'Error getting feel like temp'),
+        getDataHandler(page, weatherData, 'tag', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
+        getDataHandler(page, weatherData, 'tag', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--phraseValue--mZC_p', 'currentCondition', 'Error getting current condition'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempHiLoValue--3T1DG', 'day_night', 'Error getting day night'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempValue--MHmYY', 'temp', 'Error getting temp'),
+    ]);
 
-    try {
-      weatherData.sunrise = await getData(page, 'tag', '[data-testid="SunriseValue"]');
-    } catch (err) {
-      logger.error("Error getting sunrise");
-      logger.error(err.message);
-    }
-
-    try {
-      weatherData.sunset = await getData(page, 'tag', '[data-testid="SunsetValue"]');
-    } catch (err) {
-      logger.error("Error getting sunset");
-      logger.error(err.message);
-    }
-
-    try {
-      weatherData.currentCondition = await getData(page, 'class', 'CurrentConditions--phraseValue--mZC_p');
-    } catch (err) {
-      logger.error("Error getting current condition");
-      logger.error(err.message);
-    }
-
-    // CurrentConditions--tempHiLoValue--3T1DG
-    try {
-      weatherData.day_night = await getData(page, 'class', 'CurrentConditions--tempHiLoValue--3T1DG');
-    } catch (err) {
-      logger.error("Error getting day night");
-      logger.error(err.message);
-    }
     if (weatherData.day_night) {
       const tempHiLoArr = weatherData.day_night.split("•");
       weatherData.day = tempHiLoArr[0].trim();
       weatherData.night = tempHiLoArr[1].trim();
-    }
-
-    try {
-      weatherData.temp = await getData(page, 'class', 'CurrentConditions--tempValue--MHmYY');
-    } catch (err) {
-      logger.error("Error getting temp");
-      logger.error(err.message);
     }
 
 
