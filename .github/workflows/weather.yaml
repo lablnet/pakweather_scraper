@@ -42,9 +42,10 @@ jobs:
           node main.js weather.com
       - name: Commit and push if it changed	
         run: |
+          cd ..
           git config user.name "alphasofthub-bot"
           git config user.email "alphasofthub-bot@users.noreply.github.com"
           git add -A
-          timestamp=$(python src/time.py 2>&1)
+          timestamp=$(date)
           git commit -m "Last Updated: ${timestamp}" || exit 0
           git push origin main
