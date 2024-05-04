@@ -7,12 +7,14 @@ require('dotenv').config();
 
 // Creating the DynamoDB client with AWS SDK v3
 const dynamoDBClient = new DynamoDBClient({
-  region: process.env.REGION,
+  region: process.env.AWS_REGION,
   credentials: {
-    accessKeyId: process.env.ACCESS_KEY_ID,
-    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   },
 });
+
+const table = process.env.TABLES.split(',')[0];
 
 const docClient = DynamoDBDocumentClient.from(dynamoDBClient);
 
