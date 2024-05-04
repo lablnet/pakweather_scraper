@@ -22,7 +22,7 @@ const docClient = DynamoDBDocumentClient.from(dynamoDBClient);
  * 
  * @param {object} key - The key.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {Boolean} - True if exists, false otherwise.
@@ -45,7 +45,7 @@ async function checkRecordExists(key) {
 /**
  * Read all records from the table.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - Records.
@@ -67,7 +67,7 @@ async function readAllRecords() {
 /**
  * Add or update the record.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The record.
@@ -93,7 +93,7 @@ async function addOrUpdateRecord(item) {
  * 
  * @param {string} tableName - The table name.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {void}

@@ -12,7 +12,7 @@ const { logger } = require('./log');
  * @param {string} key - The key.
  * @param {string} errorMsg - The error message.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns void

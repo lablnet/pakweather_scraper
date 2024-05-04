@@ -156,7 +156,7 @@ const cities = [
  * @returns {Object} - The city.
  * 
  * @author Muhammad Umer Farooq <umer@lablnet.com>
- * @since v1.0.0
+ * @since v1.0.2
  */
 const get_by_lat_long = (lat, lng) => {
     return cities.find((item) => item.lat === lat && item.lng === lng);

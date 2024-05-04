@@ -8,7 +8,7 @@ const fs = require('fs');
  * @returns {Array} - The latitude and longitude.
  * 
  * @author Muhammad Umer Farooq <umer@lablnet.com>
- * @since v1.0.0
+ * @since v1.0.2
  */
 const getLatLong = (url) => {
     const latlong = url.split("/")[6].split(",");
@@ -21,48 +21,13 @@ const getLatLong = (url) => {
  * @returns {Date} - The date.
  * 
  * @author Muhammad Umer Farooq <umer@lablnet.com>
- * @since v1.0.1
+ * @since v1.0.2
  */
 const getDatetime = () => {
     return new Date().toLocaleString("en-US", {timeZone: "Asia/Karachi"});
 }  
 
-/**
- * File to set.
- * 
- * @param {string} fileName - The file name.
- * 
- * @returns {Set} - The set.
- * 
- * @author Muhammad Umer Farooq <umer@lablnet.com>
- * @since v1.0.0
- */
-const fileToSet = (fileName) => {
-    const fileData = fs.readFileSync(fileName, 'utf-8');
-    const lines = fileData.split('\n');
-    return new Set(lines);
-}
-
-/**
- * Set to file.
- * 
- * @param {Set} set - The set.
- * @param {string} fileName - The file name.
- * 
- * @returns {void}
- * 
- * @author Muhammad Umer Farooq <umer@lablnet.com>
- * @since v1.0.0
- */
-const setToFile = (set, fileName) => {
-    const data = [...set].join('\n');
-    fs.writeFileSync(fileName, data);
-}
-
-
 module.exports = {
     getDatetime,
-    fileToSet,
-    setToFile,
     getLatLong,
 }

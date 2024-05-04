@@ -6,7 +6,7 @@ const fs = require('fs');
  * 
  * @param {object} params - The browser params.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The browser.

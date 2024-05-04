@@ -5,7 +5,7 @@ require('dotenv').config();
  * 
  * @param {object} params - The browser params.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The browser.
@@ -36,7 +36,7 @@ const getBrowser = async (params) => {
  * @param {boolean} blockCookies - The block cookies.
  * @param {boolean} blockMedia - The block media.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {browser, page} - The browser and page.
@@ -99,7 +99,7 @@ const getBrowserAndPage = async ({
  * 
  * @param {number} wait - The time to wait.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The browser and page.
@@ -119,7 +119,7 @@ const _wait = async (wait) => {
  * @param {string} url - The url to navigate.
  * @param {number} wait - The time to wait.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The page object.
@@ -145,7 +145,7 @@ const navigate = async (page, url, wait = 0, timeout = 90000) => {
  * @param {string} type - The type of selector.
  * @param {string} selector - The selector.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The element.
@@ -189,7 +189,7 @@ const elem = async (page, type, selector, wait = 0, timeout = 60000, multiple = 
  * @param {string} selector - The selector.
  * @param {string} value - The value to input.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The page object.
@@ -207,7 +207,7 @@ const input = async (page, type, selector, value, wait = 0) => {
  * @param {string} type - The type of selector.
  * @param {string} selector - The selector.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The page object.
@@ -225,7 +225,7 @@ const click = async (page, type, selector) => {
  * @param {string} type - The type of selector.
  * @param {string} selector - The selector.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The page object.
@@ -243,7 +243,7 @@ const doubleClick = async (page, type, selector) => {
  * @param {string} type - The type of selector.
  * @param {string} selector - The selector.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {object} - The page object.
@@ -262,7 +262,7 @@ const clickCheckBox = async (page, type, selector) => {
  * @param {string} selector - The selector.
  * @param {string} data_type - The type of data to get.
  * 
- * @since v1.0.0
+ * @since v1.0.2
  * @author Muhammad Umer Farooq <umer@lablnet.com>
  * 
  * @returns {string} - The data.
