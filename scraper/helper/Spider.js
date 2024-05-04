@@ -14,7 +14,9 @@ const Spider = {
     async crawl_page(thread_name, page_url) {
         console.log(`${thread_name} now crawling ${page_url}`);
         const data = await providers[this.site](page_url);
-        console.log(data);
+
+
+        console.log("Data saved successfully.");
     },
 };
 

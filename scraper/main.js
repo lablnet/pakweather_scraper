@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 const { cities } = require('./helper/data');
 const Spider = require('./helper/Spider');
 
-const NO_OF_THREADS = 4;
+const NO_OF_THREADS = 10
 const site = process.argv[2] || "weather.com";
 const base_url = "https://weather.com/weather/today/l/";
 let urlSet = new Set();
@@ -11,7 +11,7 @@ Spider.init(site );
 
 async function initializeQueue() {
      cities.map(city => {
-        urlSet.add(`${base_url}${city.lat},${city.long}?unit=c`);
+        urlSet.add(`${base_url}${city.lat},${city.lng}?unit=c`);
      });
     console.log('Queue initialized successfully.');
 }
@@ -29,7 +29,6 @@ if (isMainThread) {
             const workerUrls = urlArray.slice(i * segmentSize, (i + 1) * segmentSize);
             const worker = new Worker(__filename, { workerData: { urls: workerUrls, id: i + 1 } });
             worker.on('message', message => {
-                // console.log(`Message from worker ${i + 1}:`, message);
                 message.urls.forEach(url => urlSet.delete(url));
                 console.log(`Remaining URLs: ${Array.from(urlSet).length}`);
                 if (Array.from(urlSet).length === 0) {
