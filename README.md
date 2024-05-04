@@ -1,33 +1,34 @@
 [![Pakistan Weather](https://github.com/lablnet/pakweather_scrapper/actions/workflows/weather.yaml/badge.svg)](https://github.com/lablnet/pakweather_scrapper/actions/workflows/weather.yaml)
 
-# Overview  
-A multi-threaded **Pakistan** Weather crawler  written in Python    
-
-| ⚠️ Note                                                                    |
-|:-----------------------------------------------------------------------------|
-- Multithreading does not affect the network throughput, it only splits the urls into multiple threads which wait in the network queue. But the data updating in the file is concurrent. <br>
-    - For example, if the 1st thread is updating data in the file at the same time the 2nd thread is fetching data from the network, the 2nd thread does not have to wait for the 1st thread to finish.
-
+# Overview
+A multi-threaded **Pakistan** Weather crawler written in JavaScript
 
 ## Purpose
-The sole purpose of this project is to get the weather data of Pakistan from Weather Channel and store it in a database/csv. The data is then can be used for further analysis.
+The sole purpose of this project is to extract weather data from the Weather Channel and store it in a database for further analysis.
 
 ## Requirements
-- Python 3.6 or higher
-    
+* Node.js 18.x or above
+
 ## Installation
-- Clone the repository
-- Install the requirements using `pip install -r requirements.txt`
-- Run the crawler using `python3 src/main.py`
+1. Clone the repository
+2. Install dependencies using `npm install` or `pnpm install`
+3. Copy `.env.example` to `.env` and update the values
+4. Run the crawler using `node main.js weather.com`
+	* The first argument is the website to crawl
+	* You can add more crawlers; check the `main.js` file for more information
 
 ## Contributions
-There is still a lot of work to do, so feel free to contribute to open `PR`
+There is still a lot of work to be done, so feel free to contribute by opening a PR.
 
-###  Contrubuting guide
-[Contribution Guidelines](https://github.com/lablnet/pakweather_scrapper/blob/main/CONTRIBUTING.md)
+### Contributing Guide
+[Contribution Guidelines](https://github.com/lablnet/pakweather_scraper/blob/main/CONTRIBUTING.md)
 
 ## LICENSE
-- GPLv3
+* MIT
 
 ## Readme of Web
-- [Web](./web/README.md)
+* [Web](./web/README.md)
+
+### Python Version
+* The script has been rewritten in Node.js to fix issues and update the structure. The Python version is available in the `python_script` folder but is no longer maintained.
+* [Python](./python_script/README.md)
