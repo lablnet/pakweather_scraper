@@ -32,8 +32,10 @@ jobs:
           node-version: 20       
       - name: Install pnpm
         run: npm install -g pnpm                           
+      - name: Clear Playwright Cache
+        run: npx playwright cache clean
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install
       - name: Change directory and perform subsequent steps
         working-directory: scraper
         run: |
