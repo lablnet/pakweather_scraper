@@ -30,10 +30,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20       
+      - name: Install pnpm
+        run: npm install -g pnpm                           
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
-      - name: Install pnpm
-        run: npm install -g pnpm                            
       - name: Change directory and perform subsequent steps
         working-directory: scraper
         run: |
