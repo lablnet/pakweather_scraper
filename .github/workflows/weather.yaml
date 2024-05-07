@@ -32,15 +32,12 @@ jobs:
           node-version: 20       
       - name: Install pnpm
         run: npm install -g pnpm                           
-      - name: Clear Playwright Cache
-        run: npx playwright cache clean
-      - name: Install Playwright Browsers
-        run: npx playwright install
       - name: Change directory and perform subsequent steps
         working-directory: scraper
         run: |
           ls -alh
           pnpm install
+          npx playwright install
           node main.js weather.com
       - name: Commit and push if it changed	
         run: |
