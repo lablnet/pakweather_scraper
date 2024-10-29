@@ -47,7 +47,7 @@ if (isMainThread) {
         for (const url of urls) {
             logger.log(`Thread ${id} now crawling ${url}`);
             const data = await providers[site](url);
-            await addOrUpdateRecord(data);
+            // await addOrUpdateRecord(data);
             logger.log(`Thread ${id} processed ${url}`);
         }
         parentPort.postMessage({ id: id, urls: urls });
