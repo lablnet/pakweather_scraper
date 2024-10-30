@@ -5,7 +5,7 @@ const providers = require('./helper/providers');
 const { addOrUpdateRecord } = require('./helper/dynamo');
 const { logger } = require('./helper/log'); 
 
-const NO_OF_THREADS = 1 // change back to 10
+const NO_OF_THREADS = 10
 const site = process.argv[2] || "weather.com";
 const base_url = "https://weather.com/weather/today/l/";
 let urlSet = new Set();
@@ -47,8 +47,7 @@ if (isMainThread) {
         for (const url of urls) {
             logger.log(`Thread ${id} now crawling ${url}`);
             const data = await providers[site](url);
-            // await addOrUpdateRecord(data);
-            console.log(data)
+            await addOrUpdateRecord(data);
             logger.log(`Thread ${id} processed ${url}`);
         }
         parentPort.postMessage({ id: id, urls: urls });

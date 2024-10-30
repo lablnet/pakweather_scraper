@@ -92,7 +92,6 @@ async function weatherdotcom_crawler(url) {
     }
 
     // Assigning weather detail values to weatherData object
-    // [weatherData.high, weatherData.low] = weatherDetailObj['High / Low'].split("/");
     weatherData.wind = weatherDetailObj['Wind'];
     weatherData.humidity = weatherDetailObj['Humidity'];
     weatherData.dewPoint = weatherDetailObj['Dew Point'];
@@ -108,7 +107,6 @@ async function weatherdotcom_crawler(url) {
         if (highLowTemp) {
             [weatherData.high, weatherData.low] = highLowTemp.split("/");
         }
-        console.log([weatherData.high, weatherData.low])
     } catch (err) {
         logger.error("Error getting high/low temperature:", err.message);
     }
@@ -116,7 +114,6 @@ async function weatherdotcom_crawler(url) {
     try {
       const windDirection = await elem(page, 'xpath', '//*[@id="todayDetails"]/section/div/div[2]/div[2]/div[2]/span/span[1]');
       weatherData.windDirectin = await windDirection.innerHTML();
-      console.log("Wind Direction", weatherData.windDirectin);
     } catch (err) {
       logger.error("Error getting wind direction");
       logger.error(err.message);

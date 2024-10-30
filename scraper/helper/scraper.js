@@ -272,9 +272,6 @@ const clickCheckBox = async (page, type, selector) => {
  */
 const getData = async (page, type, selector, data_type = 'default', wait = 0) => {
     let element = await elem(page, type, selector);
-    // console.log("type", type);
-    // console.log("selector", selector);
-    // console.log("data_type", data_type);
     switch (data_type) {
         case 'text':
             return await element.textContent();
