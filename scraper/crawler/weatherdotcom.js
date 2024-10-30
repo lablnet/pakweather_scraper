@@ -45,14 +45,14 @@ async function weatherdotcom_crawler(url) {
         "site": "weather.com",
     }
 
-    // Getting data from the page
+    // Getting data from the page (issue here)
     await Promise.all([
-        getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--2icPt', 'feelLikeTemp', 'Error getting feel like temp'),
+        getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--8WgHV', 'feelLikeTemp', 'Error getting feel like temp'),
         getDataHandler(page, weatherData, 'tag', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
         getDataHandler(page, weatherData, 'tag', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--phraseValue--mZC_p', 'currentCondition', 'Error getting current condition'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempHiLoValue--3T1DG', 'day_night', 'Error getting day night'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempValue--MHmYY', 'temp', 'Error getting temp'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--phraseValue---VS-k', 'currentCondition', 'Error getting current condition'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempHiLoValue--Og9IG', 'day_night', 'Error getting day night'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempValue--zUBSz', 'temp', 'Error getting temp'),
     ]);
 
     if (weatherData.day_night) {
@@ -60,7 +60,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     try {
-        const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--EONAt');
+        const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--4GWPb');
         weatherData.airQualityNumber = await getData(airQualityWrapper, 'tag', 'text', 'text');
         weatherData.airQualityText = await getData(airQualityWrapper, 'tag', 'span');
         weatherData.airQualityDescription = await getData(airQualityWrapper, 'tag', 'p');
@@ -69,7 +69,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     // Getting weather details
-    const weatherDetailWrapper = await page.$$('div.WeatherDetailsListItem--WeatherDetailsListItem--1CnRC');
+    const weatherDetailWrapper = await page.$$('div.WeatherDetailsListItem--WeatherDetailsListItem--HLP3I');
     const countWeatherDetailWrapper = weatherDetailWrapper.length;
     let weatherDetailObj = {};
     for (let i = 0; i < countWeatherDetailWrapper; i++) {
@@ -92,6 +92,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     // Assigning weather detail values to weatherData object
+    // [weatherData.high, weatherData.low] = weatherDetailObj['High / Low'].split("/");
     weatherData.wind = weatherDetailObj['Wind'];
     weatherData.humidity = weatherDetailObj['Humidity'];
     weatherData.dewPoint = weatherDetailObj['Dew Point'];
@@ -107,6 +108,7 @@ async function weatherdotcom_crawler(url) {
         if (highLowTemp) {
             [weatherData.high, weatherData.low] = highLowTemp.split("/");
         }
+        console.log([weatherData.high, weatherData.low])
     } catch (err) {
         logger.error("Error getting high/low temperature:", err.message);
     }
@@ -114,6 +116,7 @@ async function weatherdotcom_crawler(url) {
     try {
       const windDirection = await elem(page, 'xpath', '//*[@id="todayDetails"]/section/div/div[2]/div[2]/div[2]/span/span[1]');
       weatherData.windDirectin = await windDirection.innerHTML();
+      console.log("Wind Direction", weatherData.windDirectin);
     } catch (err) {
       logger.error("Error getting wind direction");
       logger.error(err.message);
