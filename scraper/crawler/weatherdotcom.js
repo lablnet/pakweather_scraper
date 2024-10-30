@@ -47,12 +47,12 @@ async function weatherdotcom_crawler(url) {
 
     // Getting data from the page
     await Promise.all([
-        getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--2icPt', 'feelLikeTemp', 'Error getting feel like temp'),
+        getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--8WgHV', 'feelLikeTemp', 'Error getting feel like temp'),
         getDataHandler(page, weatherData, 'tag', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
         getDataHandler(page, weatherData, 'tag', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--phraseValue--mZC_p', 'currentCondition', 'Error getting current condition'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempHiLoValue--3T1DG', 'day_night', 'Error getting day night'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempValue--MHmYY', 'temp', 'Error getting temp'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--phraseValue---VS-k', 'currentCondition', 'Error getting current condition'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempHiLoValue--Og9IG', 'day_night', 'Error getting day night'),
+        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempValue--zUBSz', 'temp', 'Error getting temp'),
     ]);
 
     if (weatherData.day_night) {
@@ -60,7 +60,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     try {
-        const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--EONAt');
+        const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--4GWPb');
         weatherData.airQualityNumber = await getData(airQualityWrapper, 'tag', 'text', 'text');
         weatherData.airQualityText = await getData(airQualityWrapper, 'tag', 'span');
         weatherData.airQualityDescription = await getData(airQualityWrapper, 'tag', 'p');
@@ -69,7 +69,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     // Getting weather details
-    const weatherDetailWrapper = await page.$$('div.WeatherDetailsListItem--WeatherDetailsListItem--1CnRC');
+    const weatherDetailWrapper = await page.$$('div.WeatherDetailsListItem--WeatherDetailsListItem--HLP3I');
     const countWeatherDetailWrapper = weatherDetailWrapper.length;
     let weatherDetailObj = {};
     for (let i = 0; i < countWeatherDetailWrapper; i++) {

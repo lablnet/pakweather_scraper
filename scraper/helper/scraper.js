@@ -168,6 +168,9 @@ const elem = async (page, type, selector, wait = 0, timeout = 60000, multiple = 
         case 'xpath':
             element = await page.locator(`xpath=${selector}`, { timeout: timeout });
             break;
+        case 'data-testid':
+            element = await page.locator(`[data-testid=${selector}]`, { timeout: timeout });
+            break;
         defaut:
             throw new Error('Invalid selector type');
     }
