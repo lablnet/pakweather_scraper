@@ -45,7 +45,7 @@ async function weatherdotcom_crawler(url) {
         "site": "weather.com",
     }
 
-    // Getting data from the page (issue here)
+    // Getting data from the page
     await Promise.all([
         getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--8WgHV', 'feelLikeTemp', 'Error getting feel like temp'),
         getDataHandler(page, weatherData, 'tag', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
