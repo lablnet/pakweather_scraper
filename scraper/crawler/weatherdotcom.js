@@ -47,12 +47,12 @@ async function weatherdotcom_crawler(url) {
 
     // Getting data from the page
     await Promise.all([
-        getDataHandler(page, weatherData, 'class', 'TodayDetailsCard--feelsLikeTempValue--8WgHV', 'feelLikeTemp', 'Error getting feel like temp'),
-        getDataHandler(page, weatherData, 'tag', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
-        getDataHandler(page, weatherData, 'tag', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--phraseValue---VS-k', 'currentCondition', 'Error getting current condition'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempHiLoValue--Og9IG', 'day_night', 'Error getting day night'),
-        getDataHandler(page, weatherData, 'class', 'CurrentConditions--tempValue--zUBSz', 'temp', 'Error getting temp'),
+        getDataHandler(page, weatherData, 'class', 'startsWith', 'TodayDetailsCard--feelsLikeContainer--', 'feelLikeTemp', 'Error getting feel like temp'),
+        getDataHandler(page, weatherData, 'css', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
+        getDataHandler(page, weatherData, 'css', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset'),
+        getDataHandler(page, weatherData, 'class', 'startsWith', 'CurrentConditions--phraseValue---', 'currentCondition', 'Error getting current condition'),
+        getDataHandler(page, weatherData, 'class', 'startsWith', 'CurrentConditions--tempHiLoValue--', 'day_night', 'Error getting day night'),
+        getDataHandler(page, weatherData, 'class', 'startsWith', 'CurrentConditions--tempValue--', 'temp', 'Error getting temp'),
     ]);
 
     if (weatherData.day_night) {
@@ -60,7 +60,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     try {
-        const airQualityWrapper = await elem(page, 'class', 'AirQuality--AirQualityCard--4GWPb');
+        const airQualityWrapper = await elem(page, 'css', '[class^="AirQuality--AirQualityCard--"]');
         weatherData.airQualityNumber = await getData(airQualityWrapper, 'tag', 'text', 'text');
         weatherData.airQualityText = await getData(airQualityWrapper, 'tag', 'span');
         weatherData.airQualityDescription = await getData(airQualityWrapper, 'tag', 'p');
@@ -69,7 +69,7 @@ async function weatherdotcom_crawler(url) {
     }
 
     // Getting weather details
-    const weatherDetailWrapper = await page.$$('div.WeatherDetailsListItem--WeatherDetailsListItem--HLP3I');
+    const weatherDetailWrapper = await page.$$('[class^="WeatherDetailsListItem--WeatherDetailsListItem--"]');
     const countWeatherDetailWrapper = weatherDetailWrapper.length;
     let weatherDetailObj = {};
     for (let i = 0; i < countWeatherDetailWrapper; i++) {

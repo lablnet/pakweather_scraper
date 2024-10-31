@@ -8,6 +8,7 @@ const { logger } = require('./log');
  * @param {object} page - The page object.
  * @param {object} weatherData - The weather data object.
  * @param {string} selectorType - The type of selector.
+ * @param {string} selectorWay - The Match partial or full selector.
  * @param {string} selector - The selector.
  * @param {string} key - The key.
  * @param {string} errorMsg - The error message.
@@ -17,9 +18,16 @@ const { logger } = require('./log');
  * 
  * @returns void
  */
-async function getDataHandler(page, weatherData, selectorType, selector, key, errorMsg) {
+async function getDataHandler(page, weatherData, selectorType, selectorWay, selector, key, errorMsg) {
     try {
-        const data = await getData(page, selectorType, selector);
+        let data;
+        if (selectorType === 'class' && selectorWay == 'startsWith') {
+            data = await getData(page, 'css', `[class^="${selector}"]`);
+        } else if (selectorType === 'class' && selectorWay == 'endsWith') {
+            data = await getData(page, 'css', `[class$="${selector}"]`);
+        } else {
+            data = await getData(page, selectorType, selector);
+        }
         weatherData[key] = data;
     } catch (err) {
         logger.error(errorMsg);
