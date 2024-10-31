@@ -163,7 +163,6 @@ const elem = async (page, type, selector, wait = 0, timeout = 60000, multiple = 
             element = await page.locator(`[class=${selector}]`, { timeout: timeout });
             break;
         case 'css':
-            console.log("Selector", selector);
             element = page.locator(selector, { timeout: timeout });
             break;    
         case 'tag':
