@@ -21490,3 +21490,600 @@
 2025-04-02T12:09:02.303Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.1020,74.8730?unit=c
 2025-04-02T12:09:02.303Z [LOG] Remaining URLs: 0
 2025-04-02T12:09:02.303Z [LOG] All URLs processed.
+2025-04-02T13:12:05.700Z [LOG] Queue initialized successfully.
+2025-04-02T13:12:05.717Z [LOG] Total URLs: 146
+2025-04-02T13:12:06.194Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-04-02T13:12:06.224Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-04-02T13:12:06.237Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-04-02T13:12:06.243Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-04-02T13:12:06.245Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-04-02T13:12:06.317Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-04-02T13:12:06.325Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-04-02T13:12:06.330Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-04-02T13:12:06.328Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-04-02T13:12:06.349Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-04-02T13:12:13.373Z [INFO] Scraping completed
+2025-04-02T13:12:13.404Z [INFO] Scraping completed
+2025-04-02T13:12:13.571Z [INFO] Scraping completed
+2025-04-02T13:12:13.776Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:13.776Z [LOG] Thread 10 processed https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-04-02T13:12:13.776Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-04-02T13:12:13.784Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:13.784Z [LOG] Thread 8 processed https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-04-02T13:12:13.785Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-04-02T13:12:13.870Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:13.873Z [LOG] Thread 3 processed https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-04-02T13:12:13.874Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-04-02T13:12:14.306Z [INFO] Scraping completed
+2025-04-02T13:12:14.677Z [INFO] Scraping completed
+2025-04-02T13:12:14.698Z [INFO] Scraping completed
+2025-04-02T13:12:14.711Z [INFO] Scraping completed
+2025-04-02T13:12:14.754Z [INFO] Scraping completed
+2025-04-02T13:12:14.883Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:14.885Z [LOG] Thread 6 processed https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-04-02T13:12:14.887Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-04-02T13:12:14.908Z [INFO] Scraping completed
+2025-04-02T13:12:14.931Z [INFO] Scraping completed
+2025-04-02T13:12:15.105Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:15.105Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-04-02T13:12:15.106Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-04-02T13:12:15.125Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:15.126Z [LOG] Thread 9 processed https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-04-02T13:12:15.126Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-04-02T13:12:15.136Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:15.137Z [LOG] Thread 2 processed https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-04-02T13:12:15.137Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-04-02T13:12:15.140Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:15.141Z [LOG] Thread 7 processed https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-04-02T13:12:15.141Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-04-02T13:12:15.254Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:15.254Z [LOG] Thread 1 processed https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-04-02T13:12:15.255Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-04-02T13:12:15.302Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:15.302Z [LOG] Thread 4 processed https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-04-02T13:12:15.311Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-04-02T13:12:18.042Z [INFO] Scraping completed
+2025-04-02T13:12:18.207Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:18.209Z [LOG] Thread 10 processed https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-04-02T13:12:18.209Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-04-02T13:12:18.233Z [INFO] Scraping completed
+2025-04-02T13:12:18.279Z [INFO] Scraping completed
+2025-04-02T13:12:18.367Z [INFO] Scraping completed
+2025-04-02T13:12:18.409Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:18.410Z [LOG] Thread 3 processed https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-04-02T13:12:18.410Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-04-02T13:12:18.444Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:18.445Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-04-02T13:12:18.445Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-04-02T13:12:18.515Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:18.515Z [LOG] Thread 8 processed https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-04-02T13:12:18.515Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-04-02T13:12:19.067Z [INFO] Scraping completed
+2025-04-02T13:12:19.135Z [INFO] Scraping completed
+2025-04-02T13:12:19.188Z [INFO] Scraping completed
+2025-04-02T13:12:19.220Z [INFO] Scraping completed
+2025-04-02T13:12:19.253Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:19.253Z [LOG] Thread 7 processed https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-04-02T13:12:19.254Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-04-02T13:12:19.298Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:19.299Z [LOG] Thread 5 processed https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-04-02T13:12:19.299Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-04-02T13:12:19.346Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:19.347Z [LOG] Thread 2 processed https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-04-02T13:12:19.347Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-04-02T13:12:19.365Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:19.366Z [LOG] Thread 1 processed https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-04-02T13:12:19.367Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-04-02T13:12:19.616Z [INFO] Scraping completed
+2025-04-02T13:12:19.967Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:19.967Z [LOG] Thread 9 processed https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-04-02T13:12:19.967Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-04-02T13:12:20.620Z [INFO] Scraping completed
+2025-04-02T13:12:20.795Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:20.796Z [LOG] Thread 4 processed https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-04-02T13:12:20.796Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-04-02T13:12:22.258Z [INFO] Scraping completed
+2025-04-02T13:12:22.406Z [INFO] Scraping completed
+2025-04-02T13:12:22.430Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:22.431Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-04-02T13:12:22.432Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-04-02T13:12:22.517Z [INFO] Scraping completed
+2025-04-02T13:12:22.549Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:22.549Z [LOG] Thread 10 processed https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-04-02T13:12:22.550Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-04-02T13:12:22.627Z [INFO] Scraping completed
+2025-04-02T13:12:22.677Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:22.678Z [LOG] Thread 3 processed https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-04-02T13:12:22.681Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-04-02T13:12:22.828Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:22.828Z [LOG] Thread 8 processed https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-04-02T13:12:22.828Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-04-02T13:12:23.343Z [INFO] Scraping completed
+2025-04-02T13:12:23.388Z [INFO] Scraping completed
+2025-04-02T13:12:23.514Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:23.515Z [LOG] Thread 7 processed https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-04-02T13:12:23.515Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-04-02T13:12:23.533Z [INFO] Scraping completed
+2025-04-02T13:12:23.558Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:23.559Z [LOG] Thread 5 processed https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-04-02T13:12:23.559Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-04-02T13:12:23.569Z [INFO] Scraping completed
+2025-04-02T13:12:23.694Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:23.697Z [LOG] Thread 2 processed https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-04-02T13:12:23.697Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-04-02T13:12:23.741Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:23.742Z [LOG] Thread 1 processed https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-04-02T13:12:23.742Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-04-02T13:12:24.152Z [INFO] Scraping completed
+2025-04-02T13:12:24.409Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:24.410Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-04-02T13:12:24.410Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-04-02T13:12:24.588Z [INFO] Scraping completed
+2025-04-02T13:12:24.776Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:24.780Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-04-02T13:12:24.780Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-04-02T13:12:26.310Z [INFO] Scraping completed
+2025-04-02T13:12:26.380Z [INFO] Scraping completed
+2025-04-02T13:12:26.472Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:26.472Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-04-02T13:12:26.473Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-04-02T13:12:26.505Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:26.509Z [LOG] Thread 10 processed https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-04-02T13:12:26.510Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-04-02T13:12:27.075Z [INFO] Scraping completed
+2025-04-02T13:12:27.182Z [INFO] Scraping completed
+2025-04-02T13:12:27.268Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:27.269Z [LOG] Thread 8 processed https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-04-02T13:12:27.269Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-04-02T13:12:27.379Z [INFO] Scraping completed
+2025-04-02T13:12:27.388Z [INFO] Scraping completed
+2025-04-02T13:12:27.394Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:27.394Z [LOG] Thread 3 processed https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-04-02T13:12:27.394Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-04-02T13:12:27.559Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:27.561Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:27.560Z [LOG] Thread 5 processed https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-04-02T13:12:27.561Z [LOG] Thread 7 processed https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-04-02T13:12:27.562Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-04-02T13:12:27.562Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-04-02T13:12:28.178Z [INFO] Scraping completed
+2025-04-02T13:12:28.216Z [INFO] Scraping completed
+2025-04-02T13:12:28.345Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:28.345Z [LOG] Thread 1 processed https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-04-02T13:12:28.345Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-04-02T13:12:28.372Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:28.372Z [LOG] Thread 2 processed https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-04-02T13:12:28.373Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-04-02T13:12:28.536Z [INFO] Scraping completed
+2025-04-02T13:12:28.743Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:28.743Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-04-02T13:12:28.743Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-04-02T13:12:29.283Z [INFO] Scraping completed
+2025-04-02T13:12:29.491Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:29.492Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-04-02T13:12:29.492Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-04-02T13:12:30.228Z [INFO] Scraping completed
+2025-04-02T13:12:30.385Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:30.386Z [LOG] Thread 6 processed https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-04-02T13:12:30.386Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-04-02T13:12:30.442Z [INFO] Scraping completed
+2025-04-02T13:12:30.574Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:30.575Z [LOG] Thread 10 processed https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-04-02T13:12:30.575Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-04-02T13:12:30.934Z [INFO] Scraping completed
+2025-04-02T13:12:31.054Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:31.055Z [LOG] Thread 8 processed https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-04-02T13:12:31.056Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-04-02T13:12:31.448Z [INFO] Scraping completed
+2025-04-02T13:12:31.545Z [INFO] Scraping completed
+2025-04-02T13:12:31.620Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:31.621Z [LOG] Thread 3 processed https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-04-02T13:12:31.622Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-04-02T13:12:31.690Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:31.690Z [LOG] Thread 7 processed https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-04-02T13:12:31.691Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-04-02T13:12:31.790Z [INFO] Scraping completed
+2025-04-02T13:12:32.028Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:32.028Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-04-02T13:12:32.029Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-04-02T13:12:32.241Z [INFO] Scraping completed
+2025-04-02T13:12:32.438Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:32.438Z [LOG] Thread 2 processed https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-04-02T13:12:32.438Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-04-02T13:12:32.589Z [INFO] Scraping completed
+2025-04-02T13:12:32.814Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:32.815Z [LOG] Thread 1 processed https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-04-02T13:12:32.815Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-04-02T13:12:32.931Z [INFO] Scraping completed
+2025-04-02T13:12:33.091Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:33.091Z [LOG] Thread 9 processed https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-04-02T13:12:33.091Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-04-02T13:12:33.304Z [INFO] Scraping completed
+2025-04-02T13:12:33.466Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:33.466Z [LOG] Thread 4 processed https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-04-02T13:12:33.466Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-04-02T13:12:33.667Z [INFO] Scraping completed
+2025-04-02T13:12:33.832Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:33.833Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-04-02T13:12:33.833Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-04-02T13:12:34.239Z [INFO] Scraping completed
+2025-04-02T13:12:34.413Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:34.413Z [LOG] Thread 10 processed https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-04-02T13:12:34.413Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-04-02T13:12:34.608Z [INFO] Scraping completed
+2025-04-02T13:12:34.798Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:34.799Z [LOG] Thread 8 processed https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-04-02T13:12:34.799Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-04-02T13:12:35.257Z [INFO] Scraping completed
+2025-04-02T13:12:35.451Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:35.451Z [LOG] Thread 3 processed https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-04-02T13:12:35.452Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-04-02T13:12:35.735Z [INFO] Scraping completed
+2025-04-02T13:12:35.896Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:35.897Z [LOG] Thread 5 processed https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-04-02T13:12:35.897Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-04-02T13:12:35.986Z [INFO] Scraping completed
+2025-04-02T13:12:36.149Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:36.150Z [LOG] Thread 1 processed https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-04-02T13:12:36.150Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-04-02T13:12:36.394Z [INFO] Scraping completed
+2025-04-02T13:12:36.613Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:36.614Z [LOG] Thread 2 processed https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-04-02T13:12:36.614Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-04-02T13:12:36.977Z [INFO] Scraping completed
+2025-04-02T13:12:37.143Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:37.144Z [LOG] Thread 4 processed https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-04-02T13:12:37.145Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-04-02T13:12:37.350Z [INFO] Scraping completed
+2025-04-02T13:12:37.582Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:37.584Z [LOG] Thread 9 processed https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-04-02T13:12:37.584Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-04-02T13:12:37.706Z [INFO] Scraping completed
+2025-04-02T13:12:37.872Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:37.875Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-04-02T13:12:37.875Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-04-02T13:12:38.419Z [INFO] Scraping completed
+2025-04-02T13:12:38.549Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:38.550Z [LOG] Thread 10 processed https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-04-02T13:12:38.550Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-04-02T13:12:38.572Z [INFO] Scraping completed
+2025-04-02T13:12:38.692Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:38.693Z [LOG] Thread 8 processed https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-04-02T13:12:38.693Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-04-02T13:12:39.297Z [INFO] Scraping completed
+2025-04-02T13:12:39.301Z [INFO] Scraping completed
+2025-04-02T13:12:39.450Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:39.451Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-04-02T13:12:39.451Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-04-02T13:12:39.458Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:39.459Z [LOG] Thread 3 processed https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-04-02T13:12:39.459Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-04-02T13:12:39.878Z [INFO] Scraping completed
+2025-04-02T13:12:40.015Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:40.016Z [LOG] Thread 1 processed https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-04-02T13:12:40.016Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-04-02T13:12:40.047Z [INFO] Scraping completed
+2025-04-02T13:12:40.188Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:40.188Z [LOG] Thread 2 processed https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-04-02T13:12:40.188Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-04-02T13:12:40.745Z [INFO] Scraping completed
+2025-04-02T13:12:40.916Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:40.916Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-04-02T13:12:40.916Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-04-02T13:12:41.059Z [INFO] Scraping completed
+2025-04-02T13:12:41.255Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:41.255Z [LOG] Thread 9 processed https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-04-02T13:12:41.256Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-04-02T13:12:41.594Z [INFO] Scraping completed
+2025-04-02T13:12:41.834Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:41.840Z [LOG] Thread 6 processed https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-04-02T13:12:41.840Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-04-02T13:12:42.138Z [INFO] Scraping completed
+2025-04-02T13:12:42.294Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:42.294Z [LOG] Thread 8 processed https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-04-02T13:12:42.294Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-04-02T13:12:42.615Z [INFO] Scraping completed
+2025-04-02T13:12:42.672Z [INFO] Scraping completed
+2025-04-02T13:12:42.778Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:42.778Z [LOG] Thread 7 processed https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-04-02T13:12:42.779Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-04-02T13:12:42.802Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:42.803Z [LOG] Thread 10 processed https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-04-02T13:12:42.803Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-04-02T13:12:42.823Z [INFO] Scraping completed
+2025-04-02T13:12:42.961Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:42.962Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-04-02T13:12:42.962Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-04-02T13:12:43.640Z [INFO] Scraping completed
+2025-04-02T13:12:43.750Z [INFO] Scraping completed
+2025-04-02T13:12:43.795Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:43.796Z [LOG] Thread 1 processed https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-04-02T13:12:43.796Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-04-02T13:12:43.908Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:43.909Z [LOG] Thread 2 processed https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-04-02T13:12:43.909Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-04-02T13:12:43.932Z [INFO] Scraping completed
+2025-04-02T13:12:44.124Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:44.125Z [LOG] Thread 3 processed https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-04-02T13:12:44.125Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-04-02T13:12:44.453Z [INFO] Scraping completed
+2025-04-02T13:12:44.687Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:44.687Z [LOG] Thread 4 processed https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-04-02T13:12:44.688Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-04-02T13:12:45.352Z [INFO] Scraping completed
+2025-04-02T13:12:45.453Z [INFO] Scraping completed
+2025-04-02T13:12:45.503Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:45.504Z [LOG] Thread 6 processed https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-04-02T13:12:45.504Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-04-02T13:12:45.586Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:45.587Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-04-02T13:12:45.587Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-04-02T13:12:45.781Z [INFO] Scraping completed
+2025-04-02T13:12:45.980Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:45.981Z [LOG] Thread 8 processed https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-04-02T13:12:45.982Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-04-02T13:12:46.389Z [INFO] Scraping completed
+2025-04-02T13:12:46.536Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:46.537Z [LOG] Thread 7 processed https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-04-02T13:12:46.537Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-04-02T13:12:46.611Z [INFO] Scraping completed
+2025-04-02T13:12:46.794Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:46.794Z [LOG] Thread 5 processed https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-04-02T13:12:46.794Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-04-02T13:12:46.833Z [INFO] Scraping completed
+2025-04-02T13:12:47.022Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:47.023Z [LOG] Thread 10 processed https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-04-02T13:12:47.023Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-04-02T13:12:47.303Z [INFO] Scraping completed
+2025-04-02T13:12:47.508Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:47.509Z [LOG] Thread 1 processed https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-04-02T13:12:47.509Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-04-02T13:12:47.702Z [INFO] Scraping completed
+2025-04-02T13:12:47.872Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:47.873Z [LOG] Thread 3 processed https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-04-02T13:12:47.873Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-04-02T13:12:47.958Z [INFO] Scraping completed
+2025-04-02T13:12:48.097Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:48.097Z [LOG] Thread 2 processed https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-04-02T13:12:48.098Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-04-02T13:12:48.378Z [INFO] Scraping completed
+2025-04-02T13:12:48.568Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:48.569Z [LOG] Thread 4 processed https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-04-02T13:12:48.570Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-04-02T13:12:48.924Z [INFO] Scraping completed
+2025-04-02T13:12:49.022Z [INFO] Scraping completed
+2025-04-02T13:12:49.044Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:49.044Z [LOG] Thread 6 processed https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-04-02T13:12:49.045Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-04-02T13:12:49.137Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:49.138Z [LOG] Thread 9 processed https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-04-02T13:12:49.138Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-04-02T13:12:49.503Z [INFO] Scraping completed
+2025-04-02T13:12:49.733Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:49.736Z [LOG] Thread 8 processed https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-04-02T13:12:49.736Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-04-02T13:12:50.524Z [INFO] Scraping completed
+2025-04-02T13:12:50.666Z [INFO] Scraping completed
+2025-04-02T13:12:50.705Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:50.706Z [LOG] Thread 7 processed https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-04-02T13:12:50.706Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-04-02T13:12:50.829Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:50.830Z [LOG] Thread 5 processed https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-04-02T13:12:50.830Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-04-02T13:12:51.547Z [INFO] Scraping completed
+2025-04-02T13:12:51.686Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:51.687Z [LOG] Thread 10 processed https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-04-02T13:12:51.687Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-04-02T13:12:51.708Z [INFO] Scraping completed
+2025-04-02T13:12:51.762Z [INFO] Scraping completed
+2025-04-02T13:12:51.894Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:51.894Z [LOG] Thread 1 processed https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-04-02T13:12:51.898Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-04-02T13:12:51.925Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:51.925Z [LOG] Thread 3 processed https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-04-02T13:12:51.925Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-04-02T13:12:52.738Z [INFO] Scraping completed
+2025-04-02T13:12:52.761Z [INFO] Scraping completed
+2025-04-02T13:12:52.922Z [INFO] Scraping completed
+2025-04-02T13:12:52.943Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:52.944Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-04-02T13:12:52.944Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-04-02T13:12:52.965Z [INFO] Scraping completed
+2025-04-02T13:12:52.984Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:52.984Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-04-02T13:12:52.985Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-04-02T13:12:53.059Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:53.066Z [LOG] Thread 9 processed https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-04-02T13:12:53.067Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-04-02T13:12:53.104Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:53.107Z [LOG] Thread 6 processed https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-04-02T13:12:53.107Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-04-02T13:12:53.619Z [INFO] Scraping completed
+2025-04-02T13:12:53.761Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:53.761Z [LOG] Thread 8 processed https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-04-02T13:12:53.762Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-04-02T13:12:54.314Z [INFO] Scraping completed
+2025-04-02T13:12:54.480Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:54.481Z [LOG] Thread 7 processed https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-04-02T13:12:54.481Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-04-02T13:12:54.630Z [INFO] Scraping completed
+2025-04-02T13:12:54.866Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:54.867Z [LOG] Thread 5 processed https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-04-02T13:12:54.867Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-04-02T13:12:55.537Z [INFO] Scraping completed
+2025-04-02T13:12:55.678Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:55.678Z [LOG] Thread 3 processed https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-04-02T13:12:55.680Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-04-02T13:12:55.819Z [INFO] Scraping completed
+2025-04-02T13:12:55.934Z [INFO] Scraping completed
+2025-04-02T13:12:55.984Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:55.984Z [LOG] Thread 1 processed https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-04-02T13:12:55.984Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-04-02T13:12:56.055Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:56.055Z [LOG] Thread 10 processed https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-04-02T13:12:56.056Z [LOG] Remaining URLs: 135
+2025-04-02T13:12:56.607Z [INFO] Scraping completed
+2025-04-02T13:12:56.694Z [INFO] Scraping completed
+2025-04-02T13:12:56.817Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:56.817Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-04-02T13:12:56.817Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-04-02T13:12:56.913Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:56.913Z [LOG] Thread 9 processed https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-04-02T13:12:56.913Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-04-02T13:12:56.958Z [INFO] Scraping completed
+2025-04-02T13:12:57.122Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:57.125Z [LOG] Thread 2 processed https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-04-02T13:12:57.125Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-04-02T13:12:57.182Z [INFO] Scraping completed
+2025-04-02T13:12:57.351Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:57.351Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-04-02T13:12:57.352Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-04-02T13:12:57.486Z [INFO] Scraping completed
+2025-04-02T13:12:57.665Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:57.671Z [LOG] Thread 8 processed https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-04-02T13:12:57.671Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-04-02T13:12:58.101Z [INFO] Scraping completed
+2025-04-02T13:12:58.208Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:58.209Z [LOG] Thread 5 processed https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-04-02T13:12:58.209Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-04-02T13:12:58.426Z [INFO] Scraping completed
+2025-04-02T13:12:58.586Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:58.587Z [LOG] Thread 7 processed https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-04-02T13:12:58.587Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-04-02T13:12:59.729Z [INFO] Scraping completed
+2025-04-02T13:12:59.799Z [INFO] Scraping completed
+2025-04-02T13:12:59.897Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:59.897Z [LOG] Thread 3 processed https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-04-02T13:12:59.897Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-04-02T13:12:59.928Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:12:59.929Z [LOG] Thread 1 processed https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-04-02T13:12:59.929Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-04-02T13:13:00.363Z [INFO] Scraping completed
+2025-04-02T13:13:00.493Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:00.494Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-04-02T13:13:00.494Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-04-02T13:13:00.533Z [INFO] Scraping completed
+2025-04-02T13:13:00.661Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:00.661Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-04-02T13:13:00.661Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-04-02T13:13:00.770Z [INFO] Scraping completed
+2025-04-02T13:13:00.902Z [INFO] Scraping completed
+2025-04-02T13:13:00.925Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:00.925Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-04-02T13:13:00.926Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-04-02T13:13:01.037Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:01.038Z [LOG] Thread 8 processed https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-04-02T13:13:01.038Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-04-02T13:13:01.497Z [INFO] Scraping completed
+2025-04-02T13:13:01.601Z [INFO] Scraping completed
+2025-04-02T13:13:01.660Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:01.660Z [LOG] Thread 5 processed https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-04-02T13:13:01.661Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-04-02T13:13:01.741Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:01.741Z [LOG] Thread 6 processed https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-04-02T13:13:01.742Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-04-02T13:13:02.329Z [INFO] Scraping completed
+2025-04-02T13:13:02.529Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:02.530Z [LOG] Thread 7 processed https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-04-02T13:13:02.530Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-04-02T13:13:03.152Z [INFO] Scraping completed
+2025-04-02T13:13:03.287Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:03.288Z [LOG] Thread 3 processed https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-04-02T13:13:03.288Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-04-02T13:13:03.575Z [INFO] Scraping completed
+2025-04-02T13:13:03.680Z [INFO] Scraping completed
+2025-04-02T13:13:03.689Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:03.689Z [LOG] Thread 4 processed https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-04-02T13:13:03.690Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-04-02T13:13:03.790Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:03.791Z [LOG] Thread 1 processed https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-04-02T13:13:03.791Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-04-02T13:13:04.164Z [INFO] Scraping completed
+2025-04-02T13:13:04.297Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:04.298Z [LOG] Thread 2 processed https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-04-02T13:13:04.298Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-04-02T13:13:04.595Z [INFO] Scraping completed
+2025-04-02T13:13:04.763Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:04.764Z [LOG] Thread 8 processed https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-04-02T13:13:04.764Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-04-02T13:13:04.849Z [INFO] Scraping completed
+2025-04-02T13:13:05.109Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:05.109Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-04-02T13:13:05.110Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-04-02T13:13:05.205Z [INFO] Scraping completed
+2025-04-02T13:13:05.428Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:05.428Z [LOG] Thread 5 processed https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-04-02T13:13:05.429Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-04-02T13:13:06.036Z [INFO] Scraping completed
+2025-04-02T13:13:06.140Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:06.140Z [LOG] Thread 6 processed https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-04-02T13:13:06.140Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-04-02T13:13:06.860Z [INFO] Scraping completed
+2025-04-02T13:13:06.917Z [INFO] Scraping completed
+2025-04-02T13:13:06.927Z [INFO] Scraping completed
+2025-04-02T13:13:07.032Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:07.032Z [LOG] Thread 7 processed https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-04-02T13:13:07.032Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-04-02T13:13:07.053Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:07.054Z [LOG] Thread 3 processed https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-04-02T13:13:07.054Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-04-02T13:13:07.067Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:07.068Z [LOG] Thread 4 processed https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-04-02T13:13:07.069Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-04-02T13:13:07.770Z [INFO] Scraping completed
+2025-04-02T13:13:07.839Z [INFO] Scraping completed
+2025-04-02T13:13:07.880Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:07.880Z [LOG] Thread 1 processed https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-04-02T13:13:07.880Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-04-02T13:13:07.944Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:07.945Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-04-02T13:13:07.945Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-04-02T13:13:08.302Z [INFO] Scraping completed
+2025-04-02T13:13:08.360Z [INFO] Scraping completed
+2025-04-02T13:13:08.416Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:08.417Z [LOG] Thread 8 processed https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-04-02T13:13:08.417Z [LOG] Remaining URLs: 120
+2025-04-02T13:13:08.477Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:08.478Z [LOG] Thread 9 processed https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-04-02T13:13:08.478Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-04-02T13:13:08.891Z [INFO] Scraping completed
+2025-04-02T13:13:09.036Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:09.037Z [LOG] Thread 5 processed https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-04-02T13:13:09.037Z [LOG] Remaining URLs: 105
+2025-04-02T13:13:09.532Z [INFO] Scraping completed
+2025-04-02T13:13:09.682Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:09.682Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-04-02T13:13:09.682Z [LOG] Remaining URLs: 90
+2025-04-02T13:13:10.144Z [INFO] Scraping completed
+2025-04-02T13:13:10.249Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:10.250Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-04-02T13:13:10.250Z [LOG] Remaining URLs: 75
+2025-04-02T13:13:10.562Z [INFO] Scraping completed
+2025-04-02T13:13:10.665Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:10.666Z [LOG] Thread 7 processed https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-04-02T13:13:10.666Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-04-02T13:13:10.850Z [INFO] Scraping completed
+2025-04-02T13:13:10.984Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:10.984Z [LOG] Thread 3 processed https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-04-02T13:13:10.984Z [LOG] Remaining URLs: 60
+2025-04-02T13:13:11.002Z [INFO] Scraping completed
+2025-04-02T13:13:11.110Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:11.111Z [LOG] Thread 1 processed https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-04-02T13:13:11.111Z [LOG] Remaining URLs: 45
+2025-04-02T13:13:11.173Z [INFO] Scraping completed
+2025-04-02T13:13:11.272Z [INFO] Scraping completed
+2025-04-02T13:13:11.288Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:11.289Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-04-02T13:13:11.289Z [LOG] Remaining URLs: 30
+2025-04-02T13:13:11.383Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:11.384Z [LOG] Thread 9 processed https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-04-02T13:13:11.384Z [LOG] Remaining URLs: 15
+2025-04-02T13:13:13.831Z [INFO] Scraping completed
+2025-04-02T13:13:13.940Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:13.940Z [LOG] Thread 7 processed https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-04-02T13:13:13.940Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-04-02T13:13:16.744Z [INFO] Scraping completed
+2025-04-02T13:13:16.848Z [LOG] Add/Update successful [object Object]
+2025-04-02T13:13:16.848Z [LOG] Thread 7 processed https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-04-02T13:13:16.848Z [LOG] Remaining URLs: 0
+2025-04-02T13:13:16.849Z [LOG] All URLs processed.
