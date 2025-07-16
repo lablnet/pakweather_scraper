@@ -45,15 +45,35 @@ async function weatherdotcom_crawler(url) {
     "site": "weather.com",
   }
 
-  // Getting data from the page
-  await Promise.all([
-    getDataHandler(page, weatherData, 'css', '[class^="TodayDetailsCard--feelsLikeContainer--"]', 'feelLikeTemp', 'Error getting feel like temp'),
-    getDataHandler(page, weatherData, 'css', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise'),
-    getDataHandler(page, weatherData, 'css', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset'),
-    getDataHandler(page, weatherData, 'css', '[class^="CurrentConditions--phraseValue--"]', 'currentCondition', 'Error getting current condition'),
-    getDataHandler(page, weatherData, 'css', '[class^="CurrentConditions--tempHiLoValue--"]', 'day_night', 'Error getting day night'),
-    getDataHandler(page, weatherData, 'css', '[class^="CurrentConditions--tempValue--"]', 'temp', 'Error getting temp'),
-  ]);
+  // Getting data from the page with error handling
+  const dataPromises = [
+    getDataHandler(page, weatherData, 'css', '[class^="TodayDetailsCard--feelsLikeContainer--"]', 'feelLikeTemp', 'Error getting feel like temp').catch(() => {
+      logger.error(`Missing feelLikeTemp data for URL: ${url}`);
+      weatherData.feelLikeTemp = null;
+    }),
+    getDataHandler(page, weatherData, 'css', '[data-testid="SunriseValue"]', 'sunrise', 'Error getting sunrise').catch(() => {
+      logger.error(`Missing sunrise data for URL: ${url}`);
+      weatherData.sunrise = null;
+    }),
+    getDataHandler(page, weatherData, 'css', '[data-testid="SunsetValue"]', 'sunset', 'Error getting sunset').catch(() => {
+      logger.error(`Missing sunset data for URL: ${url}`);
+      weatherData.sunset = null;
+    }),
+    getDataHandler(page, weatherData, 'css', '[class^="CurrentConditions--phraseValue--"]', 'currentCondition', 'Error getting current condition').catch(() => {
+      logger.error(`Missing currentCondition data for URL: ${url}`);
+      weatherData.currentCondition = null;
+    }),
+    getDataHandler(page, weatherData, 'css', '[class^="CurrentConditions--tempHiLoValue--"]', 'day_night', 'Error getting day night').catch(() => {
+      logger.error(`Missing day_night data for URL: ${url}`);
+      weatherData.day_night = null;
+    }),
+    getDataHandler(page, weatherData, 'css', '[class^="CurrentConditions--tempValue--"]', 'temp', 'Error getting temp').catch(() => {
+      logger.error(`Missing temp data for URL: ${url}`);
+      weatherData.temp = null;
+    }),
+  ];
+
+  await Promise.all(dataPromises);
 
   if (weatherData.day_night) {
     [weatherData.day, weatherData.night] = weatherData.day_night.split("•").map(item => item.trim());
@@ -65,7 +85,10 @@ async function weatherdotcom_crawler(url) {
     weatherData.airQualityText = await getData(airQualityWrapper, 'tag', 'span');
     weatherData.airQualityDescription = await getData(airQualityWrapper, 'tag', 'p');
   } catch (err) {
-    logger.error("Error getting air quality data:", err.message);
+    logger.error(`Missing air quality data for URL: ${url} - ${err.message}`);
+    weatherData.airQualityNumber = null;
+    weatherData.airQualityText = null;
+    weatherData.airQualityDescription = null;
   }
 
   // Getting weather details
@@ -85,8 +108,12 @@ async function weatherdotcom_crawler(url) {
       weatherDetailValue = await weatherDetailWrapper[i].$('span');
       weatherDetailValue = await weatherDetailValue.innerText();
     } catch {
-      weatherDetailValue = await weatherDetailWrapper[i].$('div[data-testid="wxData"]');
-      weatherDetailValue = await weatherDetailValue.innerText();
+      try {
+        weatherDetailValue = await weatherDetailWrapper[i].$('div[data-testid="wxData"]');
+        weatherDetailValue = await weatherDetailValue.innerText();
+      } catch {
+        weatherDetailValue = null;
+      }
     }
     if (weatherDetailKey === 'Wind') {
       // Try to get wind direction from the same element
@@ -110,28 +137,90 @@ async function weatherdotcom_crawler(url) {
             [weatherData.high, weatherData.low] = highLowTemp.split("/");
           }
         } else {
-          [weatherData.high, weatherData.low] = ['', ''];
+          [weatherData.high, weatherData.low] = [null, null];
         }
       } catch {
-        [weatherData.high, weatherData.low] = ['', ''];
+        [weatherData.high, weatherData.low] = [null, null];
       }
     }
     weatherDetailObj[weatherDetailKey] = weatherDetailValue;
   }
 
-  // Assigning weather detail values to weatherData object
-  weatherData.wind = weatherDetailObj['Wind'];
-  weatherData.humidity = weatherDetailObj['Humidity'];
-  weatherData.dewPoint = weatherDetailObj['Dew Point'];
-  weatherData.pressure = weatherDetailObj['Pressure'].replace(/\n/g, '');
-  weatherData.uv_index = weatherDetailObj['UV Index'];
-  weatherData.Visibility = weatherDetailObj['Visibility'];
-  weatherData.moonPhase = weatherDetailObj['Moon Phase'];
+  // Assigning weather detail values to weatherData object with null checks
+  try {
+    weatherData.wind = weatherDetailObj['Wind'] || null;
+    if (!weatherData.wind) {
+      logger.error(`Missing wind data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.wind = null;
+    logger.error(`Missing wind data for URL: ${url}`);
+  }
 
+  try {
+    weatherData.humidity = weatherDetailObj['Humidity'] || null;
+    if (!weatherData.humidity) {
+      logger.error(`Missing humidity data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.humidity = null;
+    logger.error(`Missing humidity data for URL: ${url}`);
+  }
 
+  try {
+    weatherData.dewPoint = weatherDetailObj['Dew Point'] || null;
+    if (!weatherData.dewPoint) {
+      logger.error(`Missing dewPoint data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.dewPoint = null;
+    logger.error(`Missing dewPoint data for URL: ${url}`);
+  }
+
+  try {
+    if (weatherDetailObj['Pressure']) {
+      weatherData.pressure = weatherDetailObj['Pressure'].replace(/\n/g, '');
+    } else {
+      weatherData.pressure = null;
+      logger.error(`Missing pressure data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.pressure = null;
+    logger.error(`Missing pressure data for URL: ${url}`);
+  }
+
+  try {
+    weatherData.uv_index = weatherDetailObj['UV Index'] || null;
+    if (!weatherData.uv_index) {
+      logger.error(`Missing uv_index data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.uv_index = null;
+    logger.error(`Missing uv_index data for URL: ${url}`);
+  }
+
+  try {
+    weatherData.Visibility = weatherDetailObj['Visibility'] || null;
+    if (!weatherData.Visibility) {
+      logger.error(`Missing Visibility data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.Visibility = null;
+    logger.error(`Missing Visibility data for URL: ${url}`);
+  }
+
+  try {
+    weatherData.moonPhase = weatherDetailObj['Moon Phase'] || null;
+    if (!weatherData.moonPhase) {
+      logger.error(`Missing moonPhase data for URL: ${url}`);
+    }
+  } catch {
+    weatherData.moonPhase = null;
+    logger.error(`Missing moonPhase data for URL: ${url}`);
+  }
 
   // If not found from same element approach, fallback to id
-  if (weatherData.high === '' || weatherData.low === '') {
+  if (weatherData.high === '' || weatherData.low === '' || weatherData.high === null || weatherData.low === null) {
     try {
       const highLow = await elem(page, 'xpath', '//*[@id="todayDetails"]/section/div/div[2]/div[1]/div[2]');
       const highLowTemp = await highLow.innerText();
@@ -139,21 +228,21 @@ async function weatherdotcom_crawler(url) {
         [weatherData.high, weatherData.low] = highLowTemp.split("/");
       }
     } catch (err) {
-      logger.error("Error getting high/low temperature:", err.message);
+      logger.error(`Missing high/low temperature for URL: ${url} - ${err.message}`);
+      weatherData.high = weatherData.high || null;
+      weatherData.low = weatherData.low || null;
     }
   }
 
-  if (weatherData.windDirectin === '') {
+  if (weatherData.windDirectin === '' || weatherData.windDirectin === null) {
     try {
       const windDirection = await elem(page, 'xpath', '//*[@id="todayDetails"]/section/div/div[2]/div[2]/div[2]/span/span[1]');
       weatherData.windDirectin = await windDirection.innerHTML();
     } catch (err) {
-      logger.error("Error getting wind direction");
-      logger.error(err.message);
+      logger.error(`Missing wind direction for URL: ${url} - ${err.message}`);
+      weatherData.windDirectin = null;
     }
   }
-
-
 
   logger.info("Scraping completed");
 
