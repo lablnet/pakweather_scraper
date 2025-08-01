@@ -35616,3 +35616,1622 @@
 2025-08-01T21:07:43.018Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.8110,73.8650?unit=c
 2025-08-01T21:07:43.018Z [LOG] Remaining URLs: 0
 2025-08-01T21:07:43.018Z [LOG] All URLs processed.
+2025-08-01T22:06:15.347Z [LOG] Queue initialized successfully.
+2025-08-01T22:06:15.364Z [LOG] Total URLs: 146
+2025-08-01T22:06:15.755Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:15.835Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:15.860Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:15.897Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:15.902Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:15.911Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:15.921Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:15.936Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:15.990Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:16.003Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.361Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.361Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.362Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.362Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.362Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.362Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.362Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:23.367Z [INFO] Scraping completed
+2025-08-01T22:06:24.070Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.070Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.070Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.070Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.071Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.071Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.071Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.071Z [INFO] Scraping completed
+2025-08-01T22:06:24.328Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.329Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.329Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.329Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.329Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.329Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.330Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:24.330Z [INFO] Scraping completed
+2025-08-01T22:06:24.494Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:24.503Z [LOG] Thread 7 processed https://weather.com/weather/today/l/27.5295,68.7592?unit=c
+2025-08-01T22:06:24.504Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:24.739Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.739Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.740Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.740Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.740Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.740Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.741Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:24.741Z [INFO] Scraping completed
+2025-08-01T22:06:24.765Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:24.778Z [LOG] Thread 10 processed https://weather.com/weather/today/l/25.8072,66.6219?unit=c
+2025-08-01T22:06:24.778Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:25.039Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:25.044Z [LOG] Thread 9 processed https://weather.com/weather/today/l/24.7461,67.9243?unit=c
+2025-08-01T22:06:25.044Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:25.151Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.152Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.152Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.152Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.153Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.153Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.153Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.155Z [INFO] Scraping completed
+2025-08-01T22:06:25.347Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.348Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.354Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.354Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.354Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.355Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.355Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:25.359Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:25.364Z [LOG] Thread 4 processed https://weather.com/weather/today/l/30.7258,72.6447?unit=c
+2025-08-01T22:06:25.364Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:25.365Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.365Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.365Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.365Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.366Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.367Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.367Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:25.367Z [INFO] Scraping completed
+2025-08-01T22:06:25.355Z [INFO] Scraping completed
+2025-08-01T22:06:25.748Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.749Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.749Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.749Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.749Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.750Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.750Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:25.750Z [INFO] Scraping completed
+2025-08-01T22:06:25.784Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.784Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.784Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.785Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.785Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.786Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.786Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:25.787Z [INFO] Scraping completed
+2025-08-01T22:06:25.790Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.791Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.791Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.795Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.795Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.795Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.795Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:25.801Z [INFO] Scraping completed
+2025-08-01T22:06:25.889Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:25.890Z [LOG] Thread 8 processed https://weather.com/weather/today/l/33.9803,73.7747?unit=c
+2025-08-01T22:06:25.890Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:26.060Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:26.061Z [LOG] Thread 2 processed https://weather.com/weather/today/l/27.6995,68.8673?unit=c
+2025-08-01T22:06:26.061Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:26.118Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:26.119Z [LOG] Thread 1 processed https://weather.com/weather/today/l/24.8600,67.0100?unit=c
+2025-08-01T22:06:26.119Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:26.284Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:26.284Z [LOG] Thread 6 processed https://weather.com/weather/today/l/30.5522,72.1278?unit=c
+2025-08-01T22:06:26.285Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:26.311Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:26.312Z [LOG] Thread 3 processed https://weather.com/weather/today/l/28.2769,68.4514?unit=c
+2025-08-01T22:06:26.312Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:26.325Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:26.326Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.4397,72.3544?unit=c
+2025-08-01T22:06:26.328Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:30.389Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.389Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.389Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.390Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.390Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.390Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.390Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.390Z [INFO] Scraping completed
+2025-08-01T22:06:30.435Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.435Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.436Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.436Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.436Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.436Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.436Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.438Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.438Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.438Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.439Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.439Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.439Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.439Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.439Z [INFO] Scraping completed
+2025-08-01T22:06:30.437Z [INFO] Scraping completed
+2025-08-01T22:06:30.575Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.578Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.578Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.578Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.579Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.579Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.579Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.579Z [INFO] Scraping completed
+2025-08-01T22:06:30.733Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:30.733Z [LOG] Thread 9 processed https://weather.com/weather/today/l/28.5466,68.2231?unit=c
+2025-08-01T22:06:30.733Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:30.738Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:30.741Z [LOG] Thread 10 processed https://weather.com/weather/today/l/27.7384,66.6434?unit=c
+2025-08-01T22:06:30.742Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:30.770Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:30.782Z [LOG] Thread 7 processed https://weather.com/weather/today/l/30.3017,71.9321?unit=c
+2025-08-01T22:06:30.787Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:30.897Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:30.897Z [LOG] Thread 8 processed https://weather.com/weather/today/l/34.5111,72.4844?unit=c
+2025-08-01T22:06:30.898Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:32.163Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.164Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.164Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.164Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.165Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.165Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.165Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.165Z [INFO] Scraping completed
+2025-08-01T22:06:32.177Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.177Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.178Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.178Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.178Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.178Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.179Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.179Z [INFO] Scraping completed
+2025-08-01T22:06:32.241Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.241Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.241Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.242Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.242Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.242Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.242Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.243Z [INFO] Scraping completed
+2025-08-01T22:06:32.290Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.290Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.291Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.291Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.301Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.301Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.301Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.301Z [INFO] Scraping completed
+2025-08-01T22:06:32.345Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.346Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.346Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.346Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.346Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.347Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.347Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.347Z [INFO] Scraping completed
+2025-08-01T22:06:32.398Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:32.399Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.8195,72.6890?unit=c
+2025-08-01T22:06:32.399Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:32.411Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:32.412Z [LOG] Thread 3 processed https://weather.com/weather/today/l/28.3006,70.1302?unit=c
+2025-08-01T22:06:32.412Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:32.449Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.449Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.450Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.450Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.450Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.451Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.451Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.451Z [INFO] Scraping completed
+2025-08-01T22:06:32.471Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:32.471Z [LOG] Thread 1 processed https://weather.com/weather/today/l/31.5497,74.3436?unit=c
+2025-08-01T22:06:32.471Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:32.472Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:32.486Z [LOG] Thread 5 processed https://weather.com/weather/today/l/25.4283,68.2822?unit=c
+2025-08-01T22:06:32.486Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:32.518Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:32.522Z [LOG] Thread 2 processed https://weather.com/weather/today/l/27.5600,68.2264?unit=c
+2025-08-01T22:06:32.522Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:32.640Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:32.641Z [LOG] Thread 4 processed https://weather.com/weather/today/l/30.4700,70.9644?unit=c
+2025-08-01T22:06:32.641Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:36.211Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.212Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.212Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.212Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.212Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.213Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.213Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.213Z [INFO] Scraping completed
+2025-08-01T22:06:36.493Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:36.493Z [LOG] Thread 10 processed https://weather.com/weather/today/l/35.4206,74.0967?unit=c
+2025-08-01T22:06:36.494Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:36.539Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.542Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.552Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.552Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.556Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.556Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.556Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.556Z [INFO] Scraping completed
+2025-08-01T22:06:36.742Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.743Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.743Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.743Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.743Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.743Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.744Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:36.744Z [INFO] Scraping completed
+2025-08-01T22:06:36.890Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:36.891Z [LOG] Thread 8 processed https://weather.com/weather/today/l/29.9983,73.2527?unit=c
+2025-08-01T22:06:36.891Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:37.068Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:37.071Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.8965,69.2532?unit=c
+2025-08-01T22:06:37.072Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:37.425Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.425Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.426Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.426Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.426Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.426Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.426Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.426Z [INFO] Scraping completed
+2025-08-01T22:06:37.731Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:37.731Z [LOG] Thread 1 processed https://weather.com/weather/today/l/32.5000,74.5333?unit=c
+2025-08-01T22:06:37.732Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:38.189Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.194Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.194Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.194Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.195Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.195Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.195Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.195Z [INFO] Scraping completed
+2025-08-01T22:06:38.541Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:38.541Z [LOG] Thread 7 processed https://weather.com/weather/today/l/32.9333,73.7333?unit=c
+2025-08-01T22:06:38.548Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:38.967Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.972Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.973Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.973Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.973Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.973Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.974Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:38.974Z [INFO] Scraping completed
+2025-08-01T22:06:39.058Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.058Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.058Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.058Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.058Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.059Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.059Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.059Z [INFO] Scraping completed
+2025-08-01T22:06:39.282Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:39.282Z [LOG] Thread 3 processed https://weather.com/weather/today/l/33.5869,71.4414?unit=c
+2025-08-01T22:06:39.283Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:39.322Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:39.341Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.2167,70.3833?unit=c
+2025-08-01T22:06:39.342Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:39.596Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.597Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.597Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.597Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.599Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.600Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.600Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.600Z [INFO] Scraping completed
+2025-08-01T22:06:39.713Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.717Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.717Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.717Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.717Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.718Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.718Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:39.718Z [INFO] Scraping completed
+2025-08-01T22:06:39.867Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.867Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.867Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.868Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.868Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.868Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.868Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:39.868Z [INFO] Scraping completed
+2025-08-01T22:06:39.919Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:39.919Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.0153,71.9747?unit=c
+2025-08-01T22:06:39.919Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:40.074Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:40.201Z [LOG] Thread 5 processed https://weather.com/weather/today/l/31.0214,73.8528?unit=c
+2025-08-01T22:06:40.203Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:40.408Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:40.409Z [LOG] Thread 2 processed https://weather.com/weather/today/l/31.7083,74.0000?unit=c
+2025-08-01T22:06:40.409Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:41.535Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.535Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.535Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.536Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.536Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.536Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.536Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.536Z [INFO] Scraping completed
+2025-08-01T22:06:41.689Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:41.690Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.7997,66.8455?unit=c
+2025-08-01T22:06:41.690Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:41.699Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.700Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.700Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.700Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.700Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.700Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.701Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.701Z [INFO] Scraping completed
+2025-08-01T22:06:41.841Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:41.842Z [LOG] Thread 10 processed https://weather.com/weather/today/l/29.0266,66.5936?unit=c
+2025-08-01T22:06:41.842Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:41.984Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.984Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.985Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.985Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.985Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.985Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.985Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:41.986Z [INFO] Scraping completed
+2025-08-01T22:06:42.207Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:42.210Z [LOG] Thread 8 processed https://weather.com/weather/today/l/30.9646,70.9444?unit=c
+2025-08-01T22:06:42.210Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:42.765Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.765Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.766Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.766Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.766Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.766Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.766Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:42.767Z [INFO] Scraping completed
+2025-08-01T22:06:43.005Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:43.006Z [LOG] Thread 1 processed https://weather.com/weather/today/l/31.4180,73.0790?unit=c
+2025-08-01T22:06:43.006Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:45.382Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.383Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.383Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.383Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.383Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.383Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.384Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.384Z [INFO] Scraping completed
+2025-08-01T22:06:45.736Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:45.736Z [LOG] Thread 2 processed https://weather.com/weather/today/l/31.2681,72.3181?unit=c
+2025-08-01T22:06:45.737Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:46.282Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.282Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.282Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.283Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.283Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.283Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.283Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.283Z [INFO] Scraping completed
+2025-08-01T22:06:46.587Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:46.590Z [LOG] Thread 7 processed https://weather.com/weather/today/l/33.9942,72.9333?unit=c
+2025-08-01T22:06:46.590Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:46.637Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.638Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.638Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.638Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.638Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.639Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.639Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:46.639Z [INFO] Scraping completed
+2025-08-01T22:06:47.073Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:47.074Z [LOG] Thread 5 processed https://weather.com/weather/today/l/29.6100,73.1361?unit=c
+2025-08-01T22:06:47.074Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:47.236Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.237Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.241Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.242Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.242Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.242Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.251Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.251Z [INFO] Scraping completed
+2025-08-01T22:06:47.302Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.302Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.303Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.303Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.303Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.303Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.304Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.304Z [INFO] Scraping completed
+2025-08-01T22:06:47.521Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.522Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.528Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.528Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.528Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.529Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.529Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.529Z [INFO] Scraping completed
+2025-08-01T22:06:47.540Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:47.541Z [LOG] Thread 9 processed https://weather.com/weather/today/l/35.2917,73.2906?unit=c
+2025-08-01T22:06:47.541Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:47.601Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:47.601Z [LOG] Thread 3 processed https://weather.com/weather/today/l/31.8020,74.2550?unit=c
+2025-08-01T22:06:47.602Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:47.842Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:47.848Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.5281,71.0572?unit=c
+2025-08-01T22:06:47.848Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:48.003Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.003Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.003Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.004Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.004Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.004Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.004Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.004Z [INFO] Scraping completed
+2025-08-01T22:06:48.277Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:48.277Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.1167,72.4667?unit=c
+2025-08-01T22:06:48.277Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:48.915Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.916Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.916Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.916Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.917Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.917Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.917Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:48.917Z [INFO] Scraping completed
+2025-08-01T22:06:49.167Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:49.168Z [LOG] Thread 8 processed https://weather.com/weather/today/l/25.1239,68.5389?unit=c
+2025-08-01T22:06:49.168Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:49.207Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.207Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.207Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.208Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.208Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.208Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.208Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.208Z [INFO] Scraping completed
+2025-08-01T22:06:49.269Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.269Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.270Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.270Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.270Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.270Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.270Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.270Z [INFO] Scraping completed
+2025-08-01T22:06:49.384Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:49.384Z [LOG] Thread 1 processed https://weather.com/weather/today/l/33.6007,73.0679?unit=c
+2025-08-01T22:06:49.385Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:49.435Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:49.435Z [LOG] Thread 10 processed https://weather.com/weather/today/l/26.9644,64.0903?unit=c
+2025-08-01T22:06:49.435Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:50.970Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.970Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.970Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.971Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.971Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.971Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.971Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:50.971Z [INFO] Scraping completed
+2025-08-01T22:06:51.284Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:51.284Z [LOG] Thread 7 processed https://weather.com/weather/today/l/27.9556,68.6382?unit=c
+2025-08-01T22:06:51.284Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:51.609Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.610Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.610Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.610Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.610Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.610Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.610Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.611Z [INFO] Scraping completed
+2025-08-01T22:06:51.933Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:51.934Z [LOG] Thread 2 processed https://weather.com/weather/today/l/28.4202,70.2952?unit=c
+2025-08-01T22:06:51.934Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:53.035Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.036Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.036Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.036Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.037Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.037Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.037Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.037Z [INFO] Scraping completed
+2025-08-01T22:06:53.305Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:53.314Z [LOG] Thread 9 processed https://weather.com/weather/today/l/34.5717,73.8972?unit=c
+2025-08-01T22:06:53.314Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:53.490Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.492Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.492Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.492Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.493Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.493Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.493Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.493Z [INFO] Scraping completed
+2025-08-01T22:06:53.503Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.505Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.505Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.505Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.505Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.506Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.506Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.506Z [INFO] Scraping completed
+2025-08-01T22:06:53.721Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.721Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.722Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.722Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.722Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.723Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.723Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.723Z [INFO] Scraping completed
+2025-08-01T22:06:53.772Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:53.773Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.9667,72.4833?unit=c
+2025-08-01T22:06:53.773Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:53.781Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:53.782Z [LOG] Thread 3 processed https://weather.com/weather/today/l/30.0703,71.1933?unit=c
+2025-08-01T22:06:53.782Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:53.977Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:53.978Z [LOG] Thread 6 processed https://weather.com/weather/today/l/34.0049,71.9989?unit=c
+2025-08-01T22:06:53.978Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:54.544Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.544Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.544Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.544Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.545Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.545Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.545Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.545Z [INFO] Scraping completed
+2025-08-01T22:06:54.884Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:54.885Z [LOG] Thread 4 processed https://weather.com/weather/today/l/31.8167,70.9167?unit=c
+2025-08-01T22:06:54.885Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:55.477Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.477Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.478Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.478Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.479Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.479Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.479Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.479Z [INFO] Scraping completed
+2025-08-01T22:06:55.506Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.506Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.507Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.507Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.507Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.507Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.507Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.508Z [INFO] Scraping completed
+2025-08-01T22:06:55.712Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:55.712Z [LOG] Thread 10 processed https://weather.com/weather/today/l/36.1736,73.7667?unit=c
+2025-08-01T22:06:55.712Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:06:55.739Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:55.739Z [LOG] Thread 1 processed https://weather.com/weather/today/l/34.0000,71.5000?unit=c
+2025-08-01T22:06:55.739Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:06:55.843Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.850Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.850Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.850Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.850Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.850Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.857Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:55.857Z [INFO] Scraping completed
+2025-08-01T22:06:56.099Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:56.099Z [LOG] Thread 8 processed https://weather.com/weather/today/l/32.9300,72.8500?unit=c
+2025-08-01T22:06:56.099Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:06:57.755Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.755Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.756Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.756Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.756Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.756Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.756Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.756Z [INFO] Scraping completed
+2025-08-01T22:06:57.846Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.847Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.847Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.847Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.847Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.847Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.847Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:57.848Z [INFO] Scraping completed
+2025-08-01T22:06:57.952Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:57.953Z [LOG] Thread 7 processed https://weather.com/weather/today/l/33.8578,73.7604?unit=c
+2025-08-01T22:06:57.953Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:06:58.026Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:58.027Z [LOG] Thread 2 processed https://weather.com/weather/today/l/32.5736,74.0789?unit=c
+2025-08-01T22:06:58.027Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:06:58.421Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.421Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.422Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.422Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.422Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.422Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.422Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.423Z [INFO] Scraping completed
+2025-08-01T22:06:58.673Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:58.673Z [LOG] Thread 9 processed https://weather.com/weather/today/l/30.3705,68.5979?unit=c
+2025-08-01T22:06:58.674Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:06:58.690Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.691Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.691Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.691Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.691Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.692Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.692Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.697Z [INFO] Scraping completed
+2025-08-01T22:06:58.871Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:58.872Z [LOG] Thread 5 processed https://weather.com/weather/today/l/32.2628,75.1583?unit=c
+2025-08-01T22:06:58.872Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:06:59.517Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.518Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.518Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.518Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.518Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.518Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.519Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.519Z [INFO] Scraping completed
+2025-08-01T22:06:59.590Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.590Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.590Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.591Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.591Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.591Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.591Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.591Z [INFO] Scraping completed
+2025-08-01T22:06:59.709Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.709Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.709Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.710Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.710Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.710Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.710Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.714Z [INFO] Scraping completed
+2025-08-01T22:06:59.718Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:59.719Z [LOG] Thread 4 processed https://weather.com/weather/today/l/30.9210,66.4597?unit=c
+2025-08-01T22:06:59.720Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:06:59.781Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:59.782Z [LOG] Thread 3 processed https://weather.com/weather/today/l/28.6471,70.6620?unit=c
+2025-08-01T22:06:59.782Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:06:59.904Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:06:59.905Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.1167,71.0833?unit=c
+2025-08-01T22:06:59.905Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:02.258Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.258Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.258Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.259Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.259Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.259Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.259Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.259Z [INFO] Scraping completed
+2025-08-01T22:07:02.513Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:02.514Z [LOG] Thread 8 processed https://weather.com/weather/today/l/32.2952,72.3502?unit=c
+2025-08-01T22:07:02.514Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:02.684Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.685Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.685Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.685Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.685Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.686Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.686Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.686Z [INFO] Scraping completed
+2025-08-01T22:07:02.943Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:02.944Z [LOG] Thread 7 processed https://weather.com/weather/today/l/32.0709,73.6880?unit=c
+2025-08-01T22:07:02.951Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:04.243Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.248Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.248Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.248Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.249Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.249Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.249Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.252Z [INFO] Scraping completed
+2025-08-01T22:07:04.293Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.294Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.294Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.294Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.294Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.295Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.295Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.295Z [INFO] Scraping completed
+2025-08-01T22:07:04.513Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:04.514Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.8977,69.5256?unit=c
+2025-08-01T22:07:04.514Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:04.597Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:04.598Z [LOG] Thread 2 processed https://weather.com/weather/today/l/31.1167,74.4500?unit=c
+2025-08-01T22:07:04.598Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:05.080Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.081Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.081Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.081Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.081Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.081Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.082Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.082Z [INFO] Scraping completed
+2025-08-01T22:07:05.180Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.180Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.187Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.187Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.187Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.187Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.187Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.188Z [INFO] Scraping completed
+2025-08-01T22:07:05.409Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:05.409Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.7333,73.8167?unit=c
+2025-08-01T22:07:05.409Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:05.561Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.562Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.562Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.562Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.562Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.563Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.563Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.563Z [INFO] Scraping completed
+2025-08-01T22:07:05.627Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.627Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.628Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.628Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.628Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.628Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.628Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.628Z [INFO] Scraping completed
+2025-08-01T22:07:05.641Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:05.641Z [LOG] Thread 3 processed https://weather.com/weather/today/l/31.1500,72.6833?unit=c
+2025-08-01T22:07:05.642Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:05.857Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:05.860Z [LOG] Thread 1 processed https://weather.com/weather/today/l/34.7500,72.3572?unit=c
+2025-08-01T22:07:05.860Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:05.968Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:05.969Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.1453,71.7308?unit=c
+2025-08-01T22:07:05.969Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:06.161Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.161Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.161Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.161Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.162Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.162Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.162Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.162Z [INFO] Scraping completed
+2025-08-01T22:07:06.380Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:06.380Z [LOG] Thread 10 processed https://weather.com/weather/today/l/30.7008,68.3598?unit=c
+2025-08-01T22:07:06.380Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:07.192Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.193Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.193Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.193Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.193Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.194Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.194Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.194Z [INFO] Scraping completed
+2025-08-01T22:07:07.474Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:07.475Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.4522,71.4718?unit=c
+2025-08-01T22:07:07.475Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:07.956Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.957Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.957Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.957Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.957Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.957Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.958Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:07.958Z [INFO] Scraping completed
+2025-08-01T22:07:08.243Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:08.243Z [LOG] Thread 8 processed https://weather.com/weather/today/l/24.6558,68.8383?unit=c
+2025-08-01T22:07:08.243Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:09.163Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.163Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.163Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.164Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.164Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.164Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.164Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.164Z [INFO] Scraping completed
+2025-08-01T22:07:09.472Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:09.473Z [LOG] Thread 7 processed https://weather.com/weather/today/l/29.5339,71.6324?unit=c
+2025-08-01T22:07:09.478Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:10.336Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.337Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.337Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.337Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.337Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.337Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.338Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.338Z [INFO] Scraping completed
+2025-08-01T22:07:10.370Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.371Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.371Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.371Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.371Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.372Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.372Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.372Z [INFO] Scraping completed
+2025-08-01T22:07:10.649Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:10.650Z [LOG] Thread 9 processed https://weather.com/weather/today/l/30.8594,69.8221?unit=c
+2025-08-01T22:07:10.650Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:10.665Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.665Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.665Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.666Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.666Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.666Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.666Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.666Z [INFO] Scraping completed
+2025-08-01T22:07:10.669Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:10.669Z [LOG] Thread 2 processed https://weather.com/weather/today/l/34.1958,72.0447?unit=c
+2025-08-01T22:07:10.670Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:10.895Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:10.899Z [LOG] Thread 5 processed https://weather.com/weather/today/l/30.4068,71.8667?unit=c
+2025-08-01T22:07:10.899Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:11.812Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.812Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.812Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.812Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.813Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.813Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.813Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:11.813Z [INFO] Scraping completed
+2025-08-01T22:07:11.983Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.984Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.984Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.984Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.984Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.985Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.985Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:11.985Z [INFO] Scraping completed
+2025-08-01T22:07:12.043Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:12.044Z [LOG] Thread 10 processed https://weather.com/weather/today/l/28.5846,65.4150?unit=c
+2025-08-01T22:07:12.044Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:12.099Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.100Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.100Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.100Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.100Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.100Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.101Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.101Z [INFO] Scraping completed
+2025-08-01T22:07:12.101Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.102Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.102Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.102Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.102Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.119Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.119Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.119Z [INFO] Scraping completed
+2025-08-01T22:07:12.170Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:12.170Z [LOG] Thread 1 processed https://weather.com/weather/today/l/30.1978,71.4711?unit=c
+2025-08-01T22:07:12.170Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:12.312Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:12.313Z [LOG] Thread 4 processed https://weather.com/weather/today/l/28.4000,69.3000?unit=c
+2025-08-01T22:07:12.313Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:12.319Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:12.319Z [LOG] Thread 3 processed https://weather.com/weather/today/l/32.5861,73.4917?unit=c
+2025-08-01T22:07:12.319Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:13.161Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.162Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.162Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.162Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.162Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.162Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.162Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.163Z [INFO] Scraping completed
+2025-08-01T22:07:13.375Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:13.380Z [LOG] Thread 6 processed https://weather.com/weather/today/l/25.3614,69.7361?unit=c
+2025-08-01T22:07:13.380Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:14.270Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.276Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.276Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.276Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.276Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.277Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.277Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.277Z [INFO] Scraping completed
+2025-08-01T22:07:14.547Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:14.547Z [LOG] Thread 8 processed https://weather.com/weather/today/l/32.6072,70.9123?unit=c
+2025-08-01T22:07:14.548Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:16.074Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.074Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.075Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.075Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.075Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.075Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.075Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.075Z [INFO] Scraping completed
+2025-08-01T22:07:16.358Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:16.359Z [LOG] Thread 7 processed https://weather.com/weather/today/l/34.5656,71.9304?unit=c
+2025-08-01T22:07:16.359Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:16.574Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.574Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.575Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.575Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.575Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.575Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.575Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.576Z [INFO] Scraping completed
+2025-08-01T22:07:16.636Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.636Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.637Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.637Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.637Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.637Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.637Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.638Z [INFO] Scraping completed
+2025-08-01T22:07:16.870Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:16.870Z [LOG] Thread 2 processed https://weather.com/weather/today/l/34.7717,72.3600?unit=c
+2025-08-01T22:07:16.870Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:16.932Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:16.933Z [LOG] Thread 5 processed https://weather.com/weather/today/l/34.3333,73.2000?unit=c
+2025-08-01T22:07:16.933Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:17.173Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.173Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.173Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.174Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.174Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.174Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.174Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.174Z [INFO] Scraping completed
+2025-08-01T22:07:17.462Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:17.463Z [LOG] Thread 9 processed https://weather.com/weather/today/l/30.3814,67.7258?unit=c
+2025-08-01T22:07:17.463Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:18.061Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.062Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.062Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.062Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.063Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.063Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.063Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.063Z [INFO] Scraping completed
+2025-08-01T22:07:18.264Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:18.264Z [LOG] Thread 10 processed https://weather.com/weather/today/l/36.3078,74.6178?unit=c
+2025-08-01T22:07:18.264Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:18.365Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.366Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.366Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.366Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.367Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.367Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.367Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.367Z [INFO] Scraping completed
+2025-08-01T22:07:18.441Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.441Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.442Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.443Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.445Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.445Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.445Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.445Z [INFO] Scraping completed
+2025-08-01T22:07:18.639Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:18.639Z [LOG] Thread 1 processed https://weather.com/weather/today/l/32.1500,74.1833?unit=c
+2025-08-01T22:07:18.639Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:18.696Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.702Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.702Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.702Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.703Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.703Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.710Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:18.715Z [LOG] Thread 3 processed https://weather.com/weather/today/l/34.1500,73.2167?unit=c
+2025-08-01T22:07:18.703Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.716Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:18.716Z [INFO] Scraping completed
+2025-08-01T22:07:18.937Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:18.937Z [LOG] Thread 4 processed https://weather.com/weather/today/l/29.6967,72.5542?unit=c
+2025-08-01T22:07:18.937Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:19.698Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.698Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.699Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.699Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.699Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.699Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.699Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.699Z [INFO] Scraping completed
+2025-08-01T22:07:19.933Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:19.936Z [LOG] Thread 6 processed https://weather.com/weather/today/l/35.8511,71.7889?unit=c
+2025-08-01T22:07:19.937Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:20.342Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.343Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.343Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.343Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.344Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.344Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.344Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.344Z [INFO] Scraping completed
+2025-08-01T22:07:20.586Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:20.586Z [LOG] Thread 8 processed https://weather.com/weather/today/l/29.1041,70.3297?unit=c
+2025-08-01T22:07:20.586Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:21.894Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.894Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.894Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.895Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.895Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.895Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.895Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:21.895Z [INFO] Scraping completed
+2025-08-01T22:07:22.141Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:22.145Z [LOG] Thread 7 processed https://weather.com/weather/today/l/33.7667,72.3598?unit=c
+2025-08-01T22:07:22.146Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:22.420Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.422Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.423Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.424Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.424Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.424Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.424Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.431Z [INFO] Scraping completed
+2025-08-01T22:07:22.533Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.533Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.533Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.534Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.534Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.534Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.534Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.534Z [INFO] Scraping completed
+2025-08-01T22:07:22.537Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.537Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.538Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.538Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.538Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.538Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.538Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.538Z [INFO] Scraping completed
+2025-08-01T22:07:22.661Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:22.661Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.0500,70.6333?unit=c
+2025-08-01T22:07:22.662Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:22.832Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:22.832Z [LOG] Thread 9 processed https://weather.com/weather/today/l/28.6132,67.4856?unit=c
+2025-08-01T22:07:22.832Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:22.836Z [LOG] Thread 10 processed https://weather.com/weather/today/l/26.4568,65.2314?unit=c
+2025-08-01T22:07:22.836Z [LOG] Thread 10 now crawling https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:22.832Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:23.863Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.866Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.866Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.867Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.867Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.867Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.867Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:23.867Z [INFO] Scraping completed
+2025-08-01T22:07:24.041Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.041Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.041Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.042Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.042Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.042Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.042Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.042Z [INFO] Scraping completed
+2025-08-01T22:07:24.059Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.059Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.060Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.060Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.060Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.060Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.060Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.061Z [INFO] Scraping completed
+2025-08-01T22:07:24.063Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:24.064Z [LOG] Thread 3 processed https://weather.com/weather/today/l/26.7319,67.7750?unit=c
+2025-08-01T22:07:24.064Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:24.245Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:24.246Z [LOG] Thread 4 processed https://weather.com/weather/today/l/34.3700,73.4711?unit=c
+2025-08-01T22:07:24.246Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:24.270Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:24.271Z [LOG] Thread 1 processed https://weather.com/weather/today/l/33.6989,73.0369?unit=c
+2025-08-01T22:07:24.272Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:24.453Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.456Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.456Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.456Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.456Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.456Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.457Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.457Z [INFO] Scraping completed
+2025-08-01T22:07:24.719Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:24.719Z [LOG] Thread 6 processed https://weather.com/weather/today/l/35.9206,74.3783?unit=c
+2025-08-01T22:07:24.720Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:26.057Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.057Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.057Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.058Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.058Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.058Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.058Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.058Z [INFO] Scraping completed
+2025-08-01T22:07:26.245Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:26.246Z [LOG] Thread 8 processed https://weather.com/weather/today/l/28.4167,68.1667?unit=c
+2025-08-01T22:07:26.246Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:27.212Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.212Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.213Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.213Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.213Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.213Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.213Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.213Z [INFO] Scraping completed
+2025-08-01T22:07:27.331Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.332Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.332Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.332Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.332Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.332Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.333Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.333Z [INFO] Scraping completed
+2025-08-01T22:07:27.463Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:27.464Z [LOG] Thread 7 processed https://weather.com/weather/today/l/34.6796,73.0263?unit=c
+2025-08-01T22:07:27.464Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:27.520Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:27.522Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.5430,67.8773?unit=c
+2025-08-01T22:07:27.530Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:27.770Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.770Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.770Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.771Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.771Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.771Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.771Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.771Z [INFO] Scraping completed
+2025-08-01T22:07:27.984Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:27.987Z [LOG] Thread 10 processed https://weather.com/weather/today/l/28.8885,64.4062?unit=c
+2025-08-01T22:07:27.987Z [LOG] Remaining URLs: 135
+2025-08-01T22:07:28.068Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.068Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.068Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.068Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.069Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.069Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.069Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.069Z [INFO] Scraping completed
+2025-08-01T22:07:28.360Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:28.360Z [LOG] Thread 2 processed https://weather.com/weather/today/l/26.2442,68.4100?unit=c
+2025-08-01T22:07:28.360Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:28.617Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.620Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.620Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.620Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.620Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.620Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.621Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.621Z [INFO] Scraping completed
+2025-08-01T22:07:28.718Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.719Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.719Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.719Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.720Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.720Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.720Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.720Z [INFO] Scraping completed
+2025-08-01T22:07:28.852Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:28.853Z [LOG] Thread 3 processed https://weather.com/weather/today/l/27.8000,66.6167?unit=c
+2025-08-01T22:07:28.853Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:28.948Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:28.948Z [LOG] Thread 5 processed https://weather.com/weather/today/l/32.7012,73.9605?unit=c
+2025-08-01T22:07:28.949Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:29.166Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.167Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.167Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.167Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.167Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.168Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.168Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.168Z [INFO] Scraping completed
+2025-08-01T22:07:29.354Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:29.354Z [LOG] Thread 6 processed https://weather.com/weather/today/l/31.9286,70.4592?unit=c
+2025-08-01T22:07:29.355Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:29.798Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.799Z [INFO] Scraping completed
+2025-08-01T22:07:29.907Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:29.907Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.5853,71.5436?unit=c
+2025-08-01T22:07:29.908Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:30.494Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.494Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.494Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.495Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.495Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.495Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.495Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.495Z [INFO] Scraping completed
+2025-08-01T22:07:30.694Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:30.695Z [LOG] Thread 8 processed https://weather.com/weather/today/l/27.8473,67.9068?unit=c
+2025-08-01T22:07:30.695Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:31.330Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.331Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.331Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.331Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.332Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.332Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.332Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.332Z [INFO] Scraping completed
+2025-08-01T22:07:31.477Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:31.478Z [LOG] Thread 9 processed https://weather.com/weather/today/l/29.0362,69.1585?unit=c
+2025-08-01T22:07:31.478Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:32.483Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.485Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.485Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.485Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.485Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.485Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.486Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.486Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.486Z [INFO] Scraping completed
+2025-08-01T22:07:32.486Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.486Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.487Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.487Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.487Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.487Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.488Z [INFO] Scraping completed
+2025-08-01T22:07:32.540Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.540Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.540Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.541Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.541Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.541Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.541Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.541Z [INFO] Scraping completed
+2025-08-01T22:07:32.726Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:32.726Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.6706,73.1064?unit=c
+2025-08-01T22:07:32.726Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:32.723Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:32.728Z [LOG] Thread 5 processed https://weather.com/weather/today/l/31.4492,73.7124?unit=c
+2025-08-01T22:07:32.728Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:32.755Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:32.755Z [LOG] Thread 3 processed https://weather.com/weather/today/l/30.3500,73.4000?unit=c
+2025-08-01T22:07:32.755Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:33.294Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.295Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.295Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.295Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.296Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.296Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.301Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.301Z [INFO] Scraping completed
+2025-08-01T22:07:33.608Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:33.611Z [LOG] Thread 6 processed https://weather.com/weather/today/l/33.5156,73.9019?unit=c
+2025-08-01T22:07:33.611Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:33.998Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.998Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.998Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.999Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.999Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.999Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.999Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:33.999Z [INFO] Scraping completed
+2025-08-01T22:07:34.025Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.027Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.027Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.027Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.027Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.028Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.028Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.028Z [INFO] Scraping completed
+2025-08-01T22:07:34.151Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:34.152Z [LOG] Thread 1 processed https://weather.com/weather/today/l/30.1920,67.0070?unit=c
+2025-08-01T22:07:34.152Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:34.162Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:34.163Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.7667,74.2167?unit=c
+2025-08-01T22:07:34.163Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:34.232Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.232Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.232Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.233Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.233Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.233Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.233Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.233Z [INFO] Scraping completed
+2025-08-01T22:07:34.419Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:34.420Z [LOG] Thread 8 processed https://weather.com/weather/today/l/30.5833,67.0000?unit=c
+2025-08-01T22:07:34.420Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:35.349Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.349Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.349Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.349Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.350Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.350Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.350Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.350Z [INFO] Scraping completed
+2025-08-01T22:07:35.548Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:35.548Z [LOG] Thread 9 processed https://weather.com/weather/today/l/35.3471,74.8563?unit=c
+2025-08-01T22:07:35.549Z [LOG] Thread 9 now crawling https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:36.536Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.536Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.537Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.537Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.537Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.537Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.537Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.538Z [INFO] Scraping completed
+2025-08-01T22:07:36.696Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:36.696Z [LOG] Thread 2 processed https://weather.com/weather/today/l/25.5269,69.0111?unit=c
+2025-08-01T22:07:36.696Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:37.007Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.007Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.007Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.008Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.008Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.008Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.008Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.013Z [INFO] Scraping completed
+2025-08-01T22:07:37.122Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.122Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.122Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.123Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.123Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.123Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.123Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.123Z [INFO] Scraping completed
+2025-08-01T22:07:37.217Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:37.217Z [LOG] Thread 7 processed https://weather.com/weather/today/l/25.5971,68.4467?unit=c
+2025-08-01T22:07:37.217Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:37.268Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:37.268Z [LOG] Thread 6 processed https://weather.com/weather/today/l/35.9208,74.3144?unit=c
+2025-08-01T22:07:37.268Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:37.329Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.330Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.330Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.330Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.331Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.331Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.331Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.331Z [INFO] Scraping completed
+2025-08-01T22:07:37.546Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:37.547Z [LOG] Thread 5 processed https://weather.com/weather/today/l/32.9889,70.6056?unit=c
+2025-08-01T22:07:37.547Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:07:38.024Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.025Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.025Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.025Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.025Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.025Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.025Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.026Z [INFO] Scraping completed
+2025-08-01T22:07:38.112Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.113Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.113Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.113Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.113Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.113Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.114Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.114Z [INFO] Scraping completed
+2025-08-01T22:07:38.163Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:38.164Z [LOG] Thread 4 processed https://weather.com/weather/today/l/31.6333,71.0667?unit=c
+2025-08-01T22:07:38.164Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:38.240Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:38.241Z [LOG] Thread 1 processed https://weather.com/weather/today/l/29.3956,71.6722?unit=c
+2025-08-01T22:07:38.241Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:39.442Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.442Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.443Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.443Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.443Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.443Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.443Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.443Z [INFO] Scraping completed
+2025-08-01T22:07:39.611Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:39.611Z [LOG] Thread 3 processed https://weather.com/weather/today/l/25.4667,68.7167?unit=c
+2025-08-01T22:07:39.611Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:40.306Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.306Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.306Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.306Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.307Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.307Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.307Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.307Z [INFO] Scraping completed
+2025-08-01T22:07:40.343Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.343Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.343Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.343Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.344Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.344Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.344Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.344Z [INFO] Scraping completed
+2025-08-01T22:07:40.486Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:40.486Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.8100,73.4597?unit=c
+2025-08-01T22:07:40.487Z [LOG] Thread 2 now crawling https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:40.517Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:40.517Z [LOG] Thread 8 processed https://weather.com/weather/today/l/26.0464,68.9481?unit=c
+2025-08-01T22:07:40.518Z [LOG] Thread 8 now crawling https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:40.862Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.864Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.864Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.864Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.865Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.865Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.865Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:40.865Z [INFO] Scraping completed
+2025-08-01T22:07:41.122Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:41.122Z [LOG] Thread 6 processed https://weather.com/weather/today/l/25.3969,68.3772?unit=c
+2025-08-01T22:07:41.122Z [LOG] Thread 6 now crawling https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:41.573Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.573Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.574Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.574Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.574Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.574Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.575Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.575Z [INFO] Scraping completed
+2025-08-01T22:07:41.761Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:41.761Z [LOG] Thread 4 processed https://weather.com/weather/today/l/31.3417,69.4486?unit=c
+2025-08-01T22:07:41.762Z [LOG] Thread 4 now crawling https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:41.868Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.869Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.869Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.869Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.869Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.870Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.870Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:41.870Z [INFO] Scraping completed
+2025-08-01T22:07:42.009Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:42.010Z [LOG] Thread 1 processed https://weather.com/weather/today/l/32.0836,72.6711?unit=c
+2025-08-01T22:07:42.010Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:42.334Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.335Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.335Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.335Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.335Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.335Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.335Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.336Z [INFO] Scraping completed
+2025-08-01T22:07:42.441Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:42.441Z [LOG] Thread 9 processed https://weather.com/weather/today/l/26.0012,63.0485?unit=c
+2025-08-01T22:07:42.442Z [LOG] Remaining URLs: 120
+2025-08-01T22:07:43.138Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.138Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.138Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.139Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.139Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.139Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.139Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.139Z [INFO] Scraping completed
+2025-08-01T22:07:43.335Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.343Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.343Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.343Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.343Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.343Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.344Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.344Z [INFO] Scraping completed
+2025-08-01T22:07:43.427Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:43.428Z [LOG] Thread 7 processed https://weather.com/weather/today/l/28.0064,69.3150?unit=c
+2025-08-01T22:07:43.428Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:43.565Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:43.566Z [LOG] Thread 3 processed https://weather.com/weather/today/l/30.0419,72.3528?unit=c
+2025-08-01T22:07:43.566Z [LOG] Thread 3 now crawling https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:44.452Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.453Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.453Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.453Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.453Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.453Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.453Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.454Z [INFO] Scraping completed
+2025-08-01T22:07:44.582Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:44.582Z [LOG] Thread 2 processed https://weather.com/weather/today/l/30.1500,72.6833?unit=c
+2025-08-01T22:07:44.582Z [LOG] Remaining URLs: 105
+2025-08-01T22:07:44.858Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.859Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.859Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.859Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.859Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.859Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.859Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.860Z [INFO] Scraping completed
+2025-08-01T22:07:44.985Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:44.985Z [LOG] Thread 8 processed https://weather.com/weather/today/l/35.2074,71.8768?unit=c
+2025-08-01T22:07:44.986Z [LOG] Remaining URLs: 90
+2025-08-01T22:07:45.063Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.065Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.065Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.065Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.065Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.065Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.065Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.066Z [INFO] Scraping completed
+2025-08-01T22:07:45.212Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:45.212Z [LOG] Thread 6 processed https://weather.com/weather/today/l/32.1020,74.8730?unit=c
+2025-08-01T22:07:45.212Z [LOG] Remaining URLs: 75
+2025-08-01T22:07:45.274Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.274Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.274Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.274Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.275Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.275Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.275Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.275Z [INFO] Scraping completed
+2025-08-01T22:07:45.342Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.342Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.343Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.343Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.343Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.343Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.343Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.343Z [INFO] Scraping completed
+2025-08-01T22:07:45.394Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:45.394Z [LOG] Thread 1 processed https://weather.com/weather/today/l/33.1333,73.7500?unit=c
+2025-08-01T22:07:45.394Z [LOG] Thread 1 now crawling https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:45.451Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:45.451Z [LOG] Thread 4 processed https://weather.com/weather/today/l/32.8110,73.8650?unit=c
+2025-08-01T22:07:45.452Z [LOG] Remaining URLs: 60
+2025-08-01T22:07:47.061Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.062Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.062Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.062Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.062Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.062Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.063Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.063Z [INFO] Scraping completed
+2025-08-01T22:07:47.176Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:47.177Z [LOG] Thread 3 processed https://weather.com/weather/today/l/31.3342,73.4194?unit=c
+2025-08-01T22:07:47.177Z [LOG] Remaining URLs: 45
+2025-08-01T22:07:48.151Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.152Z [INFO] Scraping completed
+2025-08-01T22:07:48.261Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:48.261Z [LOG] Thread 1 processed https://weather.com/weather/today/l/31.7167,72.9833?unit=c
+2025-08-01T22:07:48.261Z [LOG] Remaining URLs: 30
+2025-08-01T22:07:50.857Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.857Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.857Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.857Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.858Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.858Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.858Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.858Z [INFO] Scraping completed
+2025-08-01T22:07:50.975Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:50.975Z [LOG] Thread 7 processed https://weather.com/weather/today/l/26.8401,68.1227?unit=c
+2025-08-01T22:07:50.975Z [LOG] Thread 7 now crawling https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.841Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.841Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.841Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.841Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.841Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.841Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.842Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.842Z [INFO] Scraping completed
+2025-08-01T22:07:53.955Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:07:53.955Z [LOG] Thread 7 processed https://weather.com/weather/today/l/34.9000,72.6556?unit=c
+2025-08-01T22:07:53.955Z [LOG] Remaining URLs: 15
+2025-08-01T22:08:10.655Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.656Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.656Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.656Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.656Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.656Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.657Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.657Z [INFO] Scraping completed
+2025-08-01T22:08:10.771Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:08:10.772Z [LOG] Thread 5 processed https://weather.com/weather/today/l/34.8281,71.8408?unit=c
+2025-08-01T22:08:10.772Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.561Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.561Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.561Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.561Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.562Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.562Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.562Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.562Z [INFO] Scraping completed
+2025-08-01T22:08:13.675Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:08:13.676Z [LOG] Thread 5 processed https://weather.com/weather/today/l/33.8992,70.1008?unit=c
+2025-08-01T22:08:13.676Z [LOG] Thread 5 now crawling https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.153Z [ERROR] Missing wind data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.153Z [ERROR] Missing humidity data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.153Z [ERROR] Missing dewPoint data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.153Z [ERROR] Missing pressure data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.154Z [ERROR] Missing uv_index data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.154Z [ERROR] Missing Visibility data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.154Z [ERROR] Missing moonPhase data for URL: https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.154Z [INFO] Scraping completed
+2025-08-01T22:08:18.274Z [LOG] Add/Update successful [object Object]
+2025-08-01T22:08:18.275Z [LOG] Thread 5 processed https://weather.com/weather/today/l/25.1264,62.3225?unit=c
+2025-08-01T22:08:18.275Z [LOG] Remaining URLs: 0
+2025-08-01T22:08:18.276Z [LOG] All URLs processed.
