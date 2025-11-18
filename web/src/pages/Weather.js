@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data/weather.json';
+import { fetchTodayWeather, fetchPastWeather } from '../utils/api';
 
 class Weather extends React.Component {
     constructor(props) {
@@ -7,55 +7,123 @@ class Weather extends React.Component {
         this.state = {
             search: null,
             weather: null,
+            lastYearWeather: null,
+            loading: true,
+            error: null,
+            selectedDate: null,
         }
     }
+    
     componentDidMount() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const latitude = urlParams.get('lat');
+        const longitude = urlParams.get('lng');
+        
         let city = window.location.pathname.split('/').pop();
         // Remove - with spaces.
         city = city.replace(/-/g, ' ');
 
-        // Tranform all latter capital after space including first one.
+        // Transform all latter capital after space including first one.
         city = city.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
         city = city.charAt(0).toUpperCase() + city.slice(1);
 
         this.setState({
             search: city,
         });
-        this.search(city);
+        
+        if (latitude && longitude) {
+            this.fetchWeatherData(latitude, longitude);
+        } else {
+            this.setState({ error: 'Latitude and longitude are required', loading: false });
+        }
+        
         document.title = `${city} - Weather`;
     }
-    search(city) {
-        // find city name in data arrays object and return that object.
-        let weather = data.find((item) => {
-            return item.city === city
-        });
-        this.setState({
-            weather: weather
-        }, () => { });
-
+    
+    fetchWeatherData = async (latitude, longitude, date = null) => {
+        this.setState({ loading: true, error: null });
+        try {
+            if (date) {
+                // Fetch past weather for specific date
+                const pastData = await fetchPastWeather(latitude, longitude, date);
+                this.setState({
+                    weather: pastData.data[0] || null,
+                    loading: false
+                });
+            } else {
+                // Fetch today's weather with last year comparison
+                const data = await fetchTodayWeather(latitude, longitude);
+                this.setState({
+                    weather: data.today,
+                    lastYearWeather: data.lastYear,
+                    loading: false
+                });
+            }
+        } catch (error) {
+            console.error('Error fetching weather:', error);
+            this.setState({ 
+                error: 'Failed to load weather data', 
+                loading: false 
+            });
+        }
+    }
+    
+    handleDateChange = (e) => {
+        const date = e.target.value;
+        const urlParams = new URLSearchParams(window.location.search);
+        const latitude = urlParams.get('lat');
+        const longitude = urlParams.get('lng');
+        
+        if (date && latitude && longitude) {
+            this.setState({ selectedDate: date });
+            this.fetchWeatherData(latitude, longitude, date);
+        } else if (!date && latitude && longitude) {
+            this.setState({ selectedDate: null });
+            this.fetchWeatherData(latitude, longitude);
+        }
     }
     render() {
-        const weather = this.state.weather
+        const { weather, lastYearWeather, loading, error, selectedDate } = this.state;
+
+        if (loading) {
+            return (
+                <div className="w-full px-2">
+                    <div className="bg-gray-900 text-white relative min-w-0 break-words rounded-lg overflow-hidden shadow-sm mb-4 w-full p-8">
+                        <p className="text-center">Loading weather data...</p>
+                    </div>
+                </div>
+            );
+        }
+
+        if (error || !weather) {
+            return (
+                <div className="w-full px-2">
+                    <div className="bg-gray-900 text-white relative min-w-0 break-words rounded-lg overflow-hidden shadow-sm mb-4 w-full p-8">
+                        <p className="text-center text-red-500">{error || 'Weather data not available'}</p>
+                    </div>
+                </div>
+            );
+        }
 
         // Air quality and color.
-        let airQualityNumber = weather?.airQualityNumber
-        let airQualityColor = 'bg-red-500'
+        let airQualityNumber = parseInt(weather?.airQualityNumber) || 0;
+        let airQualityColor = 'bg-red-500';
         if (airQualityNumber <= 50)
-            airQualityColor = 'bg-green-500'
+            airQualityColor = 'bg-green-500';
         else if (airQualityNumber >= 51 && airQualityNumber <= 100)
-            airQualityColor = 'bg-yellow-600'
+            airQualityColor = 'bg-yellow-600';
         else if (airQualityNumber >= 101 && airQualityNumber <= 150)
-            airQualityColor = 'bg-orange-500'
+            airQualityColor = 'bg-orange-500';
 
         // Pressure and color.
-        let pressure = weather?.pressure
-        let arrowPressure = pressure?.substring(0, pressure?.search(/\d/))
-        pressure = pressure?.replace(arrowPressure, '')
-        let arrow = '&uarr;'
-        let arrowClass = 'text-green-500'
+        let pressure = weather?.pressure || '';
+        let arrowPressure = pressure?.substring(0, pressure?.search(/\d/)) || '';
+        pressure = pressure?.replace(arrowPressure, '') || '';
+        let arrow = '&uarr;';
+        let arrowClass = 'text-green-500';
         if (arrowPressure === 'Down ') {
-            arrow = '&darr;'
-            arrowClass = 'text-red-500'
+            arrow = '&darr;';
+            arrowClass = 'text-red-500';
         }
 
         // Icon map.
@@ -76,24 +144,65 @@ class Weather extends React.Component {
             'mist': require('../icons/mist.png'),
         };
         // Current condition and icons.
-        let currentCondition = weather?.currentCondition
-        currentCondition = currentCondition?.toLowerCase()
+        let currentCondition = weather?.currentCondition || '';
+        currentCondition = currentCondition?.toLowerCase() || '';
         // find in iconmap.
-        let icon = iconMap[currentCondition]
+        let icon = iconMap[currentCondition];
         if (icon === undefined)
             icon = require('../icons/undefined.png');
+
+        // Format date
+        const formatDate = (dateStr) => {
+            if (!dateStr) return '';
+            const parts = dateStr.split(' ');
+            if (parts.length >= 2) {
+                return parts[0] + ' ' + parts[1].split('.')[0];
+            }
+            return dateStr;
+        };
 
         return (
             <div>
                 <div className="">
                     <div className="flex flex-wrap">
                         <div className="w-full px-2">
+                            {/* Date Filter */}
+                            <div className="mb-4">
+                                <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    Filter by Date (optional):
+                                </label>
+                                <input
+                                    type="date"
+                                    value={selectedDate || ''}
+                                    onChange={this.handleDateChange}
+                                    className="p-2 border border-gray-400 rounded"
+                                />
+                                {selectedDate && (
+                                    <button
+                                        onClick={() => {
+                                            this.setState({ selectedDate: null });
+                                            const urlParams = new URLSearchParams(window.location.search);
+                                            const latitude = urlParams.get('lat');
+                                            const longitude = urlParams.get('lng');
+                                            if (latitude && longitude) {
+                                                this.fetchWeatherData(latitude, longitude);
+                                            }
+                                        }}
+                                        className="ml-2 px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
+                                    >
+                                        Clear Filter
+                                    </button>
+                                )}
+                            </div>
+
+                            {/* Today's Weather */}
                             <div className="bg-gray-900 text-white relative min-w-0 break-words rounded-lg overflow-hidden shadow-sm mb-4 w-full ">
                                 <div className="px-8 py-8 relative">
                                     <div className="flex mb-4 justify-between items-center">
                                         <div>
                                             <h5 className="mb-0 font-medium text-xl">{weather?.city + " Pakistan"}</h5>
-                                            <h6 className="mb-0">{weather?.date?.split(' ')[0] + ' ' + weather?.date?.split(' ')[1].split('.')[0]}</h6><small>{currentCondition}</small>
+                                            <h6 className="mb-0">{formatDate(weather?.date)}</h6>
+                                            <small>{currentCondition}</small>
                                         </div>
                                         <div className="text-right">
                                             <h3 className="font-bold text-4xl mb-0"><span>{weather?.temp}&deg;</span></h3>
@@ -221,16 +330,42 @@ class Weather extends React.Component {
                                                 <p>{airQualityNumber}</p>
                                             </div>
                                             <p className="text-center mx-auto mt-2 mb-2">
-                                                <strong>{weather?.airQualityText}</strong>
+                                                <strong>{weather?.airQualityText || 'N/A'}</strong>
                                             </p>
                                             <p className='text-center mb-3'>
-                                                {weather?.airQualityDescription}
-                                                { (weather?.null && weather?.null[0])  || ''}
+                                                {weather?.airQualityDescription || 'N/A'}
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Last Year Comparison */}
+                            {lastYearWeather && !selectedDate && (
+                                <div className="bg-gray-800 text-white relative min-w-0 break-words rounded-lg overflow-hidden shadow-sm mb-4 w-full mt-4">
+                                    <div className="px-8 py-8 relative">
+                                        <h3 className='font-bold text-xl mb-4'>Last Year Comparison</h3>
+                                        <div className="grid sm:grid-cols-2 gap-4">
+                                            <div>
+                                                <p className="text-sm text-gray-400">Date</p>
+                                                <p className="font-medium">{formatDate(lastYearWeather?.date)}</p>
+                                            </div>
+                                            <div>
+                                                <p className="text-sm text-gray-400">Temperature</p>
+                                                <p className="font-medium">{lastYearWeather?.temp || 'N/A'}</p>
+                                            </div>
+                                            <div>
+                                                <p className="text-sm text-gray-400">Condition</p>
+                                                <p className="font-medium">{lastYearWeather?.currentCondition || 'N/A'}</p>
+                                            </div>
+                                            <div>
+                                                <p className="text-sm text-gray-400">Humidity</p>
+                                                <p className="font-medium">{lastYearWeather?.humidity || 'N/A'}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

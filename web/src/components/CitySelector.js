@@ -1,12 +1,7 @@
 import React from 'react';
-import data from '../data/weather.json';
 import { Navigate } from "react-router-dom";
 import Select from './Select';
-
-var cities = []
-for (let item in data) {
-    cities.push(data[item].city)
-}
+import { fetchLocations } from '../utils/api';
 
 class CitySelector extends React.Component {
     constructor(props) {
@@ -14,37 +9,86 @@ class CitySelector extends React.Component {
         this.state = {
             shouldRedirect: false,
             city: null,
+            latitude: null,
+            longitude: null,
+            locations: [],
+            loading: true,
+            error: null
         }
     }
+
+    componentDidMount() {
+        this.loadLocations();
+    }
+
+    loadLocations = async () => {
+        try {
+            const locations = await fetchLocations();
+            this.setState({ locations, loading: false });
+        } catch (error) {
+            console.error('Error loading locations:', error);
+            this.setState({ error: 'Failed to load locations', loading: false });
+        }
+    }
+
     _onChange = (e) => {
-        let city = e.target.value;
-        if (cities.includes(city)) {
-            city = city.replace(/\s/g, '-');
+        const selectedValue = e.target.value;
+        if (selectedValue) {
+            const [city, lat, lng] = selectedValue.split('|');
+            const citySlug = city.replace(/\s/g, '-');
             this.setState({
-                city: city,
+                city: citySlug,
+                latitude: lat,
+                longitude: lng,
                 shouldRedirect: true,
             })
         }
     }
-    render() {
-        let c = this.state.city;
-        const { shouldRedirect } = this.state
-        if (shouldRedirect)
-            return <Navigate replace to={`/weather/${c}`} />
 
-        let optionValues = cities.map((item, index) => (
-            <option key={index} value={item}>{item}</option>
+    render() {
+        const { shouldRedirect, city, latitude, longitude, locations, loading, error } = this.state;
+        
+        if (shouldRedirect && city && latitude && longitude) {
+            return <Navigate replace to={`/weather/${city}?lat=${latitude}&lng=${longitude}`} />
+        }
+
+        if (loading) {
+            return (
+                <div className="mb-8">
+                    <div className='col-span-1'>
+                        <Select className="w-full p-2 border border-gray-400" disabled>
+                            <option>Loading locations...</option>
+                        </Select>
+                    </div>
+                </div>
+            );
+        }
+
+        if (error) {
+            return (
+                <div className="mb-8">
+                    <div className='col-span-1'>
+                        <p className="text-red-500">{error}</p>
+                    </div>
+                </div>
+            );
+        }
+
+        const optionValues = locations.map((location, index) => (
+            <option key={index} value={`${location.name}|${location.lat}|${location.lng}`}>
+                {location.name}
+            </option>
         ));
 
         return (
-            <div class="mb-8">
+            <div className="mb-8">
                 <div className='col-span-1'>
                     <Select onChange={this._onChange} className="w-full p-2 border border-gray-400">
+                        <option value="">Select a city...</option>
                         {optionValues}
                     </Select>
                 </div>
             </div>
-
         );
     }
 }
