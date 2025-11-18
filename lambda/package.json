@@ -1,16 +1,23 @@
 {
-  "name": "lambda",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-serverless-express": "^3.4.0",
-    "express": "^4.19.2"
-  }
+    "name": "lambda",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rm -rf dist node_modules",
+        "prebuild": "pnpm run clean && mkdir -p dist",
+        "build": "npm install --omit=dev && zip -r dist/lambda.zip . -x '*.git*' -x '*.DS_Store' -x 'dist/*' -x '*.md' -x 'pnpm-lock.yaml' -x '.gitignore' -x 'package-lock.json'",
+        "package": "pnpm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-serverless-express": "^3.4.0",
+        "express": "^4.19.2",
+        "body-parser": "^1.20.2",
+        "@aws-sdk/client-dynamodb": "^3.0.0",
+        "@aws-sdk/lib-dynamodb": "^3.0.0"
+    }
 }
