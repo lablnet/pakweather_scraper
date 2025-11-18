@@ -1,0 +1,42 @@
+name: Pakistan Weather
+
+on:
+  schedule:
+    - cron:  '0 * * * *' # Run every hour.
+  workflow_dispatch:
+
+jobs:
+  Update-Weather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      EMAIL: ${{ secrets.EMAIL }}
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_PORT: ${{ secrets.SMTP_PORT }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      TABLE: ${{ secrets.TABLE }}
+
+    steps:
+      - name: Get working copy
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1    
+      - name: Set Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20       
+      - name: Install pnpm
+        run: npm install -g pnpm                           
+      - name: Change directory and perform subsequent steps
+        working-directory: scraper
+        run: |
+          ls -alh
+          pnpm install
+          npx playwright install
+          node main.js weather.com
+
