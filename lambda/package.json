@@ -15,8 +15,8 @@
     "license": "ISC",
     "dependencies": {
         "aws-serverless-express": "^3.4.0",
-        "express": "^4.19.2",
-        "body-parser": "^1.20.2",
+        "express": "^5.1.0",
+        "body-parser": "^2.2.1",
         "@aws-sdk/client-dynamodb": "^3.0.0",
         "@aws-sdk/lib-dynamodb": "^3.0.0"
     }
